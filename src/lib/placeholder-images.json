@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "breakfast-1",
+      "description": "A healthy breakfast bowl.",
+      "imageUrl": "https://images.unsplash.com/photo-1658402218013-18ccf3336bb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJlYWtmYXN0JTIwYm93bHxlbnwwfHx8fDE3NjYzNjEyMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "breakfast bowl"
+    },
+    {
+      "id": "dessert-1",
+      "description": "A delicious zero-sugar dessert.",
+      "imageUrl": "https://images.unsplash.com/photo-1670607231914-605c7b94edd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZXNzZXJ0JTIwZnJ1aXR8ZW58MHx8fHwxNzY2MzYxMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dessert fruit"
+    },
+    {
+      "id": "cake-1",
+      "description": "A slice of guilt-free cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1589361471339-16b852481424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYWtlJTIwc2xpY2V8ZW58MHx8fHwxNzY2MzM1MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cake slice"
+    },
+    {
+      "id": "airfryer-1",
+      "description": "Protein-rich food made in an airfryer.",
+      "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbGVkJTIwY2hpY2tlbnxlbnwwfHx8fDE3NjYzNDY5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grilled chicken"
+    }
+  ]
 }
