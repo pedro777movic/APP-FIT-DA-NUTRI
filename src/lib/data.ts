@@ -26,7 +26,7 @@ export type Category = {
 export const CATEGORIES: Category[] = [
   {
     slug: 'cafe-da-manha-da-nutri',
-    title: 'Café Da Manhã Da Nutri',
+    title: 'Café da Manhã da Nutri',
     description: 'Comece o dia com energia e saúde. Receitas práticas para um café da manhã nutritivo.',
     Icon: Coffee,
     email: 'cafe@fit.com',
@@ -91,6 +91,22 @@ export const RECIPES: Recipe[] = [
     imagem: 'breakfast-3',
     ingredientes: ['Laranja', 'Funcho', 'Hortelã', 'Água', 'Açúcar'],
     modo_preparo: 'Bata tudo no liquidificador, coe e sirva gelado.',
+  },
+  {
+    id: 'biscoito-de-cascas',
+    titulo: 'Biscoito de Cascas e Talos de Vegetais',
+    categoria: 'cafe-da-manha-da-nutri',
+    imagem: 'breakfast-4',
+    ingredientes: ['Resíduos vegetais picados', 'Ovo', 'Manteiga', 'Fermento', 'Farinha', 'Leite', 'Sal'],
+    modo_preparo: 'Misture tudo até formar massa. Abra, corte e asse em assadeira untada.',
+  },
+  {
+    id: 'pao-de-tapioca',
+    titulo: 'Pão de Tapioca',
+    categoria: 'cafe-da-manha-da-nutri',
+    imagem: 'breakfast-5',
+    ingredientes: ['Tapioca granulada', 'Leite', 'Sal', 'Ovos', 'Manteiga', 'Queijo parmesão'],
+    modo_preparo: 'Misture a tapioca com leite e sal e deixe descansar. Acrescente os demais ingredientes, modele bolinhas e asse até dourar.',
   },
   // Sobremesas Zero
   {
