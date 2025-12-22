@@ -31,6 +31,72 @@
       "imageHint": "tapioca bread"
     },
     {
+      "id": "breakfast-6",
+      "description": "Traditional terere drink.",
+      "imageUrl": "https://images.unsplash.com/photo-1544418749-94b09b11e93f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpY2VkJTIwdGVhfGVufDB8fHx8MTc2NjMxMDQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iced tea"
+    },
+    {
+      "id": "breakfast-7",
+      "description": "Hot bocaiuva drink.",
+      "imageUrl": "https://images.unsplash.com/photo-1637572815755-c4b80092dce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3QlMjBkcmlua3xlbnwwfHx8fDE3NjYzNjU0OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hot drink"
+    },
+    {
+      "id": "breakfast-8",
+      "description": "Almost cake, almost cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1647338732688-6c1930461cc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVlc2UlMjBicmVhZHxlbnwwfHx8fDE3NjYyODU0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheese bread"
+    },
+    {
+      "id": "breakfast-9",
+      "description": "Overnight oats with fruits.",
+      "imageUrl": "https://images.unsplash.com/photo-1533007576165-faccd6a6a056?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvdmVybmlnaHQlMjBvYXRzfGVufDB8fHx8MTc2NjM2NTQ5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "overnight oats"
+    },
+    {
+      "id": "breakfast-10",
+      "description": "Low carb microwave bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1761929104590-8c6fdca4188a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGVhbHRoeSUyMGJyZWFkfGVufDB8fHx8MTc2NjM2NTQ5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy bread"
+    },
+    {
+      "id": "breakfast-11",
+      "description": "Fit skillet bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1647482770204-af4dd2948ceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxza2lsbGV0JTIwYnJlYWR8ZW58MHx8fHwxNzY2MzY1NDkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skillet bread"
+    },
+    {
+      "id": "breakfast-12",
+      "description": "Fit banana muffin.",
+      "imageUrl": "https://images.unsplash.com/photo-1590581753776-c32891593866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYW5hbmElMjBtdWZmaW58ZW58MHx8fHwxNzY2MzY1NDkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana muffin"
+    },
+    {
+      "id": "breakfast-13",
+      "description": "Savory low carb pancake.",
+      "imageUrl": "https://images.unsplash.com/photo-1568509651840-e2c75ad69097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzYXZvcnklMjBwYW5jYWtlfGVufDB8fHx8MTc2NjM2NTQ5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "savory pancake"
+    },
+    {
+      "id": "breakfast-14",
+      "description": "Sweet banana pancake.",
+      "imageUrl": "https://images.unsplash.com/photo-1626459865987-e46f11caa28a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzd2VldCUyMHBhbmNha2V8ZW58MHx8fHwxNzY2MzY1NDkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sweet pancake"
+    },
+    {
+      "id": "breakfast-15",
+      "description": "Vegan cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1626423641508-c473b1853008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2ZWdhbiUyMGJyZWFkfGVufDB8fHx8MTc2NjM2NTQ5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegan bread"
+    },
+    {
+      "id": "breakfast-16",
+      "description": "Chocolate crepioca.",
+      "imageUrl": "https://images.unsplash.com/photo-1473014805482-c0098dc9e9b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaG9jb2xhdGUlMjBjcmVwZXxlbnwwfHx8fDE3NjYzNjU0OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate crepe"
+    },
+    {
       "id": "dessert-1",
       "description": "A delicious zero-sugar dessert.",
       "imageUrl": "https://images.unsplash.com/photo-1670607231914-605c7b94edd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZXNzZXJ0JTIwZnJ1aXR8ZW58MHx8fHwxNzY2MzYxMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
