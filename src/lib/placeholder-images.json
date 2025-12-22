@@ -319,6 +319,36 @@
       "imageHint": "protein porridge"
     },
     {
+      "id": "breakfast-54",
+      "description": "Fiber-rich pancake.",
+      "imageUrl": "https://images.unsplash.com/photo-1584278858342-c006294b41a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcGFuY2FrZXxlbnwwfHx8fDE3NjY0ODgzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy pancake"
+    },
+    {
+      "id": "breakfast-55",
+      "description": "Lactose-free cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1626423641508-c473b1853008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZWdhbiUyMGJyZWFkfGVufDB8fHx8MTc2NjQ4ODMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegan bread"
+    },
+    {
+      "id": "breakfast-56",
+      "description": "Low carb cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1549903233-a9a3b8393d6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb3clMjBjYXJiJTIwYnJlYWR8ZW58MHx8fHwxNzY2NDg4MzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lowcarb bread"
+    },
+    {
+      "id": "breakfast-57",
+      "description": "Healthy chicken paté.",
+      "imageUrl": "https://images.unsplash.com/photo-1620921029031-6e3e5a5a1df5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHNhbmR3aWNoJTIwc3ByZWFkfGVufDB8fHx8MTc2NjQ4ODMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sandwich spread"
+    },
+    {
+      "id": "breakfast-58",
+      "description": "Pumpkin bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1618671021448-971c6e147171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwYnJlYWR8ZW58MHx8fHwxNzY2NDg4MzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pumpkin bread"
+    },
+    {
       "id": "dessert-1",
       "description": "A delicious zero-sugar dessert.",
       "imageUrl": "https://images.unsplash.com/photo-1670607231914-605c7b94edd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZXNzZXJ0JTIwZnJ1aXR8ZW58MHx8fHwxNzY2MzYxMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
