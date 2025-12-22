@@ -37,7 +37,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
         setUnlockedCategories(new Set(JSON.parse(storedAuth)));
       }
     } catch (error) {
-      console.error('Failed to load auth state from localStorage', error);
+      console.error('Falha ao carregar estado de autenticação do localStorage', error);
     } finally {
       setIsReady(true);
     }
@@ -48,7 +48,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
       localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
       setUnlockedCategories(newSet);
     } catch (error) {
-      console.error('Failed to save auth state to localStorage', error);
+      console.error('Falha ao salvar estado de autenticação no localStorage', error);
     }
   }, []);
 
@@ -87,7 +87,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (context === undefined) {
-    throw new Error('useAuth must be used within an AuthProvider');
+    throw new Error('useAuth deve ser usado dentro de um AuthProvider');
   }
   return context;
 };

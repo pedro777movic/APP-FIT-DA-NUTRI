@@ -74,7 +74,7 @@ export default function RecipeListView({
         </div>
       ) : (
         <div className="text-center py-16">
-          <p className="text-muted-foreground">Nenhuma receita encontrada.</p>
+          <p className="text-muted-foreground">Nenhuma receita encontrada para sua busca.</p>
         </div>
       )}
     </div>

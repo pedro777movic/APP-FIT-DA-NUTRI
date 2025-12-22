@@ -32,7 +32,7 @@ export default async function RecipePage({
     });
     enhancedInstructions = result.enhancedInstructions;
   } catch (error) {
-    console.error('AI enhancement failed, falling back to original instructions:', error);
+    console.error('Falha no aprimoramento da IA, usando instruções originais:', error);
     // Fallback to original instructions is handled by the initial assignment
   }
 

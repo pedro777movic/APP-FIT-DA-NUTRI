@@ -14,14 +14,14 @@ import {z} from 'genkit';
 const EnhanceRecipeInstructionsInputSchema = z.object({
   instructions: z
     .string()
-    .describe('The succinct recipe preparation steps to be enhanced.'),
+    .describe('Os passos de preparação da receita a serem aprimorados.'),
 });
 export type EnhanceRecipeInstructionsInput = z.infer<typeof EnhanceRecipeInstructionsInputSchema>;
 
 const EnhanceRecipeInstructionsOutputSchema = z.object({
   enhancedInstructions: z
     .string()
-    .describe('The detailed and descriptive recipe preparation steps.'),
+    .describe('Os passos de preparação da receita detalhados e descritivos.'),
 });
 export type EnhanceRecipeInstructionsOutput = z.infer<typeof EnhanceRecipeInstructionsOutputSchema>;
 
@@ -35,11 +35,11 @@ const prompt = ai.definePrompt({
   name: 'enhanceRecipeInstructionsPrompt',
   input: {schema: EnhanceRecipeInstructionsInputSchema},
   output: {schema: EnhanceRecipeInstructionsOutputSchema},
-  prompt: `You are an expert recipe enhancer. Your task is to expand the given recipe preparation steps into more detailed and descriptive instructions, without altering the original meaning or ingredients. Maintain a clear, didactic, and fluid language.
+  prompt: `Você é um especialista em aprimorar receitas. Sua tarefa é expandir os passos de preparação da receita fornecidos em instruções mais detalhadas e descritivas, sem alterar o significado original ou os ingredientes. Mantenha uma linguagem clara, didática e fluida.
 
-Original Instructions: {{{instructions}}}
+Instruções Originais: {{{instructions}}}
 
-Enhanced Instructions:`,
+Instruções Aprimoradas:`,
 });
 
 const enhanceRecipeInstructionsFlow = ai.defineFlow(
