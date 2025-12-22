@@ -29,7 +29,7 @@ export const CATEGORIES: Category[] = [
     title: 'Café Da Manhã Da Nutri',
     description: 'Comece o dia com energia e saúde. Receitas práticas para um café da manhã nutritivo.',
     Icon: Coffee,
-    email: 'cafe@fit@.com',
+    email: 'cafe@fit.com',
     senha: 'CAFEFIT1',
   },
   {
@@ -37,7 +37,7 @@ export const CATEGORIES: Category[] = [
     title: 'Sobremesas Zero',
     description: 'Delícias sem açúcar para matar a vontade de doce sem sair da dieta.',
     Icon: IceCream,
-    email: 'sobremesas@zero',
+    email: 'sobremesas@zero.com',
     senha: 'ZEROCAFE2',
   },
   {
@@ -53,7 +53,7 @@ export const CATEGORIES: Category[] = [
     title: 'Airfryer Proteica',
     description: 'Receitas ricas em proteína, feitas na airfryer para mais praticidade e menos gordura.',
     Icon: Flame,
-    email: 'Airfryer@proteica',
+    email: 'Airfryer@proteica.com',
     senha: 'PROTEINAFIT4',
   },
 ];
