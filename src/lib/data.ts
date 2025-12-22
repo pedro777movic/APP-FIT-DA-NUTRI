@@ -76,6 +76,22 @@ export const RECIPES: Recipe[] = [
     ingredientes: ['1 banana amassada', '1 ovo', '2 colheres de sopa de aveia em flocos', 'Canela em pó a gosto'],
     modo_preparo: 'Misture todos os ingredientes. Aqueça uma frigideira antiaderente. Despeje pequenas porções da massa. Cozinhe até dourar.',
   },
+  {
+    id: 'suco-cascas-frutas',
+    titulo: 'Suco de Cascas de Frutas',
+    categoria: 'cafe-da-manha-da-nutri',
+    imagem: 'breakfast-2',
+    ingredientes: ['Cascas de frutas variadas', 'Água', 'Açúcar'],
+    modo_preparo: 'Lave bem as cascas. Bata com água no liquidificador, coe e adoce a gosto.',
+  },
+  {
+    id: 'suco-laranja-funcho-hortela',
+    titulo: 'Suco de Laranja com Funcho e Hortelã',
+    categoria: 'cafe-da-manha-da-nutri',
+    imagem: 'breakfast-3',
+    ingredientes: ['Laranja', 'Funcho', 'Hortelã', 'Água', 'Açúcar'],
+    modo_preparo: 'Bata tudo no liquidificador, coe e sirva gelado.',
+  },
   // Sobremesas Zero
   {
     id: 'mousse-de-maracuja-zero',

@@ -7,6 +7,18 @@
       "imageHint": "breakfast bowl"
     },
     {
+      "id": "breakfast-2",
+      "description": "A glass of fruit juice.",
+      "imageUrl": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcnVpdCUyMGp1aWNlfGVufDB8fHx8MTc2NjM2NDcwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fruit juice"
+    },
+    {
+      "id": "breakfast-3",
+      "description": "A glass of orange juice with herbs.",
+      "imageUrl": "https://images.unsplash.com/photo-1587015990127-424b954e38b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvcmFuZ2UlMjBqdWljZXxlbnwwfHx8fDE3NjYyODkyNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange juice"
+    },
+    {
       "id": "dessert-1",
       "description": "A delicious zero-sugar dessert.",
       "imageUrl": "https://images.unsplash.com/photo-1670607231914-605c7b94edd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZXNzZXJ0JTIwZnJ1aXR8ZW58MHx8fHwxNzY2MzYxMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
