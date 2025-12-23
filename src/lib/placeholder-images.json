@@ -349,6 +349,180 @@
       "imageHint": "pumpkin bread"
     },
     {
+      "id": "breakfast-59",
+      "description": "Integral microwave bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1647482770204-af4dd2948ceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3dhdmUlMjBicmVhZHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microwave bread"
+    },
+    {
+      "id": "breakfast-60",
+      "description": "Whey protein crepe.",
+      "imageUrl": "https://images.unsplash.com/photo-1584278858342-c006294b41a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm90ZWluJTIwY3JlcGV8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "protein crepe"
+    },
+    {
+      "id": "breakfast-61",
+      "description": "Gluten and lactose-free bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1587399434814-a5a1a1f0b047?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnbHV0ZW4lMjBmcmVlJTIwYnJlYWR8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gluten-free bread"
+    },
+    {
+      "id": "breakfast-62",
+      "description": "Complete protein omelette.",
+      "imageUrl": "https://images.unsplash.com/photo-1587206668283-c21d974993c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm90ZWluJTIwb21lbGV0dGV8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "protein omelette"
+    },
+    {
+      "id": "breakfast-63",
+      "description": "Seasoned crepioca.",
+      "imageUrl": "https://images.unsplash.com/photo-1590211475730-e24b7c6837a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWFzb25lZCUyMGNyZXBlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "seasoned crepe"
+    },
+    {
+      "id": "breakfast-64",
+      "description": "Pitanga (brazilian cherry) muffin.",
+      "imageUrl": "https://images.unsplash.com/photo-1619478433146-5a6b0c265a7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGVycnklMjBtdWZmaW58ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cherry muffin"
+    },
+    {
+      "id": "breakfast-65",
+      "description": "Almond and cocoa cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBhbG1vbmQlMjBjYWtlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cake"
+    },
+    {
+      "id": "breakfast-66",
+      "description": "Baked plantain.",
+      "imageUrl": "https://images.unsplash.com/photo-1609754162413-53e7f41b38f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGJhbmFuYXxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baked banana"
+    },
+    {
+      "id": "breakfast-67",
+      "description": "Fitness tapioca.",
+      "imageUrl": "https://images.unsplash.com/photo-1605697298317-b4d8c5b394b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwZm9vZHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fitness food"
+    },
+    {
+      "id": "breakfast-68",
+      "description": "Detox juice.",
+      "imageUrl": "https://images.unsplash.com/photo-1542842426-368d1d848137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGp1aWNlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green juice"
+    },
+    {
+      "id": "breakfast-69",
+      "description": "Sparkling juice.",
+      "imageUrl": "https://images.unsplash.com/photo-1554859643-b1d69959549f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGFya2xpbmclMjBqdWljZXxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sparkling juice"
+    },
+    {
+      "id": "breakfast-70",
+      "description": "Pink juice.",
+      "imageUrl": "https://images.unsplash.com/photo-1579584394014-938b8134701e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW5rJTIwanVpY2V8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink juice"
+    },
+    {
+      "id": "breakfast-71",
+      "description": "Green juice.",
+      "imageUrl": "https://images.unsplash.com/photo-1572493976455-e4c19c58d04f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmVlbiUyMGp1aWNlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green juice"
+    },
+    {
+      "id": "breakfast-72",
+      "description": "Hibiscus and strawberry suchá.",
+      "imageUrl": "https://images.unsplash.com/photo-1595981267038-a1515024971d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaWJpc2N1cyUyMGRyaW5rfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hibiscus drink"
+    },
+    {
+      "id": "breakfast-73",
+      "description": "Rapid bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1533089860892-28c520905442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdWljayUyMGJyZWFkfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quick bread"
+    },
+    {
+      "id": "breakfast-74",
+      "description": "Tuna paté.",
+      "imageUrl": "https://images.unsplash.com/photo-1553310344-35807f43399f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0dW5hJTIwc2FsYWR8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tuna salad"
+    },
+    {
+      "id": "breakfast-75",
+      "description": "Guacamole.",
+      "imageUrl": "https://images.unsplash.com/photo-1593952759929-a5170a416353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxndWFjYW1vbGV8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guacamole"
+    },
+    {
+      "id": "breakfast-76",
+      "description": "Protein ball.",
+      "imageUrl": "https://images.unsplash.com/photo-1616400609958-b6e993014c24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm90ZWluJTIwYmFsbHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "protein ball"
+    },
+    {
+      "id": "breakfast-77",
+      "description": "Functional granola.",
+      "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f377907b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwZ3Jhbm9sYXxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy granola"
+    },
+    {
+      "id": "breakfast-78",
+      "description": "Oat bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvYXQlMjBicmVhZHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oat bread"
+    },
+    {
+      "id": "breakfast-79",
+      "description": "Oat and honey bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1549932483-31b359483756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvYXQlMjBob25leSUyMGJyZWFkfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "honey bread"
+    },
+    {
+      "id": "breakfast-80",
+      "description": "Banana bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBicmVhZHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana bread"
+    },
+    {
+      "id": "breakfast-81",
+      "description": "Integral apple and cinnamon bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1622329388365-277e382b683b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGNpbm5hbW9uJTIwYnJlYWR8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apple bread"
+    },
+    {
+      "id": "breakfast-82",
+      "description": "Oatmeal bun.",
+      "imageUrl": "https://images.unsplash.com/photo-1582298539618-0f0487333c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvYXRtZWFsJTIwYnVufGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oatmeal bun"
+    },
+    {
+      "id": "breakfast-83",
+      "description": "Bun stuffed with egg.",
+      "imageUrl": "https://images.unsplash.com/photo-1607532766345-7947188b8f36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZ2clMjBzdHVmZmVkJTIwYnJlYWR8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egg bread"
+    },
+    {
+      "id": "breakfast-84",
+      "description": "Portuguese bun.",
+      "imageUrl": "https://images.unsplash.com/photo-1572918804971-87985b4623a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXN0ZWwlMjBkZSUyMG5hdGF8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portuguese pastry"
+    },
+    {
+      "id": "breakfast-85",
+      "description": "Toasted bread with avocado and egg.",
+      "imageUrl": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdm9jYWRvJTIwdG9hc3R8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado toast"
+    },
+    {
+      "id": "breakfast-86",
+      "description": "Banana cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjYWtlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana cake"
+    },
+    {
+      "id": "breakfast-87",
+      "description": "Carrot cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1628178120005-90795438a08d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJyb3QlMjBjYWtlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "carrot cake"
+    },
+    {
       "id": "dessert-1",
       "description": "A delicious zero-sugar dessert.",
       "imageUrl": "https://images.unsplash.com/photo-1670607231914-605c7b94edd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZXNzZXJ0JTIwZnJ1aXR8ZW58MHx8fHwxNzY2MzYxMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
