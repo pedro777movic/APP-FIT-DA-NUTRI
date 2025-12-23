@@ -539,6 +539,114 @@
       "description": "Protein-rich food made in an airfryer.",
       "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbGVkJTIwY2hpY2tlbnxlbnwwfHx8fDE3NjYzNDY5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled chicken"
+    },
+    {
+      "id": "cake-2",
+      "description": "A slice of banana cocoa cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cake"
+    },
+    {
+      "id": "cake-3",
+      "description": "A slice of banana chocolate cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1542826438-c3e24de8e6a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana cake"
+    },
+    {
+      "id": "cake-4",
+      "description": "A slice of integral banana coconut cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1606313564202-30a4733758a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjb2NvbnV0JTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coconut cake"
+    },
+    {
+      "id": "cake-5",
+      "description": "A slice of banana nut cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBudXQlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nut cake"
+    },
+    {
+      "id": "cake-6",
+      "description": "A slice of marbled carrot cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1621217315571-2b2102078693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXJibGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marble cake"
+    },
+    {
+      "id": "cake-7",
+      "description": "A skillet chocolate cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1576629699192-b0c6a53699c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2lsbGV0JTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skillet cake"
+    },
+    {
+      "id": "cake-8",
+      "description": "A lemon cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1551221338-20513904a621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW1vbiUyMGNha2V8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon cake"
+    },
+    {
+      "id": "cake-9",
+      "description": "A corn cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1599933594236-4c465225114c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3JuJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corn cake"
+    },
+    {
+      "id": "cake-10",
+      "description": "A frappe cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmFwcGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "frappe cake"
+    },
+    {
+      "id": "cake-11",
+      "description": "An integral chocolate cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hvY29sYXRlJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy cake"
+    },
+    {
+      "id": "cake-12",
+      "description": "An integral orange cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1589119564022-839556a3108c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange cake"
+    },
+    {
+      "id": "cake-13",
+      "description": "An integral apple cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGNha2V8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apple cake"
+    },
+    {
+      "id": "cake-14",
+      "description": "A mug brownie.",
+      "imageUrl": "https://images.unsplash.com/photo-1593282284999-0524584c36a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdWclMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mug cake"
+    },
+    {
+      "id": "cake-15",
+      "description": "A raspberry cheesecake.",
+      "imageUrl": "https://images.unsplash.com/photo-1565299543923-a5a641a9d20c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNwYmVycnklMjBjaGVlc2VjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "raspberry cheesecake"
+    },
+    {
+      "id": "cake-16",
+      "description": "An integral crumble cake (cuca).",
+      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnVtYmxlJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crumble cake"
+    },
+    {
+      "id": "cake-17",
+      "description": "A chickpea mini frittata.",
+      "imageUrl": "https://images.unsplash.com/photo-1598515214211-89d3c7373059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5pJTIwZnJpdHRhdGF8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mini frittata"
+    },
+    {
+      "id": "cake-18",
+      "description": "A colorful tapioca.",
+      "imageUrl": "https://images.unsplash.com/photo-1590211475730-e24b7c6837a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYWluYm93JTIwZm9vZHxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rainbow food"
+    },
+    {
+      "id": "cake-19",
+      "description": "Sweet potato cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1589985270826-4b7bb13519d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyXVzdGljJTIwYnJlYWR8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rustic bread"
     }
   ]
 }
