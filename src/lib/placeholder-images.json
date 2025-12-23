@@ -647,6 +647,132 @@
       "description": "Sweet potato cheese bread.",
       "imageUrl": "https://images.unsplash.com/photo-1589985270826-4b7bb13519d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyXVzdGljJTIwYnJlYWR8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rustic bread"
+    },
+    {
+      "id": "cake-20",
+      "description": "3-ingredient cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1596637848243-9872e42f497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXRlJTIwc2l6ZSUyMGNoZWVzZSUyMGJyZWFkfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheese bread"
+    },
+    {
+      "id": "cake-21",
+      "description": "Fit cheese bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1626423641508-c473b1853008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hlZXNlJTIwYnJlYWR8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy bread"
+    },
+    {
+      "id": "cake-22",
+      "description": "Granola bar.",
+      "imageUrl": "https://images.unsplash.com/photo-1619813098254-8c082083549b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFub2xhJTIwYmFyfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "granola bar"
+    },
+    {
+      "id": "cake-23",
+      "description": "Homemade granola.",
+      "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f377907b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob21lbWFkZSUyMGdyYW5vbGF8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "homemade granola"
+    },
+    {
+      "id": "cake-24",
+      "description": "Mango chia pudding.",
+      "imageUrl": "https://images.unsplash.com/photo-1598285025375-d183b5463c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGNoaWElMjBwdWRkaW5nfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango pudding"
+    },
+    {
+      "id": "cake-25",
+      "description": "Chocolate chia pudding.",
+      "imageUrl": "https://images.unsplash.com/photo-1605300329596-84d412d8a595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlhJTIwcHVkZGluZ3xlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate pudding"
+    },
+    {
+      "id": "cake-26",
+      "description": "Creamy fruit dessert.",
+      "imageUrl": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcnVpdCUyMGRlc3NlcnR8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fruit dessert"
+    },
+    {
+      "id": "cake-27",
+      "description": "Fit tiramisu.",
+      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aXJhbWlzdXxlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tiramisu"
+    },
+    {
+      "id": "cake-28",
+      "description": "Cinnamon cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1596371569234-a2b1b1c67e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaW5uYW1vbiUyMGNvb2tpZXxlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cinnamon cookie"
+    },
+    {
+      "id": "cake-29",
+      "description": "Chocolate cookies.",
+      "imageUrl": "https://images.unsplash.com/photo-1591843194074-9b2f51e06d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjb29raWVzfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cookies"
+    },
+    {
+      "id": "cake-30",
+      "description": "Integral cookie with sesame.",
+      "imageUrl": "https://images.unsplash.com/photo-1620921029031-6e3e5a5a1df5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZXNhbWUlMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sesame cookie"
+    },
+    {
+      "id": "cake-31",
+      "description": "Healthy oreo-style cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1596371569234-a2b1b1c67e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY29va2llfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy cookie"
+    },
+    {
+      "id": "cake-32",
+      "description": "Oat and honey cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1590581753776-c32891593866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvYXQlMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oat cookie"
+    },
+    {
+      "id": "cake-33",
+      "description": "Banana and coconut cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1615311244955-c49a6237a6b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana cookie"
+    },
+    {
+      "id": "cake-34",
+      "description": "Quinoa and honey cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1591843194074-9b2f51e06d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdWlub2ElMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quinoa cookie"
+    },
+    {
+      "id": "cake-35",
+      "description": "Microwave cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1593282284999-0524584c36a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3dhdmUlMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microwave cookie"
+    },
+    {
+      "id": "cake-36",
+      "description": "Chocolaty cookie.",
+      "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlwJTIwY29va2llfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cookie"
+    },
+    {
+      "id": "cake-37",
+      "description": "Oatmeal energy balls.",
+      "imageUrl": "https://images.unsplash.com/photo-1616400609958-b6e993014c24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbmVyZ3klMjBiYWxsc3xlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "energy balls"
+    },
+    {
+      "id": "cake-38",
+      "description": "Banana and nut balls.",
+      "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBudXQlMjBiYWxsc3xlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana balls"
+    },
+    {
+      "id": "cake-39",
+      "description": "Fit sequilhos (cornstarch cookies).",
+      "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXR0ZXIlMjBjb29raWVzfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "butter cookies"
+    },
+    {
+      "id": "cake-40",
+      "description": "Baked bolinho de chuva (rain cakes).",
+      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGRvbnV0fGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baked donut"
     }
   ]
 }
