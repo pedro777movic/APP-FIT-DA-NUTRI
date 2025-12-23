@@ -135,7 +135,7 @@
     {
       "id": "breakfast-23",
       "description": "A peanut butter pancake.",
-      "imageUrl": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZWFuYXQlMjBidXR0ZXIlMjBwYW5jYWtlfGVufDB8fHx8MTc2NjM4ODc1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZWFudXQlMjBidXR0ZXIlMjBwYW5jYWtlfGVufDB8fHx8MTc2NjM4ODc1MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "peanut pancake"
     },
     {
@@ -773,6 +773,132 @@
       "description": "Baked bolinho de chuva (rain cakes).",
       "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGRvbnV0fGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "baked donut"
+    },
+    {
+      "id": "cake-41",
+      "description": "Caramelized nuts",
+      "imageUrl": "https://images.unsplash.com/photo-1600326144453-34a2c0709490?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJhY2FyYW1lbGl6ZWQlMjBudXRzfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caramelized nuts"
+    },
+    {
+      "id": "cake-42",
+      "description": "Healthy integral wrap",
+      "imageUrl": "https://images.unsplash.com/photo-1614510006933-4b684533d199?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3cmFwJTIwc2FuZHdpY2h8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wrap sandwich"
+    },
+    {
+      "id": "cake-43",
+      "description": "Baked integral pastel",
+      "imageUrl": "https://images.unsplash.com/photo-1579752399245-566f1b3123c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMHBhc3RyaWVzfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baked pastries"
+    },
+    {
+      "id": "cake-44",
+      "description": "Tomato and spinach quiche",
+      "imageUrl": "https://images.unsplash.com/photo-1618163014389-209d73d5c58a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGluYWNoJTIwcXVpY2hlfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spinach quiche"
+    },
+    {
+      "id": "cake-45",
+      "description": "Integral bruschetta",
+      "imageUrl": "https://images.unsplash.com/photo-1502444336024-d0b431731317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicnVzY2hldHRhfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bruschetta"
+    },
+    {
+      "id": "cake-46",
+      "description": "Fit rice cracker",
+      "imageUrl": "https://images.unsplash.com/photo-1620200388401-446b842145e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyaWNlJTIwY3JhY2tlcnxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice cracker"
+    },
+    {
+      "id": "cake-47",
+      "description": "Fit blackberry jam",
+      "imageUrl": "https://images.unsplash.com/photo-1596201382449-74e9551a316b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYW0lMjBqYXJ8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jam jar"
+    },
+    {
+      "id": "cake-48",
+      "description": "Papaya frozen yogurt",
+      "imageUrl": "https://images.unsplash.com/photo-1563805042-76-2419d1417a89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcXVpdCUyMGZyb3plbiUyMHlvZ3VydHxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "frozen yogurt"
+    },
+    {
+      "id": "cake-49",
+      "description": "Fit sauce for fruits",
+      "imageUrl": "https://images.unsplash.com/photo-1505252585461-12a1eb6b7868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b2d1cnQlMjBkaXB8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yogurt dip"
+    },
+    {
+      "id": "cake-50",
+      "description": "Fit stuffed apple",
+      "imageUrl": "https://images.unsplash.com/photo-1560717845-9e324c03b14a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGFwcGxlfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baked apple"
+    },
+    {
+      "id": "cake-51",
+      "description": "Fit banana with chocolate",
+      "imageUrl": "https://images.unsplash.com/photo-1623194165697-b35a63901594?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBiYW5hbmF8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate banana"
+    },
+    {
+      "id": "cake-52",
+      "description": "Fit beijinho (coconut candy)",
+      "imageUrl": "https://images.unsplash.com/photo-1626082894158-1534346059a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2NvbnV0JTIwYmFsbHN8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coconut balls"
+    },
+    {
+      "id": "cake-53",
+      "description": "Fit chandelle (chocolate pudding)",
+      "imageUrl": "https://images.unsplash.com/photo-1605300329596-84d412d8a595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBwdWRkaW5nfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate pudding"
+    },
+    {
+      "id": "cake-54",
+      "description": "Fit goiabinhas (guava cookies)",
+      "imageUrl": "https://images.unsplash.com/photo-1591843194074-9b2f51e06d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxndWF2YSUyMGNvb2tpZXxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guava cookie"
+    },
+    {
+      "id": "cake-55",
+      "description": "Apple chips",
+      "imageUrl": "https://images.unsplash.com/photo-1603902358358-72b4c1064ae0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGNoaXBzfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apple chips"
+    },
+    {
+      "id": "cake-56",
+      "description": "Fit brigadeirão (chocolate flan)",
+      "imageUrl": "https://images.unsplash.com/photo-1610543632977-941121013a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBmbGFufGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate flan"
+    },
+    {
+      "id": "cake-57",
+      "description": "Fit baked churros",
+      "imageUrl": "https://images.unsplash.com/photo-1588476092015-603da1a7a13c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGNodXJyb3N8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baked churros"
+    },
+    {
+      "id": "cake-58",
+      "description": "Fit cheese ball",
+      "imageUrl": "https://images.unsplash.com/photo-1596637848243-9872e42f497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hlZXNlJTIwYmFsbHxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheese ball"
+    },
+    {
+      "id": "cake-59",
+      "description": "Integral rice cake",
+      "imageUrl": "https://images.unsplash.com/photo-1560717845-9e324c03b14a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcmljZSUyMGNha2V8ZW58MHx8fHwxNzY3OTUzNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice cake"
+    },
+    {
+      "id": "cake-60",
+      "description": "Chicken and pumpkin ball",
+      "imageUrl": "https://images.unsplash.com/photo-1618163014389-209d73d5c58a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwYmFsbHxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy ball"
+    },
+    {
+      "id": "cake-61",
+      "description": "Oat pancake with chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1586985289942-d8f8f8983944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcGFuY2FrZXxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy pancake"
     }
   ]
 }
