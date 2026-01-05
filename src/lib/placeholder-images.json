@@ -309,7 +309,7 @@
     {
       "id": "breakfast-52",
       "description": "Porridge with peanut butter.",
-      "imageUrl": "https://images.unsplash.com/photo-1564700790847-5a6b0143a53d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZWFudXQlMjBidXR0ZXIlMjBwb3JyaWRnZXxlbnwwfHx8fDE3NjY0ODU2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1564700790847-5a6b0143a53d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZWFudXQlMjBidXR0ZXIlMjBwb3JyaWRnZXxlbnwwfHx8fDE3NjY0ODU2MTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "peanut porridge"
     },
     {
@@ -345,7 +345,7 @@
     {
       "id": "breakfast-58",
       "description": "Pumpkin bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1618671021448-971c6e147171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwYnJlYWR8ZW58MHx8fHwxNzY2NDg4MzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618671021448-971c6e147171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwYnJlYWR8ZW58MHx8fHwxNzY2NDg4MzIxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pumpkin bread"
     },
     {
@@ -357,7 +357,7 @@
     {
       "id": "breakfast-60",
       "description": "Whey protein crepe.",
-      "imageUrl": "https://images.unsplash.com/photo-1584278858342-c006294b41a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm90ZWluJTIwY3JlcGV8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1584278858342-c006294b41a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm90ZWluJTIwY3JlcGV8ZW58MHx8fHwxNzY2NzQ2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "protein crepe"
     },
     {
@@ -405,7 +405,7 @@
     {
       "id": "breakfast-68",
       "description": "Detox juice.",
-      "imageUrl": "https://images.unsplash.com/photo-1542842426-368d1d848137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGp1aWNlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542842426-368d1d848137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGp1aWNlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green juice"
     },
     {
@@ -531,7 +531,7 @@
     {
       "id": "dessert-2",
       "description": "A banana and peanut butter cream.",
-      "imageUrl": "https://images.unsplash.com/photo-1571505324223-49d9a04a0081?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBzbW9vdGhpZSUyMGJvd2x8ZW58MHx8fHwxNzY3OTU1NjU2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1571505324223-49d9a04a0081?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBzbW9vdGhpZSUyMGJvd2x8ZW58MHx8fHwxNzY3OTU1NjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "banana smoothie"
     },
     {
@@ -549,13 +549,13 @@
     {
       "id": "dessert-5",
       "description": "A fit milk pudding.",
-      "imageUrl": "https://images.unsplash.com/photo-1610543632977-941121013a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcHVkZGluZ3xlbnwwfHx8fDE3Njc5NTU2NTZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610543632977-941121013a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcHVkZGluZ3xlbnwwfHx8fDE3Njc5NTU2NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy pudding"
     },
     {
       "id": "dessert-6",
       "description": "A pineapple and orange ice cream.",
-      "imageUrl": "https://images.unsplash.com/photo-1623062335439-50a04944cf98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW5lYXBwbGUlMjBzb3JiZXR8ZW58MHx8fHwxNzY3OTU1NjU2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1623062335439-50a04944cf98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW5lYXBwbGUlMjBzb3JiZXR8ZW58MHx8fHwxNzY3OTU1NjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pineapple sorbet"
     },
     {
@@ -585,13 +585,13 @@
     {
       "id": "airfryer-1",
       "description": "Protein-rich food made in an airfryer.",
-      "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbGVkJTIwY2hpY2tlbnxlbnwwfHx8fDE3NjYzNDY5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbGVkJTIwY2hpY2tlbnxlbnwwfHx8fDE3NjYzNDY5OTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled chicken"
     },
     {
       "id": "airfryer-2",
       "description": "Fit falafel made from chickpeas.",
-      "imageUrl": "https://images.unsplash.com/photo-1593005510325-e2985f437c35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYWxhZmVsfGVufDB8fHx8MTc2Nzk1NTY1Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593005510325-e2985f437c35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYWxhZmVsfGVufDB8fHx8MTc2Nzk1NTY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "falafel"
     },
     {
@@ -615,7 +615,7 @@
     {
       "id": "airfryer-6",
       "description": "Sweet potato chips.",
-      "imageUrl": "https://images.unsplash.com/photo-1599785237388-3f4448518f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGNoaXBzfGVufDB8fHx8MTc2Nzk1NTY1Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599785237388-3f4448518f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGNoaXBzfGVufDB8fHx8MTc2Nzk1NTY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "apple chips"
     },
     {
@@ -645,7 +645,7 @@
     {
       "id": "airfryer-11",
       "description": "Green rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1599229085181-54943a532326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHJpY2V8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599229085181-54943a532326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHJpY2V8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "green rice"
     },
     {
@@ -693,7 +693,7 @@
     {
       "id": "airfryer-19",
       "description": "Savory vegetable cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1589998104445-665a6de6522c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYXZvcnklMjBjYWtlfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1589998104445-665a6de6522c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYXZvcnklMjBjYWtlfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "savory cake"
     },
     {
@@ -707,6 +707,96 @@
       "description": "Creamy protein pasta.",
       "imageUrl": "https://images.unsplash.com/photo-1621996346565-e326e20f442b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmVhbXklMjBwYXN0YXxlbnwwfHx8fDE3NjgwMDc5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "creamy pasta"
+    },
+    {
+      "id": "airfryer-22",
+      "description": "Fit couscous from Pernambuco.",
+      "imageUrl": "https://images.unsplash.com/photo-1541745537412-c205a08e690f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3VzY291c3xlbnwwfHx8fDE3NjgwMDc5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couscous"
+    },
+    {
+      "id": "airfryer-23",
+      "description": "Protein-rich cassava pie.",
+      "imageUrl": "https://images.unsplash.com/photo-1631515942468-334d58b76b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXNzYXZhJTIwcGllfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cassava pie"
+    },
+    {
+      "id": "airfryer-24",
+      "description": "Paraguayan soup from the Cerrado.",
+      "imageUrl": "https://images.unsplash.com/photo-1589998104445-665a6de6522c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXNzYXZhJTIwcGllfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "savory pie"
+    },
+    {
+      "id": "airfryer-25",
+      "description": "Homemade tomato sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1596262969960-993b3a99252c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b21hdG8lMjBzYXVjZXxlbnwwfHx8fDE3NjgwMDc5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tomato sauce"
+    },
+    {
+      "id": "airfryer-26",
+      "description": "Green soup with vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1552561142-d343e578ee46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHNvdXB8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green soup"
+    },
+    {
+      "id": "airfryer-27",
+      "description": "Sweet potato and chicken coxinha.",
+      "imageUrl": "https://images.unsplash.com/photo-1576718879412-a1641b05a764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY294aW5oYXxlbnwwfHx8fDE3NjgwMDc5OTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy coxinha"
+    },
+    {
+      "id": "airfryer-28",
+      "description": "Chicken and vegetable cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1527478332436-1c6833158c35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwcGllfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken pie"
+    },
+    {
+      "id": "airfryer-29",
+      "description": "Watermelon sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1596262969960-993b3a99252c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlcm1lbG9uJTIwc2F1Y2V8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "watermelon sauce"
+    },
+    {
+      "id": "airfryer-30",
+      "description": "Sautéed watermelon rind.",
+      "imageUrl": "https://images.unsplash.com/photo-1599229085181-54943a532326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHNhbGFkfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green salad"
+    },
+    {
+      "id": "airfryer-31",
+      "description": "Banana peel antipasto.",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBwZWVsJTIwc2FsYWR8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana salad"
+    },
+    {
+      "id": "airfryer-32",
+      "description": "Perfumed chicken.",
+      "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2FzdGVkJTIwY2hpY2tlbnxlbnwwfHx8fDE3NjgwMDc5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roasted chicken"
+    },
+    {
+      "id": "airfryer-33",
+      "description": "Rustic roasted tomatoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1596262969960-993b3a99252c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2FzdGVkJTIwdG9tYXRvZXN8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "roasted tomatoes"
+    },
+    {
+      "id": "airfryer-34",
+      "description": "Savory low carb pancake.",
+      "imageUrl": "https://images.unsplash.com/photo-1568509651840-e2c75ad69097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYXZvcnklMjBwYW5jYWtlfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "savory pancake"
+    },
+    {
+      "id": "airfryer-35",
+      "description": "Greek-style brown rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1599229085181-54943a532326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicm93biUyMHJpY2V8ZW58MHx8fHwxNzY4MDA3OTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brown rice"
+    },
+    {
+      "id": "airfryer-36",
+      "description": "Chickpeas with vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1599229085181-54943a532326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja3BlYSUyMHNhbGFkfGVufDB8fHx8MTc2ODAwNzk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chickpea salad"
     },
     {
       "id": "cake-2",
@@ -741,37 +831,37 @@
     {
       "id": "cake-7",
       "description": "A skillet chocolate cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1576629699192-b0c6a53699c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2lsbGV0JTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576629699192-b0c6a53699c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2lsbGV0JTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "skillet cake"
     },
     {
       "id": "cake-8",
       "description": "A lemon cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1551221338-20513904a621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW1vbiUyMGNha2V8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551221338-20513904a621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW1vbiUyMGNha2V8ZW58MHx8fHwxNzY3OTQ4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lemon cake"
     },
     {
       "id": "cake-9",
       "description": "A corn cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1599933594236-4c465225114c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3JuJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599933594236-4c465225114c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3JuJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "corn cake"
     },
     {
       "id": "cake-10",
       "description": "A frappe cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmFwcGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmFwcGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "frappe cake"
     },
     {
       "id": "cake-11",
       "description": "An integral chocolate cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hvY29sYXRlJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hvY29sYXRlJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy cake"
     },
     {
       "id": "cake-12",
       "description": "An integral orange cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1589119564022-839556a3108c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1589119564022-839556a3108c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "orange cake"
     },
     {
@@ -783,7 +873,7 @@
     {
       "id": "cake-14",
       "description": "A mug brownie.",
-      "imageUrl": "https://images.unsplash.com/photo-1593282284999-0524584c36a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdWclMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593282284999-0524584c36a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdWclMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mug cake"
     },
     {
@@ -795,7 +885,7 @@
     {
       "id": "cake-16",
       "description": "An integral crumble cake (cuca).",
-      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnVtYmxlJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnVtYmxlJTIwY2FrZXxlbnwwfHx8fDE3Njc5NDg4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "crumble cake"
     },
     {
@@ -819,7 +909,7 @@
     {
       "id": "cake-20",
       "description": "3-ingredient cheese bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1596637848243-9872e42f497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXRlJTIwc2l6ZSUyMGNoZWVzZSUyMGJyZWFkfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596637848243-9872e42f497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXRlJTIwc2l6ZSUyMGNoZWVzZSUyMGJyZWFkfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cheese bread"
     },
     {
@@ -831,7 +921,7 @@
     {
       "id": "cake-22",
       "description": "Granola bar.",
-      "imageUrl": "https://images.unsplash.com/photo-1619813098254-8c082083549b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFub2xhJTIwYmFyfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1619813098254-8c082083549b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFub2xhJTIwYmFyfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "granola bar"
     },
     {
@@ -843,37 +933,37 @@
     {
       "id": "cake-24",
       "description": "Mango chia pudding.",
-      "imageUrl": "https://images.unsplash.com/photo-1598285025375-d183b5463c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGNoaWElMjBwdWRkaW5nfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598285025375-d183b5463c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGNoaWElMjBwdWRkaW5nfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mango pudding"
     },
     {
       "id": "cake-25",
       "description": "Chocolate chia pudding.",
-      "imageUrl": "https://images.unsplash.com/photo-1605300329596-84d412d8a595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlhJTIwcHVkZGluZ3xlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1605300329596-84d412d8a595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlhJTIwcHVkZGluZ3xlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chocolate pudding"
     },
     {
       "id": "cake-26",
       "description": "Creamy fruit dessert.",
-      "imageUrl": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcnVpdCUyMGRlc3NlcnR8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcnVpdCUyMGRlc3NlcnR8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fruit dessert"
     },
     {
       "id": "cake-27",
       "description": "Fit tiramisu.",
-      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aXJhbWlzdXxlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aXJhbWlzdXxlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tiramisu"
     },
     {
       "id": "cake-28",
       "description": "Cinnamon cookie.",
-      "imageUrl": "https://images.unsplash.com/photo-1596371569234-a2b1b1c67e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaW5uYW1vbiUyMGNvb2tpZXxlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596371569234-a2b1b1c67e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaW5uYW1vbiUyMGNvb2tpZXxlbnwwfHx8fDE3Njc5NTI2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cinnamon cookie"
     },
     {
       "id": "cake-29",
       "description": "Chocolate cookies.",
-      "imageUrl": "https://images.unsplash.com/photo-1591843194074-9b2f51e06d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjb29raWVzfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1591843194074-9b2f51e06d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjb29raWVzfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chocolate cookies"
     },
     {
@@ -885,7 +975,7 @@
     {
       "id": "cake-31",
       "description": "Healthy oreo-style cookie.",
-      "imageUrl": "https://images.unsplash.com/photo-1596371569234-a2b1b1c67e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY29va2llfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596371569234-a2b1b1c67e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY29va2llfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy cookie"
     },
     {
@@ -897,7 +987,7 @@
     {
       "id": "cake-33",
       "description": "Banana and coconut cookie.",
-      "imageUrl": "https://images.unsplash.com/photo-1615311244955-c49a6237a6b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615311244955-c49a6237a6b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjb29raWV8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "banana cookie"
     },
     {
@@ -915,7 +1005,7 @@
     {
       "id": "cake-36",
       "description": "Chocolaty cookie.",
-      "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlwJTIwY29va2llfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlwJTIwY29va2llfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chocolate cookie"
     },
     {
@@ -939,7 +1029,7 @@
     {
       "id": "cake-40",
       "description": "Baked bolinho de chuva (rain cakes).",
-      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGRvbnV0fGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGRvbnV0fGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "baked donut"
     },
     {
@@ -999,7 +1089,7 @@
     {
       "id": "cake-50",
       "description": "Fit stuffed apple",
-      "imageUrl": "https://images.unsplash.com/photo-1560717845-9e324c03b14a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGFwcGxlfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1560717845-9e324c03b14a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGFwcGxlfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "baked apple"
     },
     {
@@ -1011,7 +1101,7 @@
     {
       "id": "cake-52",
       "description": "Fit beijinho (coconut candy)",
-      "imageUrl": "https://images.unsplash.com/photo-1626082894158-1534346059a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2NvbnV0JTIwYmFsbHN8ZW58MHx8fHwxNz67953792fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1626082894158-1534346059a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2NvbnV0JTIwYmFsbHN8ZW58MHx8fHwxNz67953792fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coconut balls"
     },
     {
@@ -1035,7 +1125,7 @@
     {
       "id": "cake-56",
       "description": "Fit brigadeirão (chocolate flan)",
-      "imageUrl": "https://images.unsplash.com/photo-1610543632977-941121013a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBmbGFufGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610543632977-941121013a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBmbGFufGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chocolate flan"
     },
     {
@@ -1065,7 +1155,7 @@
     {
       "id": "cake-61",
       "description": "Oat pancake with chicken",
-      "imageUrl": "https://images.unsplash.com/photo-1586985289942-d8f8f8983944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcGFuY2FrZXxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1586985289942-d8f8f8983944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcGFuY2FrZXxlbnwwfHx8fDE3Njc5NTM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy pancake"
     },
     {
@@ -1083,13 +1173,13 @@
     {
       "id": "cake-64",
       "description": "Fit petit gateau.",
-      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwbGF2YSUyMGNha2V8ZW58MHx8fHwxNzY3OTU1NjU2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwbGF2YSUyMGNha2V8ZW58MHx8fHwxNzY3OTU1NjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy lava"
     },
     {
       "id": "cake-65",
       "description": "Petit gateau with peanut butter.",
-      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZWFudXQlMjBsYXZhJTIwY2FrZXxlbnwwfHx8fDE3Njc5NTU2NTZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1571115333113-1c09fab6579c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZWFudXQlMjBsYXZhJTIwY2FrZXxlbnwwfHx8fDE3Njc5NTU2NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "peanut lava"
     }
   ]
