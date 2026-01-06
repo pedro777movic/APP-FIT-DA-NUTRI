@@ -2078,4 +2078,124 @@ export const RECIPES: Recipe[] = [
     ingredientes: ['100g de ricota amassada', '1/2 couve-flor cozida e processada', '2 colheres de sopa de farinha de linhaça', '1 clara de ovo', 'Sal e orégano a gosto', 'Queijo parmesão ralado para finalizar'],
     modo_preparo: 'Bata todos os ingredientes (exceto o parmesão) em um processador até formar uma massa homogênea. Modele os salgados no formato desejado, coloque em uma assadeira, polvilhe parmesão por cima e asse em forno pré-aquecido a 180°C por 20-25 minutos, ou até dourar.',
   },
+  {
+    id: 'hamburguer-de-grao-de-bico',
+    titulo: 'Hambúrguer de Grão-de-Bico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-37',
+    ingredientes: ['1 xícara de grão-de-bico cozido', '1 dente de alho', '1/2 cebola', 'Salsinha e orégano a gosto', 'Suco de 1/2 limão', '3 colheres de sopa de farinha de aveia'],
+    modo_preparo: 'No processador, bata o grão-de-bico com o alho, a cebola e os temperos até obter uma pasta. Transfira para uma tigela, adicione a farinha de aveia e misture até dar liga. Modele os hambúrgueres e grelhe em uma frigideira antiaderente ou na airfryer até dourar dos dois lados.'
+  },
+  {
+    id: 'kibe-vegetariano-proteico',
+    titulo: 'Kibe Vegetariano Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-38',
+    ingredientes: ['1 xícara de trigo para kibe', '1 xícara de proteína de soja texturizada fina', '1/2 xícara de aveia em flocos', '1 xícara de lentilha cozida', '2 dentes de alho', '1 cebola', 'Folhas de hortelã a gosto', 'Azeite para regar'],
+    modo_preparo: 'Hidrate o trigo e a proteína de soja conforme as instruções. Escorra bem e misture com a lentilha, aveia, alho, cebola e hortelã picados. Tempere bem e pressione a mistura em uma forma untada. Regue com azeite e asse em forno a 180°C por 30 minutos.'
+  },
+  {
+    id: 'hamburgao-de-forno-proteico',
+    titulo: 'Hamburgão de Forno Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-39',
+    ingredientes: ['Massa: 2 xícaras de farinha integral, 10g de fermento biológico, 1 colher de sopa de linhaça, 1/4 xícara de óleo', 'Recheio: Hambúrguer vegetal, queijo, tomate e temperos'],
+    modo_preparo: 'Prepare a massa misturando os ingredientes e deixando crescer. Abra a massa, coloque o hambúrguer e os outros itens do recheio. Feche bem, como um grande pão, e asse em forno pré-aquecido a 180°C até a massa dourar.'
+  },
+  {
+    id: 'guacamole-proteico',
+    titulo: 'Guacamole Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-40',
+    ingredientes: ['1 abacate maduro', 'Suco de 1 limão', '1 fio de azeite', 'Sal a gosto', '1 dente de alho picado', '1/2 cebola picada', 'Pimenta a gosto'],
+    modo_preparo: 'Amasse o abacate com um garfo. Adicione os demais ingredientes, misture bem e sirva imediatamente com chips de vegetais ou como acompanhamento.'
+  },
+  {
+    id: 'tartar-de-salmao-com-guacamole',
+    titulo: 'Tartar de Salmão com Guacamole',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-41',
+    ingredientes: ['200g de salmão fresco picado', 'Suco de 1 limão', '1 colher de chá de mostarda Dijon', 'Azeite e pimenta a gosto', 'Guacamole para acompanhar'],
+    modo_preparo: 'Em uma tigela, tempere o salmão picado com o limão, a mostarda, o azeite e a pimenta. Deixe marinar por alguns minutos na geladeira. Sirva sobre uma cama de guacamole fresco.'
+  },
+  {
+    id: 'arroz-de-couve-flor',
+    titulo: 'Arroz de Couve-Flor',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-42',
+    ingredientes: ['1 couve-flor média', '1 colher de sopa de manteiga ghee', 'Sal e pimenta a gosto'],
+    modo_preparo: 'Lave a couve-flor e processe em um processador ou rale na parte grossa do ralador até obter grãos semelhantes ao arroz. Em uma frigideira, derreta a manteiga ghee e refogue a couve-flor por 5-7 minutos, até ficar macia, mas ainda com textura. Tempere com sal e pimenta e sirva.'
+  },
+  {
+    id: 'torta-proteica-de-atum',
+    titulo: 'Torta Proteica de Atum',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-43',
+    ingredientes: ['1 xícara de farinha integral', '1/2 xícara de whey protein sem sabor', '2 ovos', '1 xícara de leite vegetal', '1/4 xícara de óleo de coco', '1 lata de atum', '1/2 xícara de queijo cottage', '1 colher de sopa de fermento'],
+    modo_preparo: 'No liquidificador, bata os ovos, o leite e o óleo. Adicione as farinhas e o whey, batendo novamente. Misture o fermento delicadamente. Despeje metade da massa em uma forma, espalhe o recheio de atum e cottage e cubra com o restante da massa. Asse a 180°C por 30-35 minutos.'
+  },
+  {
+    id: 'escondidinho-de-batata-doce-com-frango',
+    titulo: 'Escondidinho de Batata Doce com Frango',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-44',
+    ingredientes: ['500g de batata-doce cozida', '300g de frango desfiado', '1 xícara de molho de tomate', '1/2 xícara de queijo cottage', '1/2 cebola e alho picados'],
+    modo_preparo: 'Amasse a batata-doce para fazer um purê. Refogue o frango com cebola, alho e molho de tomate. Em um refratário, faça uma camada de frango, cubra com o purê de batata-doce e espalhe o cottage por cima. Leve ao forno ou airfryer para gratinar.'
+  },
+  {
+    id: 'pastel-proteico-de-batata-doce',
+    titulo: 'Pastel Proteico de Batata Doce',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-45',
+    ingredientes: ['1 xícara de batata-doce cozida e amassada', '3 colheres de sopa de farinha de aveia', '1 colher de sopa de azeite', 'Recheio: carne moída refogada', 'Sal a gosto'],
+    modo_preparo: 'Misture a batata-doce, a aveia, o azeite e o sal até formar uma massa. Abra a massa na palma da mão, recheie com a carne e feche em formato de pastel. Pincele com gema e asse na airfryer a 200°C até dourar.'
+  },
+  {
+    id: 'sopa-de-lentilha-com-carne',
+    titulo: 'Sopa de Lentilha com Carne',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-46',
+    ingredientes: ['1 xícara de lentilha', '200g de músculo cozido e desfiado', '1/2 xícara de couve picada', '1 xícara de couve-flor em floretes', '1 cebola e 2 dentes de alho'],
+    modo_preparo: 'Refogue o alho e a cebola. Adicione a lentilha, a carne e cubra com água. Cozinhe até a lentilha ficar macia. Adicione a couve-flor e a couve e cozinhe por mais alguns minutos até os legumes amaciarem. Ajuste o sal e sirva.'
+  },
+  {
+    id: 'torta-de-tapioca-com-frango-airfryer',
+    titulo: 'Torta de Tapioca com Frango (Airfryer)',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-47',
+    ingredientes: ['1 xícara de goma de tapioca', '200g de frango cozido e desfiado', '100g de muçarela ralada', '2 ovos', '2 colheres de sopa de requeijão light', '1 colher de chá de fermento em pó'],
+    modo_preparo: 'Em uma tigela, misture bem todos os ingredientes. Despeje a massa em uma forma de silicone ou refratário que caiba na airfryer. Asse a 180°C por 20-25 minutos, ou até que a torta esteja firme e dourada por cima.'
+  },
+  {
+    id: 'salada-de-bacalhau-com-feijao-fradinho',
+    titulo: 'Salada de Bacalhau com Feijão Fradinho',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-48',
+    ingredientes: ['300g de bacalhau dessalgado e desfiado', '1 xícara de feijão fradinho cozido', '1 banana-da-terra grelhada em cubos', '1/2 cebola roxa fatiada', 'Azeite, vinagre e coentro a gosto'],
+    modo_preparo: 'Em uma saladeira, misture delicadamente o bacalhau desfiado, o feijão fradinho, os cubos de banana-da-terra e a cebola roxa. Tempere generosamente com azeite, um pouco de vinagre e coentro fresco picado. Sirva fria.'
+  },
+  {
+    id: 'nhoque-de-baroa-com-molho-de-salvia',
+    titulo: 'Nhoque de Baroa com Molho de Sálvia',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-49',
+    ingredientes: ['500g de batata baroa cozida e amassada', '1 xícara de farinha de trigo (aproximadamente)', '2 gemas', '2 colheres de sopa de manteiga', 'Folhas de sálvia fresca'],
+    modo_preparo: 'Misture a batata baroa amassada com as gemas e a farinha aos poucos, até a massa ficar macia. Modele os nhoques e cozinhe em água fervente até subirem. Em uma frigideira, derreta a manteiga com as folhas de sálvia e salteie os nhoques cozidos.'
+  },
+  {
+    id: 'picadinho-a-jardineira-proteico',
+    titulo: 'Picadinho à Jardineira Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-50',
+    ingredientes: ['400g de carne em cubos (alcatra)', '1 cenoura em cubos', '1 chuchu em cubos', '1 batata-doce em cubos', '1/2 xícara de vagem picada', '2 dentes de alho', 'Azeite'],
+    modo_preparo: 'Em uma panela, doure o alho no azeite e sele a carne. Adicione os legumes, cubra com água e cozinhe em fogo baixo até a carne e os legumes estarem macios e o caldo ter engrossado.'
+  },
+  {
+    id: 'empadao-de-grao-de-bico-proteico',
+    titulo: 'Empadão de Grão-de-Bico Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-51',
+    ingredientes: ['Massa: 2 xícaras de grão-de-bico cozido, 2 colheres de sopa de azeite, sal', 'Recheio: 200g de frango desfiado, 1/2 cebola, molho de tomate, 1/2 lata de milho'],
+    modo_preparo: 'Para a massa, bata o grão-de-bico com azeite e sal até formar uma pasta. Forre o fundo e as laterais de uma forma. Refogue o frango com os temperos para o recheio. Coloque o recheio na torta e asse a 180°C por 25 minutos.'
+  },
 ];
