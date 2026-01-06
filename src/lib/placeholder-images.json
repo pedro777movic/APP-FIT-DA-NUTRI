@@ -351,7 +351,7 @@
     {
       "id": "breakfast-59",
       "description": "Integral microwave bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1647482770204-af4dd2948ceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3dhdmUlMjBicmVhZHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1647482770204-af4dd2948ceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3dhdmUlMjBicmVhZHxlbnwwfHx8fDE3NjY3NDY2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "microwave bread"
     },
     {
@@ -513,7 +513,7 @@
     {
       "id": "breakfast-86",
       "description": "Banana cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjYWtlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627485744955-a1d2f25a0767?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBjYWtlfGVufDB8fHx8MTc2Njc0NjY1NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "banana cake"
     },
     {
@@ -889,6 +889,96 @@
       "imageHint": "chickpea pie"
     },
     {
+      "id": "airfryer-52",
+      "description": "Cauliflower rice with chicken and peppers.",
+      "imageUrl": "https://images.unsplash.com/photo-1599229085181-54943a532326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXVsaWZsb3dlciUyMHJpY2V8ZW58MHx8fHwxNzY4MDEyMjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cauliflower rice"
+    },
+    {
+      "id": "airfryer-53",
+      "description": "Parsnip shepherd's pie with chicken cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1631515942468-334d58b76b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwcGllfGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy pie"
+    },
+    {
+      "id": "airfryer-54",
+      "description": "Tuna and quinoa salad in a jar.",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYXIlMjBzYWxhZHxlbnwwfHx8fDE3NjgwMTIyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jar salad"
+    },
+    {
+      "id": "airfryer-55",
+      "description": "Protein vegetarian stew.",
+      "imageUrl": "https://images.unsplash.com/photo-1527478332436-1c6833158c35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZWdldGFibGUlMjBzdGV3fGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegetable stew"
+    },
+    {
+      "id": "airfryer-56",
+      "description": "Sole with nut crust.",
+      "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnVzdGVkJTIwZmlzaHxlbnwwfHx8fDE3NjgwMTIyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crusted fish"
+    },
+    {
+      "id": "airfryer-57",
+      "description": "Vegan pumpkin and quinoa kibe.",
+      "imageUrl": "https://images.unsplash.com/photo-1621205423023-7a1b06f2f2e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZWdhbiUyMGtpYmJlaHxlbnwwfHx8fDE3NjgwMTIyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegan kibbeh"
+    },
+    {
+      "id": "airfryer-58",
+      "description": "Colorful chicken soufflé.",
+      "imageUrl": "https://images.unsplash.com/photo-1618163014389-209d73d5c58a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwc291ZmZsZXxlbnwwfHx8fDE3NjgwMTIyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken souffle"
+    },
+    {
+      "id": "airfryer-59",
+      "description": "Vegetable soup with chicken.",
+      "imageUrl": "https://images.unsplash.com/photo-1527478332436-1c6833158c35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwc291cHxlbnwwfHx8fDE3NjgwMTIyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken soup"
+    },
+    {
+      "id": "airfryer-60",
+      "description": "Zucchini spaghetti.",
+      "imageUrl": "https://images.unsplash.com/photo-1624463421516-3249859a0e69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx6dWNjaGluaSUyMHNwYWdoZXR0aXxlbnwwfHx8fDE3NjgwMTIyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "zucchini spaghetti"
+    },
+    {
+      "id": "airfryer-61",
+      "description": "Colorful functional omelette.",
+      "imageUrl": "https://images.unsplash.com/photo-1587206668283-c21d974993c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMG9tZWxldHRlfGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colorful omelette"
+    },
+    {
+      "id": "airfryer-62",
+      "description": "Healthy X-Tudo (all-in sandwich).",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwYnVyZ2VyfGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy burger"
+    },
+    {
+      "id": "airfryer-63",
+      "description": "Baked integral pastel.",
+      "imageUrl": "https://images.unsplash.com/photo-1579752399245-566f1b3123c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMHBhc3RyaWVzfGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baked pastries"
+    },
+    {
+      "id": "airfryer-64",
+      "description": "Protein ceviche.",
+      "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXZpY2hlfGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceviche"
+    },
+    {
+      "id": "airfryer-65",
+      "description": "Pumpkin spaghetti with meat.",
+      "imageUrl": "https://images.unsplash.com/photo-1621996346565-e326e20f442b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwc3BhZ2hldHRpfGVufDB8fHx8MTc2ODAxMjI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pumpkin spaghetti"
+    },
+    {
+      "id": "airfryer-66",
+      "description": "Light chicken pie.",
+      "imageUrl": "https://images.unsplash.com/photo-1527478332436-1c6833158c35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaWdodCUyMGNoaWNrZW4lMjBwaWV8ZW58MHx8fHwxNzY4MDEyMjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light pie"
+    },
+    {
       "id": "cake-2",
       "description": "A slice of banana cocoa cake.",
       "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2Nzk0ODg2NXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -1005,7 +1095,7 @@
     {
       "id": "cake-21",
       "description": "Fit cheese bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1626423641508-c473b1853008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hlZXNlJTIwYnJlYWR8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1626423641508-c473b1853008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY2hlZXNlJTIwYnJlYWR8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy bread"
     },
     {
@@ -1017,13 +1107,13 @@
     {
       "id": "cake-23",
       "description": "Homemade granola.",
-      "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f377907b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob21lbWFkZSUyMGdyYW5vbGF8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f377907b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob21lbWFkZSUyMGdyYW5vbGF8ZW58MHx8fHwxNzY3OTUyNjI0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "homemade granola"
     },
     {
       "id": "cake-24",
       "description": "Mango chia pudding.",
-      "imageUrl": "https://images.unsplash.com/photo-1598285025375-d183b5463c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGNoaWElMjBwdWRkaW5nfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598285025375-d183b5463c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGNoaWElMjBwdWRkaW5nfGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mango pudding"
     },
     {
@@ -1119,7 +1209,7 @@
     {
       "id": "cake-40",
       "description": "Baked bolinho de chuva (rain cakes).",
-      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGRvbnV0fGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMGRvbnV0fGVufDB8fHx8MTc2Nzk1MjYyNHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "baked donut"
     },
     {
@@ -1131,13 +1221,13 @@
     {
       "id": "cake-42",
       "description": "Healthy integral wrap",
-      "imageUrl": "https://images.unsplash.com/photo-1614510006933-4b684533d199?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3cmFwJTIwc2FuZHdpY2h8ZW58MHx8fHwxNz67953792fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614510006933-4b684533d199?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3cmFwJTIwc2FuZHdpY2h8ZW58MHx8fHwxNz67953792fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wrap sandwich"
     },
     {
       "id": "cake-43",
       "description": "Baked integral pastel",
-      "imageUrl": "https://images.unsplash.com/photo-1579752399245-566f1b3123c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMHBhc3RyaWVzfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579752399245-566f1b3123c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWtlZCUyMHBhc3RyaWVzfGVufDB8fHx8MTc2Nzk1Mzc5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "baked pastries"
     },
     {
@@ -1173,7 +1263,7 @@
     {
       "id": "cake-49",
       "description": "Fit sauce for fruits",
-      "imageUrl": "https://images.unsplash.com/photo-1505252585461-12a1eb6b7868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b2d1cnQlMjBkaXB8ZW58MHx8fHwxNz67953792fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1505252585461-12a1eb6b7868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b2d1cnQlMjBkaXB8ZW58MHx8fHwxNz67953792fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "yogurt dip"
     },
     {
