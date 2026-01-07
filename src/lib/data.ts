@@ -1231,7 +1231,7 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Toste as fatias de pão no forno ou frigideira. Em uma tigela, tempere o tomate picado com azeite, sal e pimenta. Cubra as torradas com a mistura de tomate e finalize com folhas frescas de manjericão.',
   },
   {
-    id: 'bolacha-arroz-fit',
+    id: 'bolacha-de-arroz-fit',
     titulo: 'Bolacha de Arroz Fit',
     categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'cake-46',
@@ -1357,6 +1357,246 @@ export const RECIPES: Recipe[] = [
     imagem: 'cake-61',
     ingredientes: ['Massa: 2 ovos', '1 fio de azeite', '1/2 xícara de leite desnatado', '4 colheres de sopa de aveia em flocos', '2 colheres de sopa de farinha integral', 'sal', 'Recheio: 200g de frango desfiado', '1/2 tomate picado', '1/4 cebola picada', '1 dente de alho', 'temperos a gosto'],
     modo_preparo: 'Bata os ingredientes da massa no liquidificador. Aqueça uma frigideira antiaderente e prepare os discos de panqueca. Para o recheio, refogue o alho e a cebola, adicione o frango e o tomate e tempere a gosto. Recheie as panquecas, enrole e sirva.',
+  },
+  {
+    id: 'bolo-beterraba-chocolate',
+    titulo: 'Bolo de Beterraba com Cobertura de Chocolate',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-66',
+    ingredientes: ['1 xícara (chá) de suco de laranja', '4 xícaras (chá) de beterraba picada', '3 ovos', '2 xícaras (chá) de açúcar', '¾ xícara (chá) de óleo', '3 xícaras (chá) de farinha de trigo', '1 colher (sopa) de fermento', 'Cobertura: 1 colher (sopa) de manteiga', '3 colheres (sopa) de cacau', '3 colheres (sopa) de açúcar', '1 xícara (chá) de leite'],
+    modo_preparo: 'Bata o suco e a beterraba no liquidificador. Separe as gemas e as claras dos ovos. Bata as gemas com o óleo e misture ao suco de beterraba. Em uma tigela, adicione a farinha, as claras batidas em neve e o fermento. Asse em forno médio. Para a cobertura, leve todos os ingredientes ao fogo até engrossar e cubra o bolo ainda quente.'
+  },
+  {
+    id: 'bolo-de-feijao',
+    titulo: 'Bolo de Feijão',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-67',
+    ingredientes: ['4 ovos', '2 xícaras de açúcar', '1 ½ xícara de farinha de trigo', '1 xícara de feijão cozido e batido', '1 xícara de óleo', '1 colher (sopa) de fermento'],
+    modo_preparo: 'Bata as claras em neve e adicione as gemas uma a uma. Acrescente o açúcar, o óleo e o feijão batido. Por último, misture o fermento delicadamente. Asse em forno a 200°C por 40 a 45 minutos.'
+  },
+  {
+    id: 'bolo-de-laranja-com-casca',
+    titulo: 'Bolo de Laranja com Casca',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-68',
+    ingredientes: ['4 laranjas (2 com casca, 2 sem)', '4 ovos', '300 g de açúcar', '1 xícara de óleo', '250 ml de leite', '½ kg de farinha de trigo', '20 g de fermento'],
+    modo_preparo: 'Bata no liquidificador as laranjas, as gemas, o açúcar, o óleo e o leite. Despeje a mistura em uma tigela e adicione a farinha e o fermento. Incorpore as claras em neve delicadamente. Asse em forno pré-aquecido até dourar.'
+  },
+  {
+    id: 'bolo-vitaminado-com-cascas',
+    titulo: 'Bolo Vitaminado com Cascas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-69',
+    ingredientes: ['2 laranjas sem casca', '1 xícara de beterraba com casca', '1 xícara de cenoura com casca', '3 ovos', '1 ½ xícara de açúcar mascavo', '½ xícara de azeite', '3 xícaras de farinha', '2 colheres de chia', '2 colheres de linhaça', '1 colher de fermento'],
+    modo_preparo: 'Bata todos os ingredientes líquidos no liquidificador. Em uma tigela, misture a farinha, as sementes e o fermento. Incorpore a mistura líquida aos secos e asse em forno médio até dourar.'
+  },
+  {
+    id: 'bolo-de-abacate',
+    titulo: 'Bolo de Abacate',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-70',
+    ingredientes: ['4 ovos', '1 xícara de leite de coco', '1 xícara de açúcar ou xilitol', '1 colher de manteiga', '1 abacate médio', '2 xícaras de farinha', '3 colheres de chia', '1 colher de fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos no liquidificador. Em uma tigela, misture a farinha, a chia e o fermento. Incorpore a mistura líquida e asse por 40 a 50 minutos.'
+  },
+  {
+    id: 'bolo-de-abobrinha-e-beterraba',
+    titulo: 'Bolo de Abobrinha e Beterraba',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-71',
+    ingredientes: ['3 abobrinhas raladas', '2 beterrabas', '3 ovos', '½ xícara de azeite', '½ xícara de açúcar', '2 xícaras de farinha de aveia', 'Cacau, canela, baunilha', '1 colher de fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos no liquidificador. Em uma tigela, misture a farinha de aveia, o cacau, a canela, a baunilha e o fermento. Incorpore a mistura líquida e asse por 45 minutos.'
+  },
+  {
+    id: 'bolo-de-verduras',
+    titulo: 'Bolo de Verduras',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-72',
+    ingredientes: ['2 colheres de manteiga', '4 ovos', '2 xícaras de farinha de trigo', '1 copo de leite', 'Mix de verduras cozidas'],
+    modo_preparo: 'Bata no liquidificador a manteiga, os ovos e o leite. Adicione a farinha e, por último, as verduras cozidas. Asse em forno médio até dourar.'
+  },
+  {
+    id: 'sopa-paraguaia-bolo-salgado',
+    titulo: 'Sopa Paraguaia (Bolo Salgado)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-73',
+    ingredientes: ['Flocos de milho', 'Milho verde', 'Queijo', 'Ovos', 'Leite', 'Óleo', 'Cebola', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes em uma tigela. Despeje em uma forma untada e asse em forno a 180°C por 45 a 50 minutos, ou até firmar e dourar.'
+  },
+  {
+    id: 'quase-bolo-quase-pao-de-queijo',
+    titulo: 'Quase Bolo, Quase Pão de Queijo',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-74',
+    ingredientes: ['2 xícaras de polvilho doce', '3 ovos', '½ xícara de óleo', 'Queijo ralado a gosto'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador. Despeje a massa em uma forma untada e asse por cerca de 30 minutos em forno pré-aquecido.'
+  },
+  {
+    id: 'bolo-de-chocolate-fit-caneca',
+    titulo: 'Bolo de Chocolate Fit (Caneca)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-75',
+    ingredientes: ['1 ovo', 'Cacau em pó', 'Leite', 'Adoçante', 'Coco ralado', 'Fermento'],
+    modo_preparo: 'Em uma caneca, misture todos os ingredientes até obter uma massa homogênea. Leve ao micro-ondas por 2 minutos em potência alta.'
+  },
+  {
+    id: 'muffin-fit-de-banana-2',
+    titulo: 'Muffin Fit de Banana',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-76',
+    ingredientes: ['1 ovo', 'Farelo de aveia', 'Farinha de coco', 'Banana', 'Cacau e canela', 'Fermento'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador ou com um garfo. Leve ao micro-ondas por até 5 minutos, ou asse em forno convencional.'
+  },
+  {
+    id: 'bolo-de-proteinas',
+    titulo: 'Bolo de Proteínas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-77',
+    ingredientes: ['6 claras', 'Farinha de aveia', 'Coco ralado', 'Adoçante', 'Limão', 'Fermento'],
+    modo_preparo: 'Bata as claras em neve. Incorpore delicadamente os demais ingredientes. Asse em forno pré-aquecido a 180°C por 30 minutos.'
+  },
+  {
+    id: 'cupcake-de-whey',
+    titulo: 'Cupcake de Whey',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-78',
+    ingredientes: ['Aveia', 'Cacau', 'Whey', 'Clara', 'Leite', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Distribua em forminhas de cupcake e asse por 6 minutos em forno pré-aquecido.'
+  },
+  {
+    id: 'bolo-de-caneca-com-whey',
+    titulo: 'Bolo de Caneca com Whey',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-79',
+    ingredientes: ['Banana', 'Aveia', 'Whey', 'Clara', 'Canela'],
+    modo_preparo: 'Amasse a banana e misture com os demais ingredientes em uma caneca. Leve ao micro-ondas por 2 minutos em potência alta.'
+  },
+  {
+    id: 'bolo-de-milho-de-caneca',
+    titulo: 'Bolo de Milho de Caneca',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-80',
+    ingredientes: ['Milho cozido', 'Fubá', 'Ovos', 'Adoçante', 'Fermento'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador. Despeje em uma caneca e leve ao micro-ondas por 3 minutos em potência alta.'
+  },
+  {
+    id: 'bolo-de-aveia-com-banana',
+    titulo: 'Bolo de Aveia com Banana',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-81',
+    ingredientes: ['Banana madura', 'Ovos', 'Aveia', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Despeje em uma forma untada e asse por 25 a 35 minutos em forno pré-aquecido.'
+  },
+  {
+    id: 'bolo-de-limao-com-mousse',
+    titulo: 'Bolo de Limão com Mousse',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-82',
+    ingredientes: ['Massa de bolo de limão', 'Ovos', 'Margarina', 'Leite', 'Cobertura: Leite condensado', 'Creme de leite', 'Suco de limão'],
+    modo_preparo: 'Prepare e asse o bolo conforme as instruções da embalagem. Para a cobertura, bata o leite condensado, o creme de leite e o suco de limão. Cubra o bolo frio com a mousse.'
+  },
+  {
+    id: 'brownie-nutritivo-de-frutas',
+    titulo: 'Brownie Nutritivo de Frutas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-83',
+    ingredientes: ['Aveia', 'Açúcar mascavo', 'Ovos', 'Leite', 'Cascas de frutas'],
+    modo_preparo: 'Bata as cascas de frutas com o leite no liquidificador. Misture com os demais ingredientes e asse por 40 minutos em forno médio.'
+  },
+  {
+    id: 'bolo-de-inhame',
+    titulo: 'Bolo de Inhame',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-84',
+    ingredientes: ['Inhame cozido', 'Ovos', 'Açúcar mascavo', 'Farinha integral', 'Aveia', 'Coco', 'Fermento'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador, exceto o fermento. Incorpore o fermento delicadamente. Asse em forma untada por 35 minutos.'
+  },
+  {
+    id: 'cupcake-vegano-de-taioba-com-cacau',
+    titulo: 'Cupcake Vegano de Taioba com Cacau',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-85',
+    ingredientes: ['Taioba', 'Linhaça hidratada', 'Farinhas', 'Açúcar mascavo', 'Cacau', 'Fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos no liquidificador. Em uma tigela, misture os secos. Incorpore a mistura líquida e asse em forminhas de cupcake por 30 minutos.'
+  },
+  {
+    id: 'bolo-de-banana-com-aveia-2',
+    titulo: 'Bolo de Banana com Aveia',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-86',
+    ingredientes: ['Banana madura', 'Ovos', 'Aveia', 'Açúcar mascavo', 'Passas', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Despeje em uma forma untada e asse por 25 minutos em forno pré-aquecido.'
+  },
+  {
+    id: 'bolo-de-banana-integral-2',
+    titulo: 'Bolo de Banana Integral',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-87',
+    ingredientes: ['Banana', 'Ovos', 'Açúcar mascavo', 'Farinhas', 'Óleo de coco', 'Fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos no liquidificador. Em uma tigela, misture os secos. Incorpore a mistura líquida e asse por 45 minutos.'
+  },
+  {
+    id: 'bolo-de-banana-sem-leite',
+    titulo: 'Bolo de Banana sem Leite',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-88',
+    ingredientes: ['Banana', 'Ovos', 'Aveia', 'Mel', 'Passas', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Asse em forno pré-aquecido por 30 minutos.'
+  },
+  {
+    id: 'bolo-de-cenoura-com-aveia',
+    titulo: 'Bolo de Cenoura com Aveia',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-89',
+    ingredientes: ['Cenoura', 'Ovos', 'Açúcar mascavo', 'Aveia', 'Fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos no liquidificador. Misture a aveia e o fermento. Asse em forno pré-aquecido por 50 minutos.'
+  },
+  {
+    id: 'bolo-de-amendoas-com-cacau-caneca',
+    titulo: 'Bolo de Amêndoas com Cacau (Caneca)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-90',
+    ingredientes: ['Ovo', 'Farinha de amêndoas', 'Farinha de aveia', 'Cacau', 'Mel', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes em uma caneca. Leve ao micro-ondas por 1 minuto e 30 segundos em potência alta.'
+  },
+  {
+    id: 'bolinho-de-cenoura-funcional',
+    titulo: 'Bolinho de Cenoura Funcional',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-91',
+    ingredientes: ['Cenoura', 'Ovos', 'Farinhas funcionais', 'Açúcar demerara', 'Fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos no liquidificador. Misture com os secos. Asse em forminhas de muffin por 35 minutos.'
+  },
+  {
+    id: 'bolinho-de-banana-microondas',
+    titulo: 'Bolinho de Banana (Micro-ondas)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-92',
+    ingredientes: ['Banana', 'Ovo', 'Farinha de coco', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes em uma caneca. Leve ao micro-ondas por 2 minutos em potência alta.'
+  },
+  {
+    id: 'bolinho-de-cenoura-microondas',
+    titulo: 'Bolinho de Cenoura (Micro-ondas)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-93',
+    ingredientes: ['Cenoura cozida', 'Ovo', 'Aveia', 'Adoçante', 'Fermento'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador. Leve ao micro-ondas em uma caneca por 2 minutos.'
+  },
+  {
+    id: 'bolinho-de-chocolate-microondas',
+    titulo: 'Bolinho de Chocolate (Micro-ondas)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-94',
+    ingredientes: ['Aveia', 'Cacau', 'Ovo', 'Adoçante', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes em uma caneca. Leve ao micro-ondas por 2 minutos em potência alta.'
+  },
+  {
+    id: 'brownie-de-caneca-funcional',
+    titulo: 'Brownie de Caneca Funcional',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-95',
+    ingredientes: ['Ovo', 'Farinha de coco', 'Linhaça', 'Açúcar demerara', 'Cacau', 'Pasta de amendoim', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes em uma caneca. Asse em forno pré-aquecido até que o centro esteja úmido.'
   },
   // Airfryer
   {
@@ -2140,7 +2380,7 @@ export const RECIPES: Recipe[] = [
     titulo: 'Snack de Grão-de-Bico Crocante',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-19',
-    ingredientes: ['1 xícara de grão-de-bico cozido', 'Azeite', 'Sal', 'Páprica defumada', 'Pimenta a gosto'],
+    ingredientes: ['1 xícara de grão-de-bico cozido', 'Azeite', 'Sal', 'Páprica defumada', 'Pimenta'],
     modo_preparo: 'Tempere os grãos de grão-de-bico cozidos e secos. Asse em forno a 180°C ou na airfryer até ficarem crocantes, mexendo na metade do tempo.',
   },
   {
