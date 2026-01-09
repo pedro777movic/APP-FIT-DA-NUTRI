@@ -534,8 +534,8 @@ export const RECIPES: Recipe[] = [
   },
   {
     id: 'omelete-proteica-completa',
-    titulo: 'Omelete Proteica',
-    categoria: 'cafe-da-manha-da-nutri',
+    titulo: 'Omelete Proteica Completa',
+    categoria: 'airfryer-proteica',
     imagem: 'breakfast-62',
     ingredientes: ['3 claras', '1 gema', '1/2 tomate picado', '1/4 cebola picada', 'Salsa a gosto', '2 colheres de frango desfiado', '1 colher de ervilha', '1 fio de manteiga', '1 fatia de queijo branco', '1/2 scoop de whey', '1 colher de farinha de aveia', 'Sal e orégano a gosto'],
     modo_preparo: 'Misture todos os ingredientes em uma tigela até obter uma massa homogênea. Aqueça uma frigideira antiaderente com um fio de manteiga ou azeite e despeje a mistura. Cozinhe em fogo baixo, com a frigideira tampada, até a parte de cima firmar. Dobre ao meio e sirva.',
@@ -551,7 +551,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'muffin-de-pitanga',
     titulo: 'Muffin de Pitanga',
-    categoria: 'cafe-da-manha-da-nutri',
+    categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'breakfast-64',
     ingredientes: ['1 xícara de farinha sem glúten', '1/2 xícara de açúcar demerara', '1 xícara de pitangas frescas sem caroço', '1/4 xícara de óleo de coco', '1/4 xícara de água', '1 colher de chá de extrato de baunilha', '1 colher de sopa de farinha de linhaça', '1 colher de chá de fermento em pó'],
     modo_preparo: 'Pré-aqueça o forno a 180°C. Em uma tigela, misture a farinha, o açúcar, a linhaça e o fermento. Em outra, misture o óleo, a água e a baunilha. Junte as duas misturas e incorpore as pitangas. Distribua em forminhas de muffin e asse por 20-25 minutos.',
@@ -559,7 +559,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'bolo-amendoas-cacau',
     titulo: 'Bolo de Amêndoas e Cacau',
-    categoria: 'cafe-da-manha-da-nutri',
+    categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'breakfast-65',
     ingredientes: ['1 ovo', '2 colheres de sopa de farinha de aveia', '2 colheres de sopa de farinha de amêndoas', '1 colher de sopa de óleo de coco', '1 colher de sopa de cacau em pó', 'Mel ou adoçante a gosto', '1/2 colher de chá de fermento em pó'],
     modo_preparo: 'Em uma caneca grande, misture todos os ingredientes com um garfo até obter uma massa homogênea. Leve ao micro-ondas em potência alta por cerca de 2 a 3 minutos, ou até que o bolo esteja firme ao toque. Sirva na própria caneca.',
@@ -567,7 +567,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'banana-pao-assada',
     titulo: 'Banana-pão Assada',
-    categoria: 'cafe-da-manha-da-nutri',
+    categoria: 'sobremesas-zero',
     imagem: 'breakfast-66',
     ingredientes: ['1 banana-pão madura', '2 claras de ovo', 'Gotas de essência de baunilha', 'Um pouco de água', 'Canela em pó a gosto'],
     modo_preparo: 'Asse a banana-pão com casca em forno a 180°C até ficar macia. Retire a polpa, amasse bem e misture com as claras, a baunilha e a canela. Leve a uma panela com um pouco de água e cozinhe em fogo baixo, mexendo, até engrossar e virar um creme.',
@@ -743,7 +743,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'bolinho-de-banana',
     titulo: 'Bolinho de Banana',
-    categoria: 'cafe-da-manha-da-nutri',
+    categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'breakfast-86',
     ingredientes: ['1 banana madura amassada', '1 ovo', '2 colheres de sopa de farinha de coco ou aveia', 'Canela em pó a gosto', '1/2 colher de chá de fermento em pó'],
     modo_preparo: 'Em uma caneca, misture bem todos os ingredientes com um garfo. Leve ao micro-ondas em potência alta por cerca de 2 a 3 minutos, até que o bolinho esteja firme. Espere amornar um pouco para consumir.',
@@ -751,7 +751,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'bolinho-de-cenoura',
     titulo: 'Bolinho de Cenoura',
-    categoria: 'cafe-da-manha-da-nutri',
+    categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'breakfast-87',
     ingredientes: ['1/2 cenoura pequena cozida e amassada', '1 ovo', '3 colheres de sopa de farelo de aveia', '2 colheres de sopa de água', 'Adoçante a gosto', '1/2 colher de chá de fermento em pó'],
     modo_preparo: 'Bata todos os ingredientes no liquidificador ou mixer até obter uma massa homogênea. Despeje em uma caneca ou forminha de silicone e leve ao micro-ondas por cerca de 3 minutos em potência alta, ou até firmar.',
@@ -1072,7 +1072,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'biscoito-canela-integral',
     titulo: 'Biscoito de Canela Integral',
-    categoria: 'sobremesas-zero',
+    categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'cake-28',
     ingredientes: ['Farinha de aveia ou coco', 'Açúcar mascavo', 'Manteiga ghee ou óleo de coco', 'Canela', 'Sal', 'Leite vegetal', 'Clara', 'Fermento', 'Baunilha'],
     modo_preparo: 'Misture todos os ingredientes até formar uma massa que não grude nas mãos. Abra a massa, corte os biscoitos no formato desejado e asse em forno pré-aquecido até dourarem.',
@@ -2125,7 +2125,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-7',
     ingredientes: ['2 ovos', '2 abobrinhas médias', '1 tomate', 'Sal a gosto'],
-    modo_preparo: 'Bata os ovos com sal, faça omeletes finas, enrole e corte em tiras. Corte a abobrinha em formato de espaguete. Pique o tomate. Misture tudo delicadamente e sirva como uma salada.',
+    modo_preparo: 'Bata os ovos com sal e faça omeletes finas. Deixe esfriar, enrole e corte em tiras. Corte a abobrinha em formato de espaguete e pique o tomate. Misture tudo delicadamente e sirva como uma salada.',
   },
   {
     id: 'nhoque-de-moranga',
@@ -2258,7 +2258,7 @@ export const RECIPES: Recipe[] = [
   {
     id: 'sopa-paraguaia-do-cerrado',
     titulo: 'Sopa Paraguaia do Cerrado',
-    categoria: 'airfryer-proteica',
+    categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'airfryer-24',
     ingredientes: ['1 xícara de farinha de milho', '1 lata de milho verde', '200g de queijo minas padrão em cubos', '3 ovos', '500ml de leite', '1 cebola picada', '1/2 xícara de castanha de baru picada'],
     modo_preparo: 'Misture todos os ingredientes. Despeje em uma forma que caiba na airfryer e asse a 180°C por 30-40 minutos, até firmar e dourar.',
@@ -2541,7 +2541,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-59',
     ingredientes: ['1 peito de frango em cubos', '1 cenoura em cubos', '1 chuchu em cubos', '1 inhame em cubos', 'Folhas de agrião', '1 cebola picada', '1 tomate picado', 'Sal a gosto'],
-    modo_preparo: 'Refogue o frango com cebola e tomate. Adicione os legumes e cozinhe. Bata parte dos legumes para engrossar o caldo e finalize com frango e agrião.',
+    modo_preparo: 'Refogue o frango com cebola e tomate. Junte os legumes e água. Bata parte dos legumes para engrossar o caldo e finalize com frango e agrião.',
   },
   {
     id: 'espaguete-de-abobrinha',
@@ -2870,7 +2870,192 @@ export const RECIPES: Recipe[] = [
     imagem: 'airfryer-27',
     ingredientes: ['Ricota', 'Couve-flor cozida', 'Farinha de linhaça', 'Clara de ovo', 'Sal', 'Orégano', 'Parmesão'],
     modo_preparo: 'Bata todos os ingredientes em um processador até formar uma massa. Modele os salgados no formato desejado, passe no parmesão ralado e asse em forno pré-aquecido até dourar.'
+  },
+  {
+    id: 'hamburguer-de-grao-de-bico-2',
+    titulo: 'Hambúrguer de Grão-de-Bico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-37',
+    ingredientes: ['Grão-de-bico cozido', 'Alho', 'Cebola', 'Salsinha', 'Orégano', 'Limão', 'Farinha de aveia'],
+    modo_preparo: 'Processe todos os ingredientes até obter uma massa. Modele os hambúrgueres e grelhe até dourar dos dois lados.'
+  },
+  {
+    id: 'kibe-vegetariano-proteico-2',
+    titulo: 'Kibe Vegetariano Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-38',
+    ingredientes: ['Trigo para kibe', 'Proteína de soja', 'Aveia', 'Lentilha cozida', 'Alho', 'Cebola', 'Hortelã', 'Azeite'],
+    modo_preparo: 'Hidrate o trigo e a soja. Misture todos os ingredientes, coloque em uma forma untada e asse até dourar.'
+  },
+  {
+    id: 'hamburgão-de-forno-proteico-2',
+    titulo: 'Hamburgão de Forno Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-39',
+    ingredientes: ['Farinha integral', 'Fermento biológico', 'Linhaça', 'Óleo', 'Proteína de soja', 'Tomate', 'Temperos'],
+    modo_preparo: 'Prepare a massa e deixe crescer. Abra, recheie com um hambúrguer vegetal e temperos. Feche e asse até dourar.'
+  },
+  {
+    id: 'guacamole-proteico-2',
+    titulo: 'Guacamole Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-40',
+    ingredientes: ['Abacate', 'Limão', 'Azeite', 'Sal', 'Alho', 'Cebola', 'Pimenta'],
+    modo_preparo: 'Amasse o abacate e misture com os demais ingredientes. Leve à geladeira por alguns minutos antes de servir.'
+  },
+  {
+    id: 'tartar-de-salmao-com-guacamole-2',
+    titulo: 'Tartar de Salmão com Guacamole',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-41',
+    ingredientes: ['Salmão fresco', 'Limão', 'Mostarda', 'Azeite', 'Pimenta', 'Abacate', 'Tomate', 'Cebola'],
+    modo_preparo: 'Pique o salmão e tempere com limão, mostarda e azeite. Prepare a guacamole com o abacate. Sirva o tartar sobre a guacamole.'
+  },
+  {
+    id: 'arroz-de-couve-flor-2',
+    titulo: 'Arroz de Couve-Flor',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-42',
+    ingredientes: ['Couve-flor', 'Manteiga ghee', 'Sal', 'Pimenta'],
+    modo_preparo: 'Pique a couve-flor em pedaços pequenos. Refogue na manteiga ghee até ficar macia. Tempere a gosto.'
+  },
+  {
+    id: 'torta-proteica-de-atum-2',
+    titulo: 'Torta Proteica de Atum',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-43',
+    ingredientes: ['Farinha integral', 'Whey protein', 'Ovos', 'Leite vegetal', 'Óleo de coco', 'Atum', 'Cottage', 'Fermento'],
+    modo_preparo: 'Bata a massa no liquidificador. Despeje metade em uma forma, coloque o recheio de atum e cottage, e cubra com o resto da massa. Asse até dourar.'
+  },
+  {
+    id: 'escondidinho-de-batata-doce-com-frango-2',
+    titulo: 'Escondidinho de Batata Doce com Frango',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-44',
+    ingredientes: ['Batata doce', 'Frango desfiado', 'Molho de tomate', 'Cottage', 'Cebola', 'Alho'],
+    modo_preparo: 'Faça um purê com a batata doce. Refogue o frango com os temperos. Monte em camadas em um refratário e asse para gratinar.'
+  },
+  {
+    id: 'pastel-proteico-de-batata-doce-2',
+    titulo: 'Pastel Proteico de Batata Doce',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-45',
+    ingredientes: ['Batata doce', 'Farinha de aveia', 'Azeite', 'Carne moída', 'Sal'],
+    modo_preparo: 'Prepare a massa com batata doce, farinha e azeite. Recheie, feche e asse na airfryer até dourar.'
+  },
+  {
+    id: 'sopa-de-lentilha-com-carne-2',
+    titulo: 'Sopa de Lentilha com Carne',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-46',
+    ingredientes: ['Lentilha', 'Músculo cozido', 'Couve', 'Couve-flor', 'Cebola', 'Alho'],
+    modo_preparo: 'Refogue os temperos, adicione a lentilha e a carne. Cozinhe e acrescente os vegetais até ficarem macios.'
+  },
+  {
+    id: 'torta-de-tapioca-com-frango-airfryer-2',
+    titulo: 'Torta de Tapioca com Frango (Airfryer)',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-47',
+    ingredientes: ['Tapioca', 'Frango cozido', 'Muçarela', 'Ovos', 'Requeijão light', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes e asse na airfryer até que a torta esteja firme e dourada por cima.'
+  },
+  {
+    id: 'salada-de-bacalhau-com-feijao-fradinho-2',
+    titulo: 'Salada de Bacalhau com Feijão Fradinho',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-48',
+    ingredientes: ['Bacalhau', 'Feijão fradinho', 'Banana-da-terra', 'Cebola roxa', 'Azeite', 'Vinagre', 'Coentro'],
+    modo_preparo: 'Misture todos os ingredientes delicadamente e tempere a gosto. Sirva fria.'
+  },
+  {
+    id: 'nhoque-de-baroa-com-molho-de-salvia-2',
+    titulo: 'Nhoque de Baroa com Molho de Sálvia',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-49',
+    ingredientes: ['Batata baroa', 'Farinha de trigo', 'Gemas', 'Manteiga', 'Sálvia'],
+    modo_preparo: 'Prepare a massa dos nhoques e cozinhe. Finalize salteando na manteiga com folhas de sálvia.'
+  },
+  {
+    id: 'picadinho-a-jardineira-proteico-2',
+    titulo: 'Picadinho à Jardineira Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-50',
+    ingredientes: ['Carne em cubos', 'Cenoura', 'Chuchu', 'Batata doce', 'Vagem', 'Alho', 'Azeite'],
+    modo_preparo: 'Doure a carne e os temperos. Adicione os legumes e cozinhe em fogo baixo até tudo ficar macio.'
+  },
+  {
+    id: 'empadao-de-grao-de-bico-proteico-2',
+    titulo: 'Empadão de Grão-de-Bico Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-51',
+    ingredientes: ['Grão-de-bico cozido', 'Azeite', 'Sal', 'Frango desfiado', 'Cebola', 'Molho de tomate', 'Milho'],
+    modo_preparo: 'Bata o grão-de-bico para a massa. Monte o empadão com o recheio e asse até dourar.'
+  },
+  {
+    id: 'yakisoba-vegetariano-com-pancs-2',
+    titulo: 'Yakisoba Vegetariano com Pancs',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-37',
+    ingredientes: ['Macarrão para yakisoba', 'Cogumelos', 'Cenoura', 'Brócolis', 'Couve-flor', 'Acelga', 'Ora-pro-nóbis', 'Shoyu', 'Amido de milho'],
+    modo_preparo: 'Cozinhe o macarrão. Refogue os legumes e cogumelos, adicione o molho e cozinhe até engrossar. Misture tudo.'
+  },
+  {
+    id: 'lasanha-de-abobrinha-com-queijo-branco-2',
+    titulo: 'Lasanha de Abobrinha com Queijo Branco',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-38',
+    ingredientes: ['Abobrinha', 'Queijo branco', 'Farinha de trigo', 'Ovos', 'Cheiro-verde', 'Temperos'],
+    modo_preparo: 'Monte camadas de abobrinha, massa fina e queijo. Asse até gratinar.'
+  },
+  {
+    id: 'gratinado-de-espinafre-2',
+    titulo: 'Gratinado de Espinafre',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-39',
+    ingredientes: ['Espinafre', 'Ovos', 'Farinha integral', 'Leite desnatado', 'Alho', 'Cebola', 'Queijo ralado'],
+    modo_preparo: 'Prepare um creme, misture com espinafre e ovos. Cubra com queijo e gratine.'
+  },
+  {
+    id: 'cuscuz-de-camarao-proteico-2',
+    titulo: 'Cuscuz de Camarão Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-40',
+    ingredientes: ['Camarão', 'Farinha de milho', 'Azeite', 'Cebola', 'Ervilha', 'Azeitona', 'Molho de tomate', 'Cheiro-verde'],
+    modo_preparo: 'Refogue o camarão e os demais ingredientes. Junte a farinha de milho, modele e cozinhe no vapor.'
+  },
+  {
+    id: 'arroz-de-couve-flor-funcional-2',
+    titulo: 'Arroz de Couve-flor Funcional',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-41',
+    ingredientes: ['Couve-flor', 'Azeite', 'Alho', 'Cebola', 'Água', 'Açafrão', 'Sal'],
+    modo_preparo: 'Processe a couve-flor. Refogue com temperos, adicione água e cozinhe até secar.'
+  },
+  {
+    id: 'chili-vegano-proteico-2',
+    titulo: 'Chili Vegano Proteico',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-42',
+    ingredientes: ['Cebola', 'Tomate', 'Alho', 'Cebolinha', 'Coentro', 'Extrato de tomate', 'Feijão', 'Proteína de soja', 'Azeite', 'Temperos'],
+    modo_preparo: 'Hidrate a soja e refogue com os demais ingredientes até o molho encorpar.'
+  },
+  {
+    id: 'coxinha-assada-de-batata-doce-2',
+    titulo: 'Coxinha Assada de Batata-doce',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-43',
+    ingredientes: ['Batata-doce', 'Farinha de aveia', 'Frango desfiado', 'Sal', 'Pimenta', 'Alho'],
+    modo_preparo: 'Faça a massa com a batata e farinha, recheie com o frango e asse até dourar.'
+  },
+  {
+    id: 'escondidinho-de-carne-moida-2',
+    titulo: 'Escondidinho de Carne Moída',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-44',
+    ingredientes: ['Carne moída', 'Alho', 'Cebola', 'Tomate', 'Mandioca', 'Leite', 'Manteiga', 'Queijo ralado'],
+    modo_preparo: 'Prepare o purê de mandioca e o recheio de carne. Monte em camadas e gratine no forno.'
   }
 ];
+
 
 
