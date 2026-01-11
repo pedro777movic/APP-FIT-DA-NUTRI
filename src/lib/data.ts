@@ -21,6 +21,7 @@ export type Category = {
   Icon: LucideIcon;
   email: string;
   senha: string;
+  checkoutUrl: string;
 };
 
 export const CATEGORIES: Category[] = [
@@ -31,6 +32,7 @@ export const CATEGORIES: Category[] = [
     Icon: Coffee,
     email: 'cafe@fit.com',
     senha: 'CAFEFIT1',
+    checkoutUrl: 'https://pay.cakto.com.br/3fmx6e8_558568',
   },
   {
     slug: 'sobremesas-zero',
@@ -39,6 +41,7 @@ export const CATEGORIES: Category[] = [
     Icon: IceCream,
     email: 'sobremesas@zero.com',
     senha: 'ZEROCAFE2',
+    checkoutUrl: 'https://pay.cakto.com.br/b5xw5as_558897',
   },
   {
     slug: 'bolos-para-comer-sem-culpa',
@@ -47,6 +50,7 @@ export const CATEGORIES: Category[] = [
     Icon: CakeSlice,
     email: 'bolos@semculpa.com',
     senha: 'BOLOFIT3',
+    checkoutUrl: 'https://pay.cakto.com.br/7w2nrt3_558930',
   },
   {
     slug: 'airfryer-proteica',
@@ -55,6 +59,7 @@ export const CATEGORIES: Category[] = [
     Icon: Flame,
     email: 'Airfryer@proteica.com',
     senha: 'PROTEINAFIT4',
+    checkoutUrl: 'https://pay.cakto.com.br/pu44qb2_558933',
   },
 ];
 
@@ -790,12 +795,36 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Bata as bananas congeladas com o whey protein e adoçante até obter uma mistura cremosa. Leve ao freezer por pelo menos 4 horas para firmar.',
   },
   {
+    id: 'bolo-de-beterraba-cobertura-chocolate',
+    titulo: 'Bolo de Beterraba com Cobertura de Chocolate',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-66',
+    ingredientes: ['1 xícara (chá) de suco de laranja', '4 xícaras (chá) de beterraba picada', '3 ovos', '2 xícaras (chá) de açúcar', '¾ xícara (chá) de óleo', '3 xícaras (chá) de farinha de trigo (ou integral)', '1 colher (sopa) de fermento', 'Para a cobertura:', '1 colher (sopa) de manteiga', '3 colheres (sopa) de cacau ou achocolatado', '3 colheres (sopa) de açúcar', '1 xícara (chá) de leite'],
+    modo_preparo: 'Bata a beterraba com o suco de laranja no liquidificador. Em uma tigela, misture as gemas, o açúcar e o óleo, depois adicione a mistura de beterraba. Incorpore a farinha, as claras em neve e o fermento. Asse em forno médio pré-aquecido. Para a calda, cozinhe todos os ingredientes até engrossar e cubra o bolo ainda quente.'
+  },
+  {
+    id: 'bolo-de-feijao',
+    titulo: 'Bolo de Feijão',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-67',
+    ingredientes: ['4 ovos', '2 xícaras de açúcar', '1 ½ xícara de farinha de trigo', '1 xícara de feijão cozido e batido', '1 xícara de óleo', '1 colher (sopa) de fermento'],
+    modo_preparo: 'Bata as claras em neve e reserve. Bata as gemas com o açúcar, óleo e o feijão batido. Adicione a farinha e, por último, incorpore delicadamente as claras em neve e o fermento. Asse a 200°C por 40-45 minutos.'
+  },
+  {
+    id: 'torta-de-aveia',
+    titulo: 'Torta de Aveia',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-81',
+    ingredientes: ['2 ovos', '1 xícara de leite em pó', '1/2 xícara de açúcar', '1 colher de sopa de manteiga', '1 xícara de aveia em flocos', '1 colher de chá de canela em pó', '1 colher de sopa de fermento'],
+    modo_preparo: 'Misture bem todos os ingredientes até formar uma massa homogênea. Pressione a massa no fundo de uma forma de torta. Asse em forno pré-aquecido a 180°C até dourar. Sirva com uma cobertura de chocolate se desejar.'
+  },
+  {
     id: 'creme-de-laranja-e-cenoura',
     titulo: 'Creme de Laranja e Cenoura',
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 cenoura', '200ml de água', '100ml de suco de laranja', '2 colheres de sopa de amido de milho', '3 colheres de sopa de açúcar'],
-    modo_preparo: 'Bata a cenoura cozida com a água e o suco. Leve ao fogo com o amido e açúcar, mexendo até engrossar. Deixe esfriar e sirva gelado.',
+    modo_preparo: 'Cozinhe a cenoura e bata no liquidificador com a água e o suco de laranja. Leve a mistura ao fogo com o amido de milho e o açúcar, mexendo constantemente até engrossar. Deixe esfriar e sirva gelado.'
   },
   {
     id: 'doce-de-pao-dormido',
@@ -803,7 +832,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['3 pães amanhecidos fatiados', '1 maçã fatiada', 'Uvas-passas a gosto', '2 ovos', '200ml de leite', '2 colheres de sopa de açúcar', 'Gotas de baunilha', 'Canela em pó'],
-    modo_preparo: 'Intercale camadas de pão, maçã e passas em um refratário. Despeje sobre eles uma mistura de ovos, leite, açúcar e baunilha. Refrigere, polvilhe canela e asse até dourar.',
+    modo_preparo: 'Em um refratário, intercale camadas de pão fatiado, maçã e uvas-passas. Em uma tigela, bata os ovos com o leite, açúcar e baunilha, e despeje sobre os pães. Leve à geladeira por 30 minutos, polvilhe canela e asse até dourar.'
   },
   {
     id: 'arroz-doce-com-especiarias',
@@ -811,7 +840,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de arroz cozido', '500ml de leite', '1/2 xícara de açúcar', 'Canela em pau', 'Cravos-da-índia', '1 rodela de gengibre', 'Noz-moscada', 'Açafrão', 'Raspas de limão'],
-    modo_preparo: 'Junte o arroz cozido com leite, açúcar e especiarias. Cozinhe em fogo baixo, mexendo ocasionalmente, até o creme engrossar. Sirva quente ou frio.',
+    modo_preparo: 'Em uma panela, junte o arroz já cozido com o leite, açúcar e todas as especiarias. Cozinhe em fogo baixo, mexendo ocasionalmente, até o creme engrossar e ficar com a consistência desejada. Sirva quente ou frio.'
   },
   {
     id: 'compota-da-entrecasca-de-laranja',
@@ -819,7 +848,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['Parte branca da casca de 2 laranjas', '1 colher de chá de bicarbonato de sódio', '1 xícara de açúcar', 'Canela em pau', 'Cravos-da-índia'],
-    modo_preparo: 'Ferva a parte branca da casca com bicarbonato para retirar o amargor. Cozinhe em uma calda de açúcar com especiarias até as cascas ficarem macias.',
+    modo_preparo: 'Para retirar o amargor, ferva a parte branca da casca com bicarbonato de sódio. Em seguida, cozinhe as cascas em uma calda de açúcar com especiarias até que fiquem macias e translúcidas.'
   },
   {
     id: 'trufa-de-banana-com-chocolate',
@@ -827,7 +856,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['2 bananas nanicas maduras', '1 colher de sopa de açúcar', '50g de chocolate 70%', '1 colher de chá de manteiga', 'Canela a gosto', 'Cacau em pó para enrolar'],
-    modo_preparo: 'Cozinhe a banana amassada com açúcar, chocolate, manteiga e canela até desgrudar do fundo da panela. Deixe esfriar, modele bolinhas e passe no cacau.',
+    modo_preparo: 'Cozinhe a banana amassada com açúcar, chocolate, manteiga e canela até que a mistura desgrude do fundo da panela. Deixe a massa esfriar, modele pequenas bolinhas e passe no cacau em pó para finalizar.'
   },
   {
     id: 'sorvete-de-banana-simples',
@@ -835,7 +864,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['3 bananas maduras congeladas', 'Canela em pó a gosto', 'Um pouco de água (se necessário)'],
-    modo_preparo: 'Bata as bananas congeladas com canela em um processador potente, adicionando água se necessário, até obter uma consistência cremosa. Sirva imediatamente.',
+    modo_preparo: 'Bata as bananas congeladas com canela em um processador potente, adicionando um pouco de água se necessário para ajudar a bater, até obter uma consistência cremosa. Sirva imediatamente para um sorvete mais macio.'
   },
   {
     id: 'brigadeiro-fit',
@@ -843,7 +872,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de leite em pó desnatado', '1/2 xícara de água', '1 colher de sopa de chocolate em pó 80%', 'Adoçante a gosto', 'Frutas picadas para servir'],
-    modo_preparo: 'Misture bem o leite em pó, a água, o chocolate e o adoçante até formar um creme. Sirva como calda sobre frutas frescas picadas.',
+    modo_preparo: 'Misture bem o leite em pó, a água, o chocolate em pó e o adoçante até formar um creme homogêneo. Sirva como uma calda saborosa sobre frutas frescas picadas de sua preferência.'
   },
   {
     id: 'pudim-de-chia',
@@ -851,7 +880,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['3 colheres de sopa de sementes de chia', '200ml de leite vegetal', 'Frutas picadas a gosto (manga, morango)'],
-    modo_preparo: 'Misture as sementes de chia com o leite vegetal em um pote. Leve à geladeira por pelo menos 4 horas para formar um pudim. Sirva com frutas por cima.',
+    modo_preparo: 'Em um pote, misture as sementes de chia com o leite vegetal. Leve à geladeira por pelo menos 4 horas, ou de um dia para o outro, para formar um pudim consistente. Sirva com frutas frescas por cima.'
   },
   {
     id: 'brigadeiro-surpresa',
@@ -859,7 +888,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 lata de leite condensado light', '1 xícara de biomassa de banana verde', '2 colheres de sopa de cacau em pó', '1/4 xícara de leite desnatado'],
-    modo_preparo: 'Leve todos os ingredientes ao fogo médio, mexendo continuamente até a mistura desgrudar do fundo da panela. Deixe esfriar antes de modelar.',
+    modo_preparo: 'Leve todos os ingredientes ao fogo médio, mexendo continuamente com uma espátula, até que a mistura desgrude completamente do fundo da panela. Deixe esfriar completamente antes de modelar os docinhos.'
   },
   {
     id: 'gelatina-de-whey',
@@ -867,7 +896,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 pacote de gelatina diet (sabor de sua preferência)', '1 pote de iogurte desnatado', 'Cubos de gelo', '1 scoop de whey protein (sabor que combine com a gelatina)'],
-    modo_preparo: 'Prepare a gelatina com menos água. No liquidificador, bata a gelatina com iogurte, gelo e whey protein. Leve para gelar até firmar.',
+    modo_preparo: 'Prepare a gelatina conforme as instruções, mas usando menos água para um sabor mais concentrado. No liquidificador, bata a gelatina preparada com o iogurte, os cubos de gelo e o whey protein. Leve para gelar até firmar.'
   },
   {
     id: 'salada-de-frutas-especial',
@@ -875,7 +904,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1/2 mamão papaia em cubos', '1 banana em rodelas', '1 xícara de morangos picados', 'Gomos de 1 laranja', '1 kiwi em rodelas', 'Suco de 1 laranja para regar'],
-    modo_preparo: 'Junte todas as frutas picadas em uma tigela. Regue com o suco de laranja para realçar o sabor e evitar que escureçam. Sirva gelado.',
+    modo_preparo: 'Junte todas as frutas picadas em uma tigela grande. Regue com o suco de laranja para realçar o sabor e evitar que as frutas escureçam. Sirva gelado para uma sobremesa refrescante.'
   },
   {
     id: 'sorvete-de-banana-proteico',
@@ -883,7 +912,15 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['2 bananas maduras e congeladas', '1 scoop de whey protein (sabor baunilha ou chocolate)'],
-    modo_preparo: 'Em um processador, bata as bananas congeladas até obter uma base cremosa. Adicione o whey protein e bata novamente para incorporar. Sirva imediatamente.',
+    modo_preparo: 'Em um processador de alimentos, bata as bananas congeladas até obter uma base cremosa e lisa. Adicione o whey protein e bata novamente para incorporar completamente. Sirva imediatamente como um sorvete macio.'
+  },
+  {
+    id: 'cookies-de-coco-e-castanhas',
+    titulo: 'Cookies de Coco e Castanhas',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-29',
+    ingredientes: ['1 xícara de castanhas', '1/2 xícara de farinha de coco', 'Adoçante a gosto', '1/2 colher de chá de bicarbonato de sódio', '1/4 xícara de leite de coco', '50g de chocolate amargo picado'],
+    modo_preparo: 'Misture todos os ingredientes até formar uma massa. Modele pequenos discos e asse em forno pré-aquecido a 180°C até que os cookies fiquem dourados e firmes.'
   },
   {
     id: 'beijinho-fit',
@@ -891,7 +928,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de leite em pó desnatado', '2 colheres de sopa de óleo de coco', 'Adoçante culinário a gosto', 'Água quente (o suficiente para dar ponto)', 'Coco ralado sem açúcar para enrolar'],
-    modo_preparo: 'Bata o leite em pó, óleo de coco e adoçante, adicionando água quente aos poucos até formar uma massa. Modele bolinhas, passe no coco ralado e asse levemente.',
+    modo_preparo: 'Bata o leite em pó, o óleo de coco e o adoçante, adicionando água quente aos poucos até formar uma massa moldável. Modele pequenas bolinhas, passe no coco ralado e asse levemente para firmar.'
   },
   {
     id: 'brigadeiro-de-colher-funcional',
@@ -899,7 +936,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de biomassa de banana verde', '2 colheres de sopa de xilitol', '1 colher de sopa de óleo de coco', '50g de chocolate 70%', '1/4 xícara de leite de coco', '1 pitada de sal'],
-    modo_preparo: 'Misture todos os ingredientes e leve ao fogo baixo. Mexa continuamente até o chocolate derreter e a mistura atingir consistência cremosa.',
+    modo_preparo: 'Misture todos os ingredientes em uma panela e leve ao fogo baixo. Mexa continuamente até o chocolate derreter e a mistura atingir uma consistência cremosa, ideal para comer de colher.'
   },
   {
     id: 'trufa-funcional',
@@ -907,7 +944,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1/2 xícara de farelo de aveia', '2 colheres de sopa de açúcar mascavo', '2 colheres de sopa de cacau em pó', '3 colheres de sopa de pasta de amendoim'],
-    modo_preparo: 'Misture bem todos os ingredientes até formar uma massa densa. Modele pequenas bolinhas, passe no cacau em pó e leve à geladeira para firmar.',
+    modo_preparo: 'Misture bem todos os ingredientes até formar uma massa densa e homogênea. Modele pequenas bolinhas com as mãos, passe no cacau em pó para cobrir e leve à geladeira para firmar antes de servir.'
   },
   {
     id: 'pe-de-moleque-fitness',
@@ -915,7 +952,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['100g de chocolate amargo 70%', '1/2 xícara de amendoim torrado sem sal', '2 biscoitos de arroz integrais picados'],
-    modo_preparo: 'Derreta o chocolate, misture com amendoim e biscoito de arroz picado. Espalhe em uma superfície com papel manteiga, nivele e leve à geladeira para endurecer.',
+    modo_preparo: 'Derreta o chocolate em banho-maria ou no micro-ondas. Misture com o amendoim e o biscoito de arroz picado. Espalhe a mistura em uma superfície com papel manteiga, nivele e leve à geladeira para endurecer.'
   },
   {
     id: 'banoffee-no-pote',
@@ -923,7 +960,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['4 bolachas integrais trituradas', '1/2 pote de doce de leite sem açúcar', '1 banana em rodelas', '1/2 pote de iogurte grego natural', 'Canela em pó para polvilhar'],
-    modo_preparo: 'Em um pote de vidro, monte camadas na ordem: farofa de bolacha, doce de leite, banana e iogurte grego. Finalize com canela e sirva gelado.',
+    modo_preparo: 'Em um pote de vidro, monte camadas na seguinte ordem: farofa de bolacha, doce de leite, rodelas de banana e, por fim, o iogurte grego. Finalize polvilhando canela por cima e sirva gelado.'
   },
   {
     id: 'mousse-de-leite-em-po',
@@ -931,7 +968,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de leite em pó desnatado', '1 xícara de água gelada', '1 pacote de suco em pó zero açúcar (sabor maracujá)'],
-    modo_preparo: 'Bata o leite em pó com a água gelada no liquidificador até ficar cremoso. Adicione o suco em pó, bata novamente e leve para gelar até firmar.',
+    modo_preparo: 'Bata o leite em pó com a água gelada no liquidificador até obter uma mistura cremosa. Adicione o suco em pó e bata novamente para incorporar. Leve para gelar até firmar.'
   },
   {
     id: 'pudim-de-chocolate-com-whey',
@@ -939,7 +976,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['200ml de água', '2 colheres de sopa de cacau em pó', '3 colheres de sopa de leite em pó desnatado', '1 pacote de pudim diet sabor chocolate', '1 scoop de whey protein de chocolate'],
-    modo_preparo: 'Dissolva todos os ingredientes na água fria. Leve ao fogo baixo, mexendo até ferver. Cozinhe por mais um minuto, despeje em uma forma e leve para gelar.',
+    modo_preparo: 'Dissolva todos os ingredientes na água fria, mexendo bem. Leve ao fogo baixo, mexendo continuamente até ferver. Cozinhe por mais um minuto, despeje em uma forma e leve para gelar.'
   },
   {
     id: 'cheesecake-anabolico',
@@ -947,7 +984,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['200g de cream cheese light', '1 pote de iogurte desnatado', '2 ovos', 'Adoçante a gosto', '1 scoop de whey protein de baunilha', 'Gotas de baunilha'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador. Asse em banho-maria, primeiro em forno alto e depois em baixo. Deixe esfriar dentro do forno e leve à geladeira.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador. Asse em banho-maria, primeiro em forno alto por 15 minutos e depois em forno baixo por mais 45 minutos. Deixe esfriar dentro do forno e leve à geladeira.'
   },
   {
     id: 'cookie-de-grao-de-bico',
@@ -955,7 +992,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de grão-de-bico cozido', '2 colheres de sopa de azeite', '1 colher de sopa de chia', '1/2 xícara de farinha de arroz', 'Temperos a gosto (páprica, orégano)'],
-    modo_preparo: 'Processe o grão-de-bico até virar uma pasta. Misture os demais ingredientes, modele os cookies e asse em forno pré-aquecido a 180°C até ficarem firmes.',
+    modo_preparo: 'Processe o grão-de-bico até virar uma pasta. Misture os demais ingredientes, modele os cookies e asse em forno pré-aquecido a 180°C até ficarem firmes e levemente dourados.'
   },
   {
     id: 'palitinhos-crocantes',
@@ -963,7 +1000,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-28',
     ingredientes: ['1 xícara de batata baroa cozida', '1/2 xícara de cenoura cozida', '1/4 xícara de azeite', '1 xícara de polvilho azedo', '1/4 xícara de chia', 'Sal a gosto'],
-    modo_preparo: 'Amasse os legumes cozidos e misture com os demais ingredientes até formar uma massa. Modele palitos finos, coloque em uma assadeira e asse até ficarem crocantes.',
+    modo_preparo: 'Amasse os legumes cozidos e misture com os demais ingredientes até formar uma massa. Modele palitos finos, coloque em uma assadeira e asse em forno pré-aquecido até ficarem crocantes.'
   },
   {
     id: 'danete-cremoso-de-chocolate',
@@ -971,7 +1008,23 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['200ml de leite de coco', '2 colheres de sopa de cacau em pó', '2 colheres de sopa de chocolate em pó', '1/2 abacate congelado', '1 colher de sopa de chia', 'Adoçante a gosto'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador até obter um creme aveludado. Sirva gelado, decorado com raspas de chocolate 70% se desejar.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador até obter um creme aveludado e homogêneo. Sirva gelado, decorado com raspas de chocolate 70% se desejar.'
+  },
+  {
+    id: 'biscoitinhos-de-banana-e-aveia',
+    titulo: 'Biscoitinhos de Banana e Aveia',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-33',
+    ingredientes: ['2 bananas maduras', '1 xícara de aveia em flocos', 'Canela em pó a gosto'],
+    modo_preparo: 'Amasse bem as bananas e misture com a aveia e a canela. Modele pequenos biscoitos e asse em forno pré-aquecido a 180°C até dourarem.'
+  },
+  {
+    id: 'sementinhas-de-abobora-torradas',
+    titulo: 'Sementinhas de Abóbora Torradas',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-41',
+    ingredientes: ['Sementes de 1 abóbora', 'Azeite', 'Sal', 'Pimenta-preta a gosto'],
+    modo_preparo: 'Lave e seque bem as sementes. Misture com azeite e temperos e espalhe em uma assadeira. Asse em forno baixo, mexendo ocasionalmente, até ficarem crocantes e douradas.'
   },
   {
     id: 'barrinhas-de-cereal-vapt-vupt',
@@ -979,7 +1032,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-22',
     ingredientes: ['2 bananas maduras', '1 xícara de farinha de aveia', '2 colheres de sopa de açúcar mascavo', '1/2 xícara de castanhas trituradas', '1 colher de sopa de farinha de linhaça', '1/4 xícara de coco ralado'],
-    modo_preparo: 'Amasse bem as bananas e misture com todos os outros ingredientes. Pressione a massa em uma forma untada, asse em forno médio e corte as barrinhas ainda morno.',
+    modo_preparo: 'Amasse bem as bananas e misture com todos os outros ingredientes. Pressione a massa em uma forma untada, asse em forno médio e corte as barrinhas ainda morno.'
   },
   {
     id: 'biscoitinhos-de-mel',
@@ -987,7 +1040,55 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-32',
     ingredientes: ['1 ovo', '3 colheres de sopa de óleo de coco', '3 colheres de sopa de mel', '2 colheres de sopa de açúcar mascavo', '1/2 colher de chá de fermento', '1 colher de sopa de linhaça', '1/2 xícara de polvilho doce', '1/2 xícara de amido de milho'],
-    modo_preparo: 'Misture os líquidos com o açúcar. Incorpore os ingredientes secos aos poucos até formar uma massa. Modele pequenas bolinhas e asse em forno pré-aquecido até dourarem.',
+    modo_preparo: 'Misture os líquidos com o açúcar. Incorpore os ingredientes secos aos poucos até formar uma massa. Modele pequenas bolinhas e asse em forno pré-aquecido até dourarem.'
+  },
+  {
+    id: 'pao-de-queijo-de-mandioquinha',
+    titulo: 'Pão de Queijo de Mandioquinha',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-19',
+    ingredientes: ['1 xícara de polvilho azedo', '1/2 xícara de polvilho doce', '1/4 xícara de azeite', '2 xícaras de mandioquinha cozida e amassada', '1/4 xícara de água', 'Sal e ervas a gosto'],
+    modo_preparo: 'Escalde os polvilhos com água e azeite quentes. Misture o purê de mandioquinha e os temperos. Modele bolinhas e asse até dourarem.'
+  },
+  {
+    id: 'biscoitinhos-de-aveia-com-creme-de-cacau',
+    titulo: 'Biscoitinhos de Aveia com Creme de Cacau',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-36',
+    ingredientes: ['1 xícara de farinha integral', '1/2 xícara de farelo de aveia', '1/4 xícara de óleo de coco', '2 colheres de sopa de açúcar demerara', '1 ovo', '1/2 colher de chá de fermento', 'Recheio: 1 xícara de avelã torrada, 1/4 xícara de chocolate 70%, 1 colher de sopa de leite vegetal'],
+    modo_preparo: 'Prepare a massa dos biscoitos, asse e deixe esfriar. Para o recheio, bata a avelã com o chocolate derretido e o leite até obter um creme. Recheie os biscoitos.'
+  },
+  {
+    id: 'muffin-de-ricota-com-tomatinho',
+    titulo: 'Muffin de Ricota com Tomatinho',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-17',
+    ingredientes: ['2 ovos', '3 colheres de sopa de farinha de aveia', '1 colher de chá de fermento', 'Tomate cereja', 'Queijo cottage', 'Sal a gosto'],
+    modo_preparo: 'Misture os ingredientes da massa. Distribua em forminhas, adicione um tomate cereja e uma colher de cottage em cada uma. Asse até dourar.'
+  },
+  {
+    id: 'chips-de-legumes',
+    titulo: 'Chips de Legumes',
+    categoria: 'sobremesas-zero',
+    imagem: 'airfryer-6',
+    ingredientes: ['1 beterraba', '1 batata-doce', 'Azeite', 'Sal', 'Pimenta a gosto'],
+    modo_preparo: 'Fatie os legumes bem finos. Tempere com azeite, sal e pimenta. Distribua em uma assadeira sem sobrepor e asse em forno baixo até ficarem crocantes.'
+  },
+  {
+    id: 'panqueca-doce-de-forno',
+    titulo: 'Panqueca Doce de Forno',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-61',
+    ingredientes: ['1 xícara de farinha de arroz', '1 colher de sopa de azeite', '1 colher de sopa de gergelim', '1/2 xícara de água morna', '1 banana em rodelas', 'Mel a gosto'],
+    modo_preparo: 'Prepare a massa da panqueca e asse em uma forma redonda para criar a base. Finalize com as rodelas de banana e um fio de mel por cima.'
+  },
+  {
+    id: 'abacate-com-limao-e-mel',
+    titulo: 'Abacate com Limão e Mel',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-70',
+    ingredientes: ['1/2 abacate', 'Suco de 1/2 limão', '1 colher de chá de mel'],
+    modo_preparo: 'Corte o abacate ao meio e retire o caroço. Finalize regando com o suco de limão e o mel. Sirva imediatamente.'
   },
   {
     id: 'sagu-funcional-de-chia-com-alfarroba',
@@ -995,7 +1096,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-25',
     ingredientes: ['3 colheres de sopa de chia', '200ml de leite de coco', '1 colher de sopa de alfarroba em pó', '1 colher de sopa de açúcar mascavo'],
-    modo_preparo: 'Misture todos os ingredientes em uma tigela. Deixe hidratar na geladeira por pelo menos 2 horas, mexendo ocasionalmente, até formar um gel consistente. Sirva gelado.',
+    modo_preparo: 'Misture todos os ingredientes em uma tigela. Deixe hidratar na geladeira por pelo menos 2 horas, mexendo ocasionalmente, até formar um gel consistente. Sirva gelado.'
   },
   {
     id: 'banana-quentinha-com-canela',
@@ -1003,7 +1104,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-7',
     ingredientes: ['1 banana', 'Canela em pó a gosto'],
-    modo_preparo: 'Corte a banana ao meio no sentido do comprimento. Polvilhe canela a gosto e aqueça no micro-ondas por 30 a 40 segundos, ou em uma frigideira antiaderente.',
+    modo_preparo: 'Corte a banana ao meio no sentido do comprimento. Polvilhe canela a gosto e aqueça no micro-ondas por 30 a 40 segundos, ou em uma frigideira antiaderente.'
   },
   {
     id: 'nuts-caramelizadas',
@@ -1011,7 +1112,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-41',
     ingredientes: ['1 xícara de amêndoas', '1 xícara de castanha-de-caju', '3 colheres de sopa de açúcar mascavo', '1 colher de sopa de manteiga', '1 colher de chá de canela', '2 colheres de sopa de amaranto em flocos'],
-    modo_preparo: 'Derreta o açúcar e a manteiga em uma panela. Junte as nuts e a canela, mexendo até caramelizar. Retire do fogo, misture o amaranto e espalhe para esfriar.',
+    modo_preparo: 'Derreta o açúcar e a manteiga em uma panela. Junte as nuts e a canela, mexendo até caramelizar. Retire do fogo, misture o amaranto e espalhe para esfriar.'
   },
   {
     id: 'pudim-de-manga',
@@ -1019,7 +1120,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-24',
     ingredientes: ['200ml de leite de coco', '1 manga madura', '3 colheres de sopa de chia', '1 colher de chá de baunilha'],
-    modo_preparo: 'Bata metade do leite de coco com a manga. Misture o restante do leite com a chia e a baunilha e deixe hidratar. Monte em taças, alternando as camadas dos cremes.',
+    modo_preparo: 'Bata metade do leite de coco com a manga. Misture o restante do leite com a chia e a baunilha e deixe hidratar. Monte em taças, alternando as camadas dos cremes.'
   },
   {
     id: 'maca-assada-com-canela',
@@ -1027,7 +1128,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-50',
     ingredientes: ['1 maçã', 'Canela em pó', '1 canela em pau'],
-    modo_preparo: 'Retire o miolo da maçã. Recheie a cavidade com canela em pó e espete um pau de canela. Embrulhe em papel alumínio e asse em forno médio até ficar macia.',
+    modo_preparo: 'Retire o miolo da maçã. Recheie a cavidade com canela em pó e espete um pau de canela. Embrulhe em papel alumínio e asse em forno médio até ficar macia.'
   },
   {
     id: 'mingau-delicia-de-coco',
@@ -1035,7 +1136,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['3 colheres de sopa de aveia ou quinoa', '1 colher de sopa de amaranto', '200ml de leite de coco', 'Canela a gosto', '1/2 banana ou ameixa seca picada'],
-    modo_preparo: 'Cozinhe a aveia (ou quinoa) com amaranto, leite de coco e canela em fogo baixo, mexendo sempre, até engrossar. Sirva com a fruta de sua escolha.',
+    modo_preparo: 'Cozinhe a aveia (ou quinoa) com amaranto, leite de coco e canela em fogo baixo, mexendo sempre, até engrossar. Sirva com a fruta de sua escolha.'
   },
   {
     id: 'tortinha-de-chocolate-e-nuts',
@@ -1043,7 +1144,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-11',
     ingredientes: ['1 xícara de amêndoas', '1/2 xícara de tâmaras sem caroço', '1 colher de sopa de chia', '1 colher de sopa de óleo de coco', '100g de chocolate 70%', '100ml de leite de coco'],
-    modo_preparo: 'Processe amêndoas, tâmaras e chia para a base e pressione em forminhas. Derreta o chocolate com leite de coco para o recheio. Recheie as bases e refrigere.',
+    modo_preparo: 'Processe amêndoas, tâmaras e chia para a base e pressione em forminhas. Derreta o chocolate com leite de coco para o recheio. Recheie as bases e refrigere.'
   },
   {
     id: 'docinho-de-frutas-secas',
@@ -1051,7 +1152,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1/2 xícara de tâmaras', '1/4 xícara de banana passa', '1/4 xícara de damasco', '1/4 xícara de ameixa', '1/2 xícara de castanhas', '1 colher de sopa de alfarroba', '1 colher de sopa de óleo de coco'],
-    modo_preparo: 'Processe todos os ingredientes até formar uma massa homogênea. Modele pequenas bolinhas e leve à geladeira por alguns minutos para firmar.',
+    modo_preparo: 'Processe todos os ingredientes até formar uma massa homogênea. Modele pequenas bolinhas e leve à geladeira por alguns minutos para firmar.'
   },
   {
     id: 'sorvete-de-banana-com-cacau',
@@ -1059,7 +1160,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-7',
     ingredientes: ['2 bananas congeladas', '1 colher de sopa de cacau em pó', '1 colher de sopa de gel de chia', '1 colher de sopa de açúcar mascavo'],
-    modo_preparo: 'Congele as bananas em rodelas. Bata-as com os demais ingredientes em um processador potente até obter um creme. Leve ao congelador para firmar.',
+    modo_preparo: 'Congele as bananas em rodelas. Bata-as com os demais ingredientes em um processador potente até obter um creme. Leve ao congelador para firmar.'
   },
   {
     id: 'cuscuz-branco-doce',
@@ -1067,7 +1168,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-5',
     ingredientes: ['1 xícara de tapioca granulada', '400ml de leite ou água quente', '3 colheres de sopa de açúcar', '50g de coco ralado', 'Leite condensado a gosto'],
-    modo_preparo: 'Misture a tapioca com o açúcar, escalde com o líquido quente e abafe por 10 minutos. Finalize com coco ralado e leite condensado a gosto.',
+    modo_preparo: 'Misture a tapioca com o açúcar, escalde com o líquido quente e abafe por 10 minutos. Finalize com coco ralado e leite condensado a gosto.'
   },
   {
     id: 'sorvete-de-ora-pro-nobis',
@@ -1075,7 +1176,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-8',
     ingredientes: ['1 lata de leite condensado', '1 lata de creme de leite', '1/2 xícara de leite em pó', '50g de coco ralado', '1 xícara de água', '1 xícara de folhas de ora-pro-nóbis'],
-    modo_preparo: 'Bata as folhas de ora-pro-nóbis com água e coe. Bata o suco com os demais ingredientes no liquidificador. Leve ao freezer até firmar, mexendo na metade do tempo.',
+    modo_preparo: 'Bata as folhas de ora-pro-nóbis com água e coe. Bata o suco com os demais ingredientes no liquidificador. Leve ao freezer até firmar, mexendo na metade do tempo.'
   },
   {
     id: 'brigadeiro-de-batata-doce',
@@ -1083,7 +1184,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1 xícara de batata-doce cozida e amassada', '2 colheres de sopa de açúcar mascavo', '2 colheres de sopa de cacau em pó', '1 colher de sopa de manteiga'],
-    modo_preparo: 'Amasse bem a batata-doce. Leve ao fogo com os outros ingredientes, mexendo até desgrudar do fundo da panela. Esfrie, modele e finalize como preferir.',
+    modo_preparo: 'Amasse bem a batata-doce. Leve ao fogo com os outros ingredientes, mexendo até desgrudar do fundo da panela. Esfrie, modele e finalize como preferir.'
   },
   {
     id: 'mousse-de-maracuja',
@@ -1091,7 +1192,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 lata de leite condensado', '1 lata de creme de leite', 'A mesma medida de suco de maracujá concentrado'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador até a mistura ficar bem homogênea e aerada. Despeje em uma travessa ou em taças individuais e leve para gelar até firmar.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador até a mistura ficar bem homogênea e aerada. Despeje em uma travessa ou em taças individuais e leve para gelar até firmar.'
   },
   {
     id: 'banana-pao-assada',
@@ -1099,7 +1200,15 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'breakfast-66',
     ingredientes: ['1 banana-pão madura', '2 claras de ovo', 'Gotas de essência de baunilha', 'Um pouco de água', 'Canela em pó', 'Frutas vermelhas para servir'],
-    modo_preparo: 'Asse a banana-pão com casca em forno a 180°C até ficar macia. Retire a polpa, amasse bem e misture com as claras, a baunilha e a canela. Leve a uma panela com um pouco de água e cozinhe em fogo baixo, mexendo, até engrossar e virar um creme. Sirva com frutas vermelhas.',
+    modo_preparo: 'Asse a banana-pão com casca em forno a 180°C até ficar macia. Retire a polpa, amasse bem e misture com as claras, a baunilha e a canela. Leve a uma panela com um pouco de água e cozinhe em fogo baixo, mexendo, até engrossar e virar um creme. Sirva com frutas vermelhas.'
+  },
+  {
+    id: 'muffin-de-pitanga',
+    titulo: 'Muffin de Pitanga',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-64',
+    ingredientes: ['1 xícara de farinha sem glúten', '1/2 xícara de açúcar demerara', '1 xícara de pitanga sem caroço', '1/4 xícara de óleo de coco', '1/4 xícara de água', '1 colher de chá de baunilha', '1 colher de sopa de linhaça', '1 colher de sopa de fermento'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Distribua em forminhas de muffin e asse em forno pré-aquecido a 180°C até dourar.'
   },
   {
     id: 'brigadeiro-fit-proteico',
@@ -1107,7 +1216,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1 scoop de proteína em pó', '1 colher de sopa de amido de milho', '1 colher de sopa de cacau', '200ml de leite vegetal', '1/2 xícara de batata-doce cozida', 'Essência de chocolate (opcional)'],
-    modo_preparo: 'Cozinhe e amasse a batata-doce. Bata com os demais ingredientes e leve ao fogo baixo até engrossar. Deixe esfriar, modele as bolinhas e finalize como desejar.',
+    modo_preparo: 'Cozinhe e amasse a batata-doce. Bata com os demais ingredientes e leve ao fogo baixo até engrossar. Deixe esfriar, modele as bolinhas e finalize como desejar.'
   },
   {
     id: 'pudim-de-forno-com-whey',
@@ -1115,7 +1224,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-5',
     ingredientes: ['3 ovos', '1 colher de sopa de amido de milho', '2 scoops de whey de chocolate'],
-    modo_preparo: 'Misture bem todos os ingredientes até obter uma massa homogênea. Despeje em uma forma e asse em banho-maria no forno até que, ao espetar um palito, ele saia limpo.',
+    modo_preparo: 'Misture bem todos os ingredientes até obter uma massa homogênea. Despeje em uma forma e asse em banho-maria no forno até que, ao espetar um palito, ele saia limpo.'
   },
   {
     id: 'sorvete-diet',
@@ -1123,7 +1232,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-9',
     ingredientes: ['1 pacote de gelatina diet (sabor de sua preferência)', '1 lata de leite condensado diet', '1 lata de creme de leite'],
-    modo_preparo: 'Prepare a gelatina e bata no liquidificador com o leite condensado e o creme de leite. Leve para gelar por 3 horas. Bata novamente na batedeira e volte ao freezer até firmar.',
+    modo_preparo: 'Prepare a gelatina e bata no liquidificador com o leite condensado e o creme de leite. Leve para gelar por 3 horas. Bata novamente na batedeira e volte ao freezer até firmar.'
   },
   {
     id: 'iogurte-de-limao-diet',
@@ -1131,7 +1240,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-8',
     ingredientes: ['1 pote de iogurte natural desnatado', '200ml de leite desnatado', '1 pacote de gelatina sabor limão diet'],
-    modo_preparo: 'Dissolva a gelatina conforme a embalagem. Misture com o leite e o iogurte. Leve à geladeira em taças individuais até firmar.',
+    modo_preparo: 'Dissolva a gelatina conforme a embalagem. Misture com o leite e o iogurte. Leve à geladeira em taças individuais até firmar.'
   },
   {
     id: 'creme-de-coco-com-maracuja-diet',
@@ -1139,7 +1248,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1 xícara de leite de coco', '1 xícara de água morna', '1/2 xícara de leite desnatado em pó', '1/2 xícara de coco ralado', 'Polpa de 1 maracujá', '1/2 xícara de leite condensado diet', '1 envelope de gelatina sem sabor', '2 claras em neve'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador, exceto as claras. Incorpore delicadamente as claras em neve à mistura e leve para gelar até firmar.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador, exceto as claras. Incorpore delicadamente as claras em neve à mistura e leve para gelar até firmar.'
   },
   {
     id: 'doce-de-leite-diet',
@@ -1147,7 +1256,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['1/2 xícara de frutose', '1 litro de leite desnatado', '1 colher de sopa de amido de milho', '1 colher de café de bicarbonato de sódio'],
-    modo_preparo: 'Cozinhe todos os ingredientes em fogo baixo, mexendo sempre, por cerca de 40 minutos ou até engrossar. Deixe esfriar e leve à geladeira para firmar.',
+    modo_preparo: 'Cozinhe todos os ingredientes em fogo baixo, mexendo sempre, por cerca de 40 minutos ou até engrossar. Deixe esfriar e leve à geladeira para firmar.'
   },
   {
     id: 'banana-em-calda-natural',
@@ -1155,7 +1264,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-2',
     ingredientes: ['4 bananas maduras', '1/2 xícara de água'],
-    modo_preparo: 'Fatie as bananas e cozinhe em fogo bem baixo com a água, mexendo ocasionalmente, até que elas soltem a própria calda e fiquem macias.',
+    modo_preparo: 'Fatie as bananas e cozinhe em fogo bem baixo com a água, mexendo ocasionalmente, até que elas soltem a própria calda e fiquem macias.'
   },
   {
     id: 'cocadinha-low-carb',
@@ -1163,7 +1272,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-52',
     ingredientes: ['1 xícara de coco fresco ralado', '2 ovos', '2 colheres de sopa de xilitol', '1/2 colher de chá de fermento em pó'],
-    modo_preparo: 'Misture bem todos os ingredientes. Coloque a massa em forminhas de silicone ou de papel e asse em forno pré-aquecido a 180°C até dourar.',
+    modo_preparo: 'Misture bem todos os ingredientes. Coloque a massa em forminhas de silicone ou de papel e asse em forno pré-aquecido a 180°C até dourar.'
   },
   {
     id: 'mousse-de-cacau-com-nuts',
@@ -1171,7 +1280,23 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-53',
     ingredientes: ['1 abacate maduro', '3 colheres de sopa de cacau em pó', '3 colheres de sopa de xilitol', '1 colher de sopa de chia', '100ml de leite de coco', '1/4 xícara de castanha-do-pará picada', '1/4 xícara de amêndoas laminadas', 'Folhas de hortelã para decorar'],
-    modo_preparo: 'Bata o abacate, cacau, xilitol, chia e leite de coco até obter um creme. Leve para gelar por 2 horas e sirva finalizado com as nuts e hortelã.',
+    modo_preparo: 'Bata o abacate, cacau, xilitol, chia e leite de coco até obter um creme. Leve para gelar por 2 horas e sirva finalizado com as nuts e hortelã.'
+  },
+  {
+    id: 'bolo-minuto',
+    titulo: 'Bolo Minuto',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-14',
+    ingredientes: ['1 colher de sopa de óleo de coco', '2 colheres de sopa de farinha de coco', '1 colher de sopa de xilitol', '1/2 colher de chá de fermento', '1 ovo', 'Gotas de baunilha'],
+    modo_preparo: 'Misture todos os ingredientes em uma caneca e leve ao micro-ondas por 1 a 2 minutos, ou até que esteja assado.'
+  },
+  {
+    id: 'bolinho-de-cenoura-com-chocolate',
+    titulo: 'Bolinho de Cenoura com Chocolate',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-52',
+    ingredientes: ['1 cenoura pequena ralada', '2 ovos', '1 colher de sopa de manteiga derretida', '1/2 xícara de farinha de amêndoas', '1/2 colher de chá de fermento', 'Adoçante (xilitol) a gosto', 'Calda: 50g de chocolate 70%, 2 colheres de sopa de creme de leite'],
+    modo_preparo: 'Prepare a massa misturando todos os ingredientes. Asse os bolinhos em forminhas. Finalize com a calda de chocolate preparada derretendo o chocolate com o creme de leite.'
   },
   {
     id: 'banana-no-palito-com-chocolate',
@@ -1179,7 +1304,15 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-51',
     ingredientes: ['2 bananas', '100g de chocolate amargo 70%', '1 colher de chá de óleo de coco'],
-    modo_preparo: 'Corte as bananas ao meio e espete um palito. Derreta o chocolate com o óleo de coco, banhe as bananas e coloque sobre papel manteiga. Leve ao freezer até endurecer.',
+    modo_preparo: 'Corte as bananas ao meio e espete um palito em cada pedaço. Derreta o chocolate com o óleo de coco, banhe as bananas e coloque sobre papel manteiga. Leve ao freezer até endurecer.'
+  },
+  {
+    id: 'beijinho-fit-2',
+    titulo: 'Beijinho Fit',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-52',
+    ingredientes: ['1 xícara de leite em pó desnatado', '1/2 xícara de coco ralado sem açúcar', '1/4 xícara de leite de coco', 'Adoçante a gosto'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa que desgrude das mãos. Leve à geladeira por 15 minutos e depois modele as bolinhas.'
   },
   {
     id: 'bolinhas-de-banana-e-castanhas-2',
@@ -1187,7 +1320,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-38',
     ingredientes: ['1 xícara de aveia', '1 banana madura amassada', '1/2 xícara de farinha de amêndoas', '1/2 xícara de castanhas picadas', '1 colher de chá de canela', '2 colheres de sopa de pasta de amendoim', '1 colher de sopa de mel', '1 colher de sopa de óleo de coco'],
-    modo_preparo: 'Misture todos os ingredientes até formar uma massa. Leve a massa à geladeira por 30 minutos para firmar e depois modele as bolinhas.',
+    modo_preparo: 'Misture todos os ingredientes até formar uma massa. Leve a massa à geladeira por 30 minutos para firmar e depois modele as bolinhas.'
   },
   {
     id: 'brigadeirao-fit-2',
@@ -1195,7 +1328,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-56',
     ingredientes: ['3 ovos', '1 xícara de leite desnatado', '1/2 xícara de leite em pó', '3 colheres de sopa de cacau em pó', '3 colheres de sopa de xilitol', '1 colher de sopa de óleo de coco'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador. Despeje em uma forma de pudim e asse em banho-maria em forno a 180°C até firmar.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador. Despeje em uma forma de pudim e asse em banho-maria em forno a 180°C até firmar.'
   },
   {
     id: 'brigadeiro-light',
@@ -1203,7 +1336,23 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1 colher de sopa de óleo de coco ou ghee', '2 colheres de sopa de cacau em pó', '2 colheres de sopa de açúcar demerara', '200ml de leite desnatado', '1 xícara de leite em pó'],
-    modo_preparo: 'Leve todos os ingredientes ao fogo baixo, mexendo continuamente, até atingir o ponto de brigadeiro de colher ou de enrolar.',
+    modo_preparo: 'Leve todos os ingredientes ao fogo baixo, mexendo continuamente, até atingir o ponto de brigadeiro de colher ou de enrolar.'
+  },
+  {
+    id: 'brownie-de-batata-doce',
+    titulo: 'Brownie de Batata-doce',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-62',
+    ingredientes: ['2 xícaras de batata-doce cozida e amassada', '3 ovos', '1/2 xícara de cacau em pó', '1/4 xícara de mel', '1/4 xícara de água', '1 xícara de farinha de amêndoas', '1/2 xícara de nozes picadas', '1 colher de sopa de fermento'],
+    modo_preparo: 'Bata a massa do brownie com todos os ingredientes, exceto as nozes. Misture as nozes por último. Asse em forno pré-aquecido até que o centro esteja cozido, mas ainda úmido.'
+  },
+  {
+    id: 'brownie-fit-de-aveia',
+    titulo: 'Brownie Fit de Aveia',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-63',
+    ingredientes: ['100g de chocolate meio amargo', '2 colheres de sopa de óleo de coco', '2 ovos', '1/2 xícara de açúcar mascavo', '1 xícara de farinha de aveia', 'Nozes picadas a gosto'],
+    modo_preparo: 'Misture todos os ingredientes em uma tigela, incorporando as nozes por último. Asse em forno pré-aquecido até que um palito inserido no centro saia com algumas migalhas úmidas.'
   },
   {
     id: 'chandelle-fit-2',
@@ -1211,7 +1360,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-53',
     ingredientes: ['500ml de leite desnatado', '2 colheres de sopa de cacau em pó', '2 colheres de sopa de amido de milho', '3 colheres de sopa de xilitol'],
-    modo_preparo: 'Dissolva o amido no leite frio. Junte os outros ingredientes e leve ao fogo baixo, mexendo sempre até engrossar. Despeje em taças e leve à geladeira.',
+    modo_preparo: 'Dissolva o amido no leite frio. Junte os outros ingredientes e leve ao fogo baixo, mexendo sempre até engrossar. Despeje em taças e leve à geladeira.'
   },
   {
     id: 'churros-fit-2',
@@ -1219,7 +1368,15 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-57',
     ingredientes: ['1 xícara de água', '1 colher de sopa de açúcar de coco', '1 colher de sopa de óleo de coco', '1 pitada de sal', '1 xícara de farinha integral'],
-    modo_preparo: 'Leve os líquidos e o açúcar ao fogo. Quando ferver, adicione a farinha de uma vez e cozinhe até formar uma massa. Modele os churros e asse até dourarem.',
+    modo_preparo: 'Leve os líquidos e o açúcar ao fogo. Quando ferver, adicione a farinha de uma vez e cozinhe até formar uma massa. Modele os churros e asse até dourarem.'
+  },
+  {
+    id: 'cookie-de-micro-ondas',
+    titulo: 'Cookie de Micro-ondas',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-35',
+    ingredientes: ['1 gema', '1 colher de sopa de farinha de amêndoas', 'Gotas de chocolate 70%', '1 colher de chá de açúcar mascavo', 'Gotas de baunilha', '1/2 colher de sopa de óleo de coco'],
+    modo_preparo: 'Misture todos os ingredientes e leve ao micro-ondas em um prato pequeno, em potência alta, por cerca de 1 a 2 minutos, ou até firmar.'
   },
   {
     id: 'cremoso-de-frutas',
@@ -1227,7 +1384,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-26',
     ingredientes: ['1 pote de iogurte desnatado', '1 colher de sopa de mel', '1/4 xícara de nozes picadas', '1 xícara de frutas vermelhas'],
-    modo_preparo: 'Em uma taça, misture o iogurte com o mel. Adicione as nozes picadas e as frutas vermelhas frescas por cima para finalizar.',
+    modo_preparo: 'Em uma taça, misture o iogurte com o mel. Adicione as nozes picadas e as frutas vermelhas frescas por cima para finalizar.'
   },
   {
     id: 'frozen-yogurt-de-mamao',
@@ -1235,7 +1392,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-48',
     ingredientes: ['1/2 mamão congelado em pedaços', '1 pote de iogurte desnatado', '1 colher de sopa de mel'],
-    modo_preparo: 'Bata o mamão congelado com o iogurte e o mel em um processador ou liquidificador potente até formar um creme homogêneo. Leve ao congelador por mais um tempo antes de servir.',
+    modo_preparo: 'Bata o mamão congelado com o iogurte e o mel em um processador ou liquidificador potente até formar um creme homogêneo. Leve ao congelador por mais um tempo antes de servir.'
   },
   {
     id: 'geleia-de-amora-2',
@@ -1243,7 +1400,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-47',
     ingredientes: ['2 xícaras de amora', '1/2 xícara de açúcar mascavo'],
-    modo_preparo: 'Leve as amoras e o açúcar mascavo ao fogo baixo. Cozinhe, mexendo de vez em quando, até as frutas desmancharem e a mistura engrossar. Se quiser mais cremosa, bata com um mixer.',
+    modo_preparo: 'Leve as amoras e o açúcar mascavo ao fogo baixo. Cozinhe, mexendo de vez em quando, até as frutas desmancharem e a mistura engrossar. Se quiser mais cremosa, bata com um mixer.'
   },
   {
     id: 'goiabinhas-fit-2',
@@ -1251,7 +1408,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-54',
     ingredientes: ['1 xícara de farinha de arroz ou aveia', '1/4 xícara de manteiga', '1/4 xícara de água', '2 colheres de sopa de xilitol', '100g de goiabada sem açúcar'],
-    modo_preparo: 'Prepare a massa misturando farinha, manteiga, água e xilitol. Modele os biscoitos, faça uma cavidade no centro, recheie com um pedaço de goiabada e asse até dourar.',
+    modo_preparo: 'Prepare a massa misturando farinha, manteiga, água e xilitol. Modele os biscoitos, faça uma cavidade no centro, recheie com um pedaço de goiabada e asse até dourar.'
   },
   {
     id: 'leite-condensado-fake',
@@ -1259,7 +1416,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-5',
     ingredientes: ['1 xícara de leite em pó desnatado', '1 colher de sopa de óleo de coco', '1/4 xícara de açúcar mascavo', '1/2 xícara de água quente'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador por 5 minutos. Leve à geladeira por pelo menos 2 horas para engrossar.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador por 5 minutos. Leve à geladeira por pelo menos 2 horas para engrossar.'
   },
   {
     id: 'maca-recheada-2',
@@ -1267,7 +1424,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-50',
     ingredientes: ['1 maçã', '1/4 xícara de farofa de amêndoas', 'Nozes picadas', '1 colher de chá de óleo de coco', 'Canela a gosto', '1 fio de mel'],
-    modo_preparo: 'Retire o miolo da maçã. Misture a farofa com os demais ingredientes e recheie a maçã. Asse em forno médio até ficar macia.',
+    modo_preparo: 'Retire o miolo da maçã. Misture a farofa com os demais ingredientes e recheie a maçã. Asse em forno médio até ficar macia.'
   },
   {
     id: 'manjar-de-coco',
@@ -1275,7 +1432,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-5',
     ingredientes: ['500ml de leite desnatado', '1/2 xícara de leite em pó', '1 pote de iogurte natural', '200ml de leite de coco', '1 envelope de gelatina sem sabor', 'Adoçante a gosto', 'Calda de ameixa para servir'],
-    modo_preparo: 'Hidrate a gelatina. Bata todos os ingredientes no liquidificador. Despeje em uma forma e gele até firmar. Sirva com a calda de ameixa.',
+    modo_preparo: 'Hidrate a gelatina. Bata todos os ingredientes no liquidificador. Despeje em uma forma e gele até firmar. Sirva com a calda de ameixa.'
   },
   {
     id: 'mousse-de-limao-2',
@@ -1283,7 +1440,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'cake-8',
     ingredientes: ['1 xícara de leite em pó desnatado', 'Adoçante a gosto', '1/2 xícara de água quente', 'Suco de 2 limões'],
-    modo_preparo: 'Bata o leite em pó, adoçante e água quente no liquidificador. Com o liquidificador ligado, adicione o suco de limão aos poucos até engrossar. Leve para gelar.',
+    modo_preparo: 'Bata o leite em pó, adoçante e água quente no liquidificador. Com o liquidificador ligado, adicione o suco de limão aos poucos até engrossar. Leve para gelar.'
   },
   {
     id: 'pacoca-fit-2',
@@ -1291,7 +1448,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1 xícara de amendoim torrado', '1/2 xícara de leite em pó desnatado', 'Adoçante a gosto', '2 colheres de sopa de leite desnatado'],
-    modo_preparo: 'Processe o amendoim. Adicione os pós e por último o leite até dar liga. Compacte em uma forma e gele antes de cortar.',
+    modo_preparo: 'Processe o amendoim. Adicione os pós e por último o leite até dar liga. Compacte em uma forma e gele antes de cortar.'
   },
   {
     id: 'palha-italiana-fit',
@@ -1299,7 +1456,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1/2 pacote de biscoito integral triturado', '200ml de leite de coco', '100g de chocolate amargo', '2 colheres de sopa de mel ou xilitol'],
-    modo_preparo: 'Derreta o chocolate com o leite de coco. Misture os demais ingredientes. Coloque em uma forma forrada e leve à geladeira até firmar. Corte em quadrados.',
+    modo_preparo: 'Derreta o chocolate com o leite de coco. Misture os demais ingredientes. Coloque em uma forma forrada e leve à geladeira até firmar. Corte em quadrados.'
   },
   {
     id: 'pe-de-moleque-fit-2',
@@ -1307,7 +1464,55 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-3',
     ingredientes: ['1/2 xícara de açúcar de coco', '1/4 xícara de água', '1 colher de sopa de mel', '1 xícara de amendoim torrado'],
-    modo_preparo: 'Prepare uma calda com o açúcar, água e mel. Misture o amendoim, espalhe sobre uma superfície untada e corte após esfriar.',
+    modo_preparo: 'Prepare uma calda com o açúcar, água e mel. Misture o amendoim, espalhe sobre uma superfície untada e corte após esfriar.'
+  },
+  {
+    id: 'petit-gateau-fit',
+    titulo: 'Petit Gateau Fit',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-64',
+    ingredientes: ['50g de chocolate amargo 70%', '1 colher de sopa de xylitol', '1 ovo', '1 colher de sopa de pasta de amendoim', '1 colher de sopa de farinha de aveia'],
+    modo_preparo: 'Derreta o chocolate com a pasta de amendoim. Misture o ovo, o xylitol e a farinha de aveia. Asse em forno alto por poucos minutos para manter o centro cremoso.'
+  },
+  {
+    id: 'petit-gateau-com-pasta-de-amendoim-recheado',
+    titulo: 'Petit Gateau com Pasta de Amendoim Recheado',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-65',
+    ingredientes: ['50g de chocolate amargo 70%', '1 colher de sopa de óleo de coco', '1 colher de sopa de xylitol', '1 ovo', '1 colher de sopa de farinha de aveia', 'Recheio: 1 colher de sopa de pasta de amendoim, 1 colher de chá de óleo de coco'],
+    modo_preparo: 'Congele a pasta de amendoim com o óleo em pequenas porções. Prepare a massa do petit gateau, coloque o recheio congelado no centro e asse até firmar por fora.'
+  },
+  {
+    id: 'picole-de-amendoim',
+    titulo: 'Picolé de Amendoim',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-7',
+    ingredientes: ['2 bananas congeladas', '2 colheres de sopa de pasta de amendoim', '1/4 xícara de água gelada'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador até obter um creme homogêneo. Coloque em forminhas de picolé e leve ao freezer até firmar completamente.'
+  },
+  {
+    id: 'pudim-de-chia-com-creme-de-manga',
+    titulo: 'Pudim de Chia com Creme de Manga',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-24',
+    ingredientes: ['200ml de leite de coco', '3 colheres de sopa de chia', '1 colher de sopa de mel', 'Gotas de baunilha', 'Canela a gosto', 'Polpa de 1 manga'],
+    modo_preparo: 'Misture o leite com a chia, mel e especiarias e leve à geladeira para engrossar. Processe a manga para fazer um creme. Monte em camadas em uma taça.'
+  },
+  {
+    id: 'pudim-de-chia-de-chocolate',
+    titulo: 'Pudim de Chia de Chocolate',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-25',
+    ingredientes: ['200ml de leite de amêndoas', '3 colheres de sopa de chia', '1 colher de sopa de mel', 'Gotas de baunilha', '2 colheres de sopa de cacau em pó'],
+    modo_preparo: 'Misture o leite com a chia e o mel. Separe metade da mistura e adicione o cacau. Leve as duas partes para gelar até firmar e depois monte em camadas.'
+  },
+  {
+    id: 'pudim-de-leite-nutritivo',
+    titulo: 'Pudim de Leite Nutritivo',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-5',
+    ingredientes: ['4 ovos', '500ml de leite desnatado', '1 xícara de leite em pó', '1/2 xícara de creme de ricota', 'Adoçante a gosto', '1 colher de chá de baunilha', 'Calda: 1/2 xícara de açúcar mascavo'],
+    modo_preparo: 'Bata todos os ingredientes do pudim no liquidificador. Despeje sobre a calda de açúcar mascavo já preparada na forma. Asse em banho-maria até firmar.'
   },
   // Bolos
   {
@@ -1462,150 +1667,398 @@ export const RECIPES: Recipe[] = [
     ingredientes: ['1 banana amassada', '2 ovos', '4 colheres de sopa de aveia', '1/2 colher de chá de canela', '1/2 colher de chá de fermento'],
     modo_preparo: 'Amasse bem a banana e misture com os demais ingredientes. Distribua a massa em forminhas de muffin e asse em forno pré-aquecido a 180°C por cerca de 20 minutos.',
   },
+  {
+    id: 'muffin-de-banana-e-coco',
+    titulo: 'Muffin de Banana e Coco',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-4',
+    ingredientes: ['1 banana amassada', '1 ovo', '2 colheres de sopa de farinha de amêndoas', '1 colher de sopa de farinha de coco', '1 colher de sopa de coco ralado', '2 colheres de sopa de leite de coco', 'Canela a gosto', '1 pitada de sal', '1/2 colher de chá de fermento', 'Adoçante a gosto'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Distribua em forminhas de muffin e asse em forno pré-aquecido a 180°C até dourar.'
+  },
+  {
+    id: 'muffin-de-baunilha-com-chocolate',
+    titulo: 'Muffin de Baunilha com Chocolate',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-14',
+    ingredientes: ['1 xícara de farinha de aveia', '1/2 colher de chá de bicarbonato de sódio', '1 colher de chá de baunilha', '1 ovo', '1/2 xícara de leite de coco', '1/4 xícara de mel', '2 colheres de sopa de óleo de coco', '50g de chocolate 70% picado'],
+    modo_preparo: 'Misture os ingredientes líquidos e os secos separadamente. Junte as duas misturas e incorpore o chocolate. Asse em forminhas de muffin a 180°C por 20-25 minutos.'
+  },
+  {
+    id: 'muffin-de-cacau-e-banana',
+    titulo: 'Muffin de Cacau e Banana',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-2',
+    ingredientes: ['1 banana amassada', '1 ovo', '1/4 xícara de leite', '1/2 xícara de farelo de aveia', '2 colheres de sopa de cacau em pó', '1 colher de chá de fermento'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador, deixando o fermento por último. Distribua em forminhas e asse em forno a 180°C até que um palito saia limpo.'
+  },
+  {
+    id: 'muffin-de-cenoura-com-chocolate',
+    titulo: 'Muffin de Cenoura com Chocolate',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-52',
+    ingredientes: ['1 ovo', '1/2 cenoura ralada', '2 colheres de sopa de óleo de coco', '1/4 xícara de açúcar mascavo', '1/2 xícara de xylitol', '1 xícara de farinha de aveia', '1 colher de chá de fermento', 'Canela e sal a gosto', 'Gotas de chocolate a gosto'],
+    modo_preparo: 'Bata a base com cenoura e líquidos. Misture os secos e as gotas de chocolate. Asse em forminhas a 180°C até dourar.'
+  },
+  {
+    id: 'muffin-de-maca',
+    titulo: 'Muffin de Maçã',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-13',
+    ingredientes: ['1 xícara de farinha de aveia', '1/2 xícara de purê de maçã', '1/4 xícara de açúcar mascavo', '1/4 xícara de óleo de coco', '1 colher de chá de fermento', '1 colher de chá de canela'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Distribua em forminhas de muffin e asse em forno pré-aquecido a 180°C por 20-25 minutos.'
+  },
+  {
+    id: 'muffin-proteico-de-chocolate',
+    titulo: 'Muffin Proteico de Chocolate',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-11',
+    ingredientes: ['1 banana amassada', '1/4 xícara de leite de coco', '1/2 xícara de aveia', '1 colher de sopa de mel', '2 colheres de sopa de cacau', '1 ovo', '1 colher de sopa de óleo de coco', '1 scoop de whey protein de chocolate', '1 colher de chá de bicarbonato', 'Gotas de chocolate'],
+    modo_preparo: 'Bata todos os ingredientes no liquidificador. Distribua em forminhas e asse a 180°C até crescer e firmar.'
+  },
+  {
+    id: 'torta-de-liquidificador-de-legumes',
+    titulo: 'Torta de Liquidificador de Legumes',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'airfryer-19',
+    ingredientes: ['2 ovos', '1 xícara de farinha de aveia', '1 xícara de leite vegetal', '1/4 xícara de óleo', '1 colher de sopa de fermento', 'Sal a gosto', 'Recheio: tomate, cebola, azeitona, cenoura ralada, milho, orégano'],
+    modo_preparo: 'Bata a massa no liquidificador. Em uma forma, intercale camadas de massa e recheio de legumes. Asse em forno a 180°C até dourar.'
+  },
+  {
+    id: 'torta-de-chocolate-de-aveia-e-linhaca',
+    titulo: 'Torta de Chocolate de Aveia e Linhaça',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-11',
+    ingredientes: ['Base: 1 xícara de farelo de aveia, 1/2 xícara de linhaça, 3 colheres de sopa de melado, 2 colheres de sopa de óleo de coco, baunilha', 'Recheio: 1 abacate, 3 colheres de sopa de cacau, 50g de chocolate 70% derretido'],
+    modo_preparo: 'Asse a base pressionada em uma forma. Para o recheio, bata o abacate com o cacau e o chocolate derretido. Refrigere a torta montada até firmar.'
+  },
+  {
+    id: 'tortinha-de-frutas',
+    titulo: 'Tortinha de Frutas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'dessert-1',
+    ingredientes: ['Massa: 1 xícara de aveia, 1 clara de ovo, adoçante', 'Recheio: 1 pote de iogurte grego, frutas picadas'],
+    modo_preparo: 'Asse a massa em forminhas de torta. Após esfriar, recheie com o iogurte e decore com as frutas frescas.'
+  },
+  {
+    id: 'bolo-de-laranja-com-casca',
+    titulo: 'Bolo de Laranja com Casca',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-68',
+    ingredientes: ['4 laranjas (2 com casca, 2 sem)', '4 ovos', '300 g de açúcar', '1 xícara de óleo', '250 ml de leite', '½ kg de farinha de trigo', '20 g de fermento'],
+    modo_preparo: 'Bata as laranjas, gemas, açúcar, óleo e leite. Misture à farinha e ao fermento. Incorpore as claras em neve. Asse em forno pré-aquecido.'
+  },
+  {
+    id: 'bolo-vitaminado-com-cascas',
+    titulo: 'Bolo Vitaminado com Cascas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-69',
+    ingredientes: ['2 laranjas sem casca', '1 xícara de beterraba com casca', '1 xícara de cenoura com casca', '3 ovos', '1 ½ xícara de açúcar mascavo', '½ xícara de azeite', '3 xícaras de farinha', '2 colheres de chia', '2 colheres de linhaça', '1 colher de fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos e os vegetais no liquidificador. Misture a farinha, sementes e fermento. Asse em forno médio até dourar.'
+  },
+  {
+    id: 'bolo-de-abacate',
+    titulo: 'Bolo de Abacate',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-70',
+    ingredientes: ['4 ovos', '1 xícara de leite de coco', '1 xícara de açúcar ou xilitol', '1 colher de manteiga', '1 abacate médio', '2 xícaras de farinha', '3 colheres de chia', '1 colher de fermento'],
+    modo_preparo: 'Bata os ingredientes líquidos com o abacate. Misture aos secos. Asse por 40–50 minutos.'
+  },
+  {
+    id: 'bolo-de-abobrinha-e-beterraba',
+    titulo: 'Bolo de Abobrinha e Beterraba',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-71',
+    ingredientes: ['3 abobrinhas raladas', '2 beterrabas', '3 ovos', '½ xícara de azeite', '½ xícara de açúcar', '2 xícaras de farinha de aveia', 'Cacau, canela, baunilha', '1 colher de fermento'],
+    modo_preparo: 'Bata os vegetais com os líquidos e misture aos secos. Asse por 45 minutos.'
+  },
+  {
+    id: 'bolo-de-verduras',
+    titulo: 'Bolo de Verduras',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-72',
+    ingredientes: ['2 colheres de manteiga', '4 ovos', '2 xícaras de farinha de trigo', '1 copo de leite', 'Mix de verduras cozidas'],
+    modo_preparo: 'Bata os ingredientes líquidos. Misture as verduras. Asse em forno médio.'
+  },
+  {
+    id: 'sopa-paraguaia-bolo-salgado',
+    titulo: 'Sopa Paraguaia (Bolo Salgado)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-73',
+    ingredientes: ['Flocos de milho', 'Milho verde', 'Queijo', 'Ovos', 'Leite', 'Óleo', 'Cebola', 'Fermento'],
+    modo_preparo: 'Misture todos os ingredientes. Asse a 180 °C por 45–50 minutos.'
+  },
+  {
+    id: 'quase-bolo-quase-pao-de-queijo',
+    titulo: 'Quase Bolo, Quase Pão de Queijo',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-74',
+    ingredientes: ['2 xícaras de polvilho doce', '3 ovos', '½ xícara de óleo', 'Queijo ralado'],
+    modo_preparo: 'Bata tudo no liquidificador. Asse por 30 minutos.'
+  },
+  {
+    id: 'bolo-de-chocolate-fit-caneca',
+    titulo: 'Bolo de Chocolate Fit (Caneca)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-75',
+    ingredientes: ['1 ovo', 'Cacau em pó', 'Leite', 'Adoçante', 'Coco ralado', 'Fermento'],
+    modo_preparo: 'Misture tudo na caneca. Leve ao micro-ondas por 2 minutos.'
+  },
+  {
+    id: 'muffin-fit-de-banana',
+    titulo: 'Muffin Fit de Banana',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-76',
+    ingredientes: ['1 ovo', 'Farelo de aveia', 'Farinha de coco', 'Banana', 'Cacau e canela', 'Fermento'],
+    modo_preparo: 'Bata tudo. Leve ao micro-ondas por até 5 minutos.'
+  },
+  {
+    id: 'bolo-de-proteinas',
+    titulo: 'Bolo de Proteínas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-77',
+    ingredientes: ['6 claras', 'Farinha de aveia', 'Coco ralado', 'Adoçante', 'Limão', 'Fermento'],
+    modo_preparo: 'Bata as claras em neve. Misture os demais ingredientes. Asse por 30 minutos.'
+  },
+  {
+    id: 'cupcake-de-whey',
+    titulo: 'Cupcake de Whey',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-78',
+    ingredientes: ['Aveia', 'Cacau', 'Whey', 'Clara', 'Leite', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse por 6 minutos.'
+  },
+  {
+    id: 'bolo-de-caneca-com-whey',
+    titulo: 'Bolo de Caneca com Whey',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-79',
+    ingredientes: ['Banana', 'Aveia', 'Whey', 'Clara', 'Canela'],
+    modo_preparo: 'Misture tudo. Leve ao micro-ondas por 2 minutos.'
+  },
+  {
+    id: 'bolo-de-milho-de-caneca',
+    titulo: 'Bolo de Milho de Caneca',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-80',
+    ingredientes: ['Milho cozido', 'Fubá', 'Ovos', 'Adoçante', 'Fermento'],
+    modo_preparo: 'Bata tudo. Leve ao micro-ondas por 3 minutos.'
+  },
+  {
+    id: 'bolo-de-aveia-com-banana-2',
+    titulo: 'Bolo de Aveia com Banana',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-81',
+    ingredientes: ['Banana madura', 'Ovos', 'Aveia', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse por 25–35 minutos.'
+  },
+  {
+    id: 'bolo-de-limao-com-mousse',
+    titulo: 'Bolo de Limão com Mousse',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-82',
+    ingredientes: ['Massa de bolo de limão', 'Ovos', 'Margarina', 'Leite', 'Leite condensado', 'Creme de leite', 'Suco de limão'],
+    modo_preparo: 'Asse o bolo. Bata a mousse e cubra o bolo frio.'
+  },
+  {
+    id: 'brownie-nutritivo-de-frutas',
+    titulo: 'Brownie Nutritivo de Frutas',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-83',
+    ingredientes: ['Aveia', 'Açúcar mascavo', 'Ovos', 'Leite', 'Cascas de frutas'],
+    modo_preparo: 'Bata as cascas com leite. Misture aos demais ingredientes. Asse por 40 minutos.'
+  },
+  {
+    id: 'bolo-de-inhame',
+    titulo: 'Bolo de Inhame',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-84',
+    ingredientes: ['Inhame cozido', 'Ovos', 'Açúcar mascavo', 'Farinha integral', 'Aveia', 'Coco', 'Fermento'],
+    modo_preparo: 'Bata os ingredientes. Asse por 35 minutos.'
+  },
+  {
+    id: 'cupcake-vegano-de-taioba-com-cacau',
+    titulo: 'Cupcake Vegano de Taioba com Cacau',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-85',
+    ingredientes: ['Taioba', 'Linhaça hidratada', 'Farinhas', 'Açúcar mascavo', 'Cacau', 'Fermento'],
+    modo_preparo: 'Bata os líquidos. Misture os secos. Asse por 30 minutos.'
+  },
+  {
+    id: 'bolo-de-banana-com-aveia',
+    titulo: 'Bolo de Banana com Aveia',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-86',
+    ingredientes: ['Banana madura', 'Ovos', 'Aveia', 'Açúcar mascavo', 'Passas', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse por 25 minutos.'
+  },
+  {
+    id: 'bolo-de-banana-integral',
+    titulo: 'Bolo de Banana Integral',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-87',
+    ingredientes: ['Banana', 'Ovos', 'Açúcar mascavo', 'Farinhas', 'Óleo de coco', 'Fermento'],
+    modo_preparo: 'Bata os líquidos. Misture os secos. Asse por 45 minutos.'
+  },
+  {
+    id: 'bolo-de-banana-sem-leite',
+    titulo: 'Bolo de Banana sem Leite',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-88',
+    ingredientes: ['Banana', 'Ovos', 'Aveia', 'Mel', 'Passas', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse por 30 minutos.'
+  },
+  {
+    id: 'bolo-de-cenoura-com-aveia',
+    titulo: 'Bolo de Cenoura com Aveia',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-89',
+    ingredientes: ['Cenoura', 'Ovos', 'Açúcar mascavo', 'Aveia', 'Fermento'],
+    modo_preparo: 'Bata os líquidos. Misture a aveia e fermento. Asse por 50 minutos.'
+  },
+  {
+    id: 'bolo-de-amendoas-com-cacau-caneca',
+    titulo: 'Bolo de Amêndoas com Cacau (Caneca)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-90',
+    ingredientes: ['Ovo', 'Farinha de amêndoas', 'Farinha de aveia', 'Cacau', 'Mel', 'Fermento'],
+    modo_preparo: 'Misture tudo. Leve ao micro-ondas por 1min30s.'
+  },
+  {
+    id: 'bolinho-de-cenoura-funcional-2',
+    titulo: 'Bolinho de Cenoura Funcional',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-91',
+    ingredientes: ['Cenoura', 'Ovos', 'Farinhas funcionais', 'Açúcar demerara', 'Fermento'],
+    modo_preparo: 'Bata os líquidos. Misture os secos. Asse por 35 minutos.'
+  },
+  {
+    id: 'bolinho-de-banana-micro-ondas-2',
+    titulo: 'Bolinho de Banana (Micro-ondas)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-92',
+    ingredientes: ['Banana', 'Ovo', 'Farinha de coco', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture tudo. Leve ao micro-ondas por 2 minutos.'
+  },
+  {
+    id: 'bolinho-de-cenoura-micro-ondas-2',
+    titulo: 'Bolinho de Cenoura (Micro-ondas)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-93',
+    ingredientes: ['Cenoura cozida', 'Ovo', 'Aveia', 'Adoçante', 'Fermento'],
+    modo_preparo: 'Bata tudo. Leve ao micro-ondas por 2 minutos.'
+  },
+  {
+    id: 'bolinho-de-chocolate-micro-ondas-2',
+    titulo: 'Bolinho de Chocolate (Micro-ondas)',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-94',
+    ingredientes: ['Aveia', 'Cacau', 'Ovo', 'Adoçante', 'Fermento'],
+    modo_preparo: 'Misture tudo. Leve ao micro-ondas por 2 minutos.'
+  },
+  {
+    id: 'brownie-de-caneca-funcional-2',
+    titulo: 'Brownie de Caneca Funcional',
+    categoria: 'bolos-para-comer-sem-culpa',
+    imagem: 'cake-95',
+    ingredientes: ['Ovo', 'Farinha de coco', 'Linhaça', 'Açúcar demerara', 'Cacau', 'Pasta de amendoim', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse até ficar úmido no centro.'
+  },
   // Airfryer
-  {
-    id: 'frango-crocante-airfryer',
-    titulo: 'Frango Crocante na Airfryer',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-1',
-    ingredientes: ['500g de filé de frango em cubos ou tiras', 'Sal, pimenta do reino e páprica a gosto', '1/2 xícara de farinha de amêndoas ou farelo de aveia', '1 ovo batido'],
-    modo_preparo: 'Tempere os pedaços de frango com sal, pimenta e páprica. Passe cada pedaço no ovo batido e em seguida na farinha de amêndoas, cobrindo bem. Disponha os pedaços na cesta da airfryer sem sobrepor. Programe por 20 minutos a 200°C, virando na metade do tempo para dourar por igual.',
-  },
-  {
-    id: 'falafel-fit-grao-de-bico',
-    titulo: 'Falafel Fit (Grão-de-bico)',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-2',
-    ingredientes: ['1 xícara de grão-de-bico cozido e processado', '1 dente de alho picado', '1/2 cebola picada', 'Salsa picada a gosto', '2 colheres de sopa de farinha de linhaça ou chia', '2 colheres de sopa de farinha de arroz', 'Sal, cominho e coentro em pó a gosto'],
-    modo_preparo: 'Misture todos os ingredientes até formar uma massa. Modele bolinhas, achate-as levemente, pincele com azeite e asse na airfryer a 180°C por 20 minutos, virando na metade do tempo.',
-  },
-  {
-    id: 'dadinhos-tapioca-fit',
-    titulo: 'Dadinhos de Tapioca Fit',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-3',
-    ingredientes: ['250g de tapioca granulada', '250g de queijo coalho ralado', '500ml de leite desnatado quente', 'Sal e pimenta a gosto'],
-    modo_preparo: 'Misture a tapioca e o queijo. Adicione o leite quente, mexendo até firmar. Despeje em uma forma, gele por 2 horas, corte em cubos e asse na airfryer a 200°C por 25 minutos.',
-  },
-  {
-    id: 'snack-crocante-grao-de-bico',
-    titulo: 'Snack Crocante de Grão-de-bico',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-4',
-    ingredientes: ['1 xícara de grão-de-bico cozido', 'Azeite, sal, páprica, orégano e outros temperos a gosto'],
-    modo_preparo: 'Seque bem os grãos de bico, tempere e espalhe na cesta da airfryer. Asse a 200°C por 15-20 minutos, mexendo ocasionalmente, até ficarem bem crocantes.',
-  },
-  {
-    id: 'chips-banana-verde',
-    titulo: 'Chips de Banana Verde',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-5',
-    ingredientes: ['2 bananas verdes', '1 colher de sopa de azeite', '1/2 colher de chá de açafrão (cúrcuma)', 'Sal a gosto'],
-    modo_preparo: 'Cozinhe as bananas com casca, descasque e fatie finamente. Tempere com azeite, açafrão e sal. Asse na airfryer a 180°C por 15-20 minutos, virando na metade, até ficarem crocantes.',
-  },
-  {
-    id: 'chips-batata-doce',
-    titulo: 'Chips de Batata-doce',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-6',
-    ingredientes: ['1 batata-doce grande', 'Sal a gosto', 'Azeite (opcional)'],
-    modo_preparo: 'Fatie a batata-doce bem fina. Deixe de molho em água gelada e seque bem. Tempere e asse na airfryer a 180°C por 10-15 minutos, até dourarem.',
-  },
   {
     id: 'macarrao-de-abobrinha-com-ovos',
     titulo: 'Macarrão de Abobrinha com Ovos',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-7',
-    ingredientes: ['2 ovos', '2 abobrinhas médias', '1 tomate', 'Sal a gosto'],
-    modo_preparo: 'Bata os ovos com sal e faça omeletes finas. Deixe esfriar, enrole e corte em tiras. Corte a abobrinha em formato de espaguete e pique o tomate. Misture tudo delicadamente e sirva como uma salada.',
+    ingredientes: ['Ovos', 'Abobrinhas', 'Tomate', 'Sal'],
+    modo_preparo: 'Bata os ovos com sal e faça omeletes finas. Deixe esfriar, enrole e corte em tiras. Corte a abobrinha em formato de espaguete e pique o tomate. Misture tudo delicadamente e sirva como uma salada.'
   },
   {
     id: 'nhoque-de-moranga',
     titulo: 'Nhoque de Moranga',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-8',
-    ingredientes: ['500g de purê de moranga (abóbora)', '1 ovo', '1 xícara de farinha de arroz ou trigo (aproximadamente)', 'Sal e noz-moscada a gosto'],
-    modo_preparo: 'Misture o purê de moranga com o ovo e temperos. Adicione a farinha aos poucos até dar ponto. Faça rolinhos, corte os nhoques e cozinhe em água fervente até subirem à superfície.',
+    ingredientes: ['Purê de moranga', 'Ovo', 'Farinha de arroz ou trigo', 'Sal', 'Noz-moscada'],
+    modo_preparo: 'Misture o purê de moranga com o ovo e os temperos. Adicione a farinha aos poucos até dar ponto de enrolar. Faça rolinhos, corte os nhoques e cozinhe em água fervente até subirem à superfície.'
   },
   {
     id: 'bolinho-de-feijao',
     titulo: 'Bolinho de Feijão',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-9',
-    ingredientes: ['2 xícaras de feijão cozido e amassado', '1 cenoura pequena ralada', '1 colher de sopa de azeite', '3 colheres de sopa de amido de milho ou farinha de trigo', 'Temperos naturais (salsa, cebolinha, cominho)', 'Sal a gosto'],
-    modo_preparo: 'Misture todos os ingredientes até formar uma massa firme. Modele pequenos bolinhos, coloque na airfryer pré-aquecida a 200°C e asse por 15-20 minutos, até dourar.',
+    ingredientes: ['Feijão cozido e amassado', 'Cenoura ralada', 'Azeite', 'Amido de milho ou farinha de trigo', 'Temperos naturais', 'Sal'],
+    modo_preparo: 'Misture todos os ingredientes até formar uma massa firme. Modele pequenos bolinhos, coloque na airfryer pré-aquecida a 200°C e asse por 15-20 minutos, até dourar.'
   },
   {
     id: 'almondegas-ao-molho-de-mamao',
     titulo: 'Almôndegas ao Molho de Mamão',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-10',
-    ingredientes: ['1 fatia de pão amanhecido umedecido', '300g de carne moída', 'Sal a gosto', '1/2 mamão papaia', '1/2 cebola picada', '1 dente de alho picado', '1 xícara de polpa de tomate', 'Salsa picada para finalizar'],
-    modo_preparo: 'Misture a carne com o pão e modele as almôndegas. Asse na airfryer a 200°C por 15 minutos. Para o molho, refogue cebola e alho, adicione o mamão batido, a polpa de tomate e cozinhe. Junte as almôndegas e finalize com salsa.',
+    ingredientes: ['Pão', 'Carne moída', 'Sal', 'Mamão', 'Cebola', 'Alho', 'Polpa de tomate', 'Salsa'],
+    modo_preparo: 'Misture a carne com o pão umedecido e modele as almôndegas. Asse na airfryer a 200°C por 15 minutos. Para o molho, refogue cebola e alho, adicione o mamão batido, a polpa de tomate e cozinhe. Junte as almôndegas e finalize com salsa.'
   },
   {
     id: 'arroz-verdinho',
     titulo: 'Arroz Verdinho',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-11',
-    ingredientes: ['1 xícara de arroz', '1/2 cebola picada', '1 dente de alho picado', 'Talos de 1 maço de agrião', 'Um punhado de salsa', 'Rama de 1 cenoura', 'Sal a gosto'],
-    modo_preparo: 'Cozinhe o arroz como de costume. Em outra panela, refogue cebola e alho. Adicione os talos e ervas picados e refogue. Misture este refogado ao arroz cozido, ajuste o sal e sirva.',
+    ingredientes: ['Arroz', 'Cebola', 'Alho', 'Talos de agrião', 'Salsa', 'Rama de cenoura', 'Sal'],
+    modo_preparo: 'Cozinhe o arroz como de costume. Em outra panela, refogue cebola e alho. Adicione os talos e ervas picados e refogue. Misture este refogado ao arroz cozido, ajuste o sal e sirva.'
   },
   {
     id: 'aproveitamento-de-pao-salgado',
     titulo: 'Aproveitamento de Pão (Versão Salgada)',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-12',
-    ingredientes: ['Pães amanhecidos fatiados', '1 tomate em rodelas', '1/2 cebola em rodelas', '2 ovos', '1/2 xícara de leite', 'Fatias de muçarela', 'Orégano, sal e pimenta a gosto'],
-    modo_preparo: 'Em um refratário, disponha os pães com tomate e cebola. Despeje os ovos batidos com leite e temperos. Cubra com muçarela e asse na airfryer a 180°C por 15-20 minutos.',
+    ingredientes: ['Pães', 'Tomate', 'Cebola', 'Ovos', 'Leite', 'Muçarela', 'Orégano', 'Sal', 'Pimenta'],
+    modo_preparo: 'Em um refratário, disponha os pães com tomate e cebola. Despeje os ovos batidos com leite e temperos. Cubra com muçarela e asse na airfryer a 180°C por 15-20 minutos.'
   },
   {
     id: 'panqueca-de-arroz-salgada',
     titulo: 'Panqueca de Arroz Salgada',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-13',
-    ingredientes: ['1 xícara de arroz cozido', '1/2 cebola picada', '1/2 cenoura ralada', 'Salsa e cebolinha a gosto', '2 ovos', '2 colheres de sopa de amido de milho', '2 colheres de sopa de queijo ralado', 'Sal a gosto'],
-    modo_preparo: 'Misture bem todos os ingredientes. Modele discos finos e asse na airfryer pré-aquecida a 180°C por cerca de 15 minutos, virando na metade do tempo.',
+    ingredientes: ['Arroz cozido', 'Cebola', 'Cenoura ralada', 'Salsa', 'Cebolinha', 'Ovos', 'Amido de milho', 'Queijo ralado', 'Sal'],
+    modo_preparo: 'Misture bem todos os ingredientes. Modele discos finos e asse na airfryer pré-aquecida a 180°C por cerca de 15 minutos, virando na metade do tempo.'
   },
   {
     id: 'salada-de-cascas',
     titulo: 'Salada de Cascas',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-14',
-    ingredientes: ['Casca de 1 abóbora', 'Casca de 1 berinjela', 'Casca de 1 chuchu', '1 tomate em cubos', '1/2 cebola roxa fatiada', 'Azeite, ervas frescas, sal e limão a gosto'],
-    modo_preparo: 'Cozinhe as cascas no vapor até ficarem macias. Pique as cascas cozidas e misture com o tomate e a cebola. Tempere e sirva morna ou fria.',
+    ingredientes: ['Casca de abóbora', 'Casca de berinjela', 'Casca de chuchu', 'Tomate', 'Cebola', 'Azeite', 'Ervas', 'Sal'],
+    modo_preparo: 'Cozinhe as cascas no vapor até ficarem macias. Pique as cascas cozidas e misture com o tomate e a cebola. Tempere e sirva morna ou fria.'
   },
   {
-    id: 'salpicão-de-cascas',
+    id: 'salpicao-de-cascas',
     titulo: 'Salpicão de Cascas',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-15',
-    ingredientes: ['Cascas variadas (batata, cenoura, chuchu) cozidas', '1 folha de couve fatiada bem fina', '1 talo de salsão picado', 'Azeite', 'Suco de limão', 'Sal e ervas frescas a gosto'],
-    modo_preparo: 'Cozinhe as cascas no vapor até amaciarem. Pique-as, misture com a couve e o salsão. Tempere e leve à geladeira por 30 minutos antes de servir.',
+    ingredientes: ['Cascas variadas', 'Couve', 'Salsão', 'Azeite', 'Limão', 'Sal', 'Ervas'],
+    modo_preparo: 'Cozinhe as cascas no vapor até amaciarem. Pique-as, misture com a couve e o salsão. Tempere e leve à geladeira por 30 minutos antes de servir.'
   },
   {
     id: 'panqueca-super-facil',
     titulo: 'Panqueca Super Fácil',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-16',
-    ingredientes: ['2 ovos', '1/2 cenoura ralada', '2 colheres de sopa de fubá ou flocão de milho', '2 colheres de sopa de aveia', '50ml de leite de coco'],
-    modo_preparo: 'Bata os ovos, cenoura, fubá e leite de coco no liquidificador. Incorpore a aveia. Despeje pequenas porções na airfryer e asse a 180°C por 10-12 minutos, virando na metade.',
+    ingredientes: ['Ovos', 'Cenoura', 'Fubá ou flocão', 'Aveia', 'Leite de coco'],
+    modo_preparo: 'Bata os ovos, cenoura, fubá e leite de coco no liquidificador. Incorpore a aveia. Despeje pequenas porções na airfryer e asse a 180°C por 10-12 minutos, virando na metade.'
   },
   {
     id: 'omelete-de-jambu',
     titulo: 'Omelete de Jambu',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-17',
-    ingredientes: ['3 ovos', '1/2 xícara de jambu cozido e picado', '1/4 de cebola picada', 'Azeite, sal e pimenta a gosto'],
-    modo_preparo: 'Bata os ovos com sal e pimenta. Adicione o jambu. Em uma forma pequena, refogue a cebola, despeje a mistura de ovos e asse na airfryer a 180°C por 12-15 minutos.',
+    ingredientes: ['Ovos', 'Jambu cozido', 'Cebola', 'Azeite', 'Sal', 'Pimenta'],
+    modo_preparo: 'Bata os ovos com sal e pimenta. Adicione o jambu. Em uma forma pequena, refogue a cebola, despeje a mistura de ovos e asse na airfryer a 180°C por 12-15 minutos.'
   },
   {
     id: 'feijao-caseiro-com-vegetais',
     titulo: 'Feijão Caseiro com Vegetais',
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-18',
-    ingredientes: ['2 xícaras de feijão cozido', '1 xícara de abóbora em cubos', '2 maxixes picados', '5 quiabos em rodelas', '2 folhas de couve rasgadas', '2 dentes de alho picados', '1/2 cebola picada', 'Sal a gosto'],
-    modo_preparo: 'Cozinhe o feijão. Refogue alho e cebola. Adicione os legumes e cozinhe com a água do feijão. Junte o feijão e a couve, deixe o caldo engrossar e tempere.',
+    ingredientes: ['Feijão cozido', 'Abóbora', 'Maxixe', 'Quiabo', 'Couve', 'Alho', 'Cebola', 'Sal'],
+    modo_preparo: 'Cozinhe o feijão. Refogue alho e cebola. Adicione os legumes e cozinhe com a água do feijão. Junte o feijão e a couve, deixe o caldo engrossar e tempere.'
   },
   {
     id: 'torta-de-legumes-airfryer',
@@ -1613,7 +2066,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-19',
     ingredientes: ['2 colheres de sopa de manteiga', '1 xícara de farinha de trigo', '3 ovos', '1 xícara de leite', '1 xícara de verduras cozidas e picadas (espinafre, brócolis)'],
-    modo_preparo: 'Misture manteiga derretida, farinha, ovos e leite. Incorpore as verduras. Despeje em uma forma pequena e asse na airfryer a 180°C por 25-30 minutos.',
+    modo_preparo: 'Misture manteiga derretida, farinha, ovos e leite. Incorpore as verduras. Despeje em uma forma pequena e asse na airfryer a 180°C por 25-30 minutos.'
   },
   {
     id: 'falso-omelete-rapido',
@@ -1621,7 +2074,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-20',
     ingredientes: ['1/2 xícara de creme de leite', '2 colheres de sopa de farinha de trigo ou tapioca', 'Recheio a gosto (legumes refogados, queijo)', 'Sal e temperos a gosto'],
-    modo_preparo: 'Misture o creme de leite, a farinha e o sal. Incorpore o recheio. Despeje em forminhas e asse na airfryer a 180°C por cerca de 15 minutos.',
+    modo_preparo: 'Misture o creme de leite, a farinha e o sal. Incorpore o recheio. Despeje em forminhas e asse na airfryer a 180°C por cerca de 15 minutos.'
   },
   {
     id: 'macarrao-cremoso-proteico',
@@ -1629,7 +2082,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-21',
     ingredientes: ['200g de macarrão cozido', '1/2 xícara de leite', '2 colheres de sopa de creme de leite', '1/2 cebola e 1 dente de alho picados', '150g de frango desfiado ou carne moída refogada', 'Legumes cozidos a gosto', 'Queijo ralado para gratinar'],
-    modo_preparo: 'Cozinhe o macarrão. Refogue a proteína. Em um refratário, misture todos os ingredientes, cubra com queijo e leve à airfryer a 200°C por 10 minutos para gratinar.',
+    modo_preparo: 'Cozinhe o macarrão. Refogue a proteína. Em um refratário, misture todos os ingredientes, cubra com queijo e leve à airfryer a 200°C por 10 minutos para gratinar.'
   },
   {
     id: 'cuscuz-pernambucano-fit',
@@ -1637,7 +2090,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-22',
     ingredientes: ['1 xícara de farinha de milho flocada (flocão)', '1 xícara de água', '1/2 colher de chá de sal', '1 xícara de legumes cozidos e picados (cenoura, ervilha, milho)', '1 ovo cozido picado', '50g de charque desfiada e dessalgada', '50g de queijo coalho em cubos'],
-    modo_preparo: 'Hidrate a farinha de milho. Misture com os legumes, ovo e charque. Coloque metade em um refratário, distribua o queijo e cubra com o restante. Asse na airfryer a 180°C por 15 minutos.',
+    modo_preparo: 'Hidrate a farinha de milho. Misture com os legumes, ovo e charque. Coloque metade em um refratário, distribua o queijo e cubra com o restante. Asse na airfryer a 180°C por 15 minutos.'
   },
   {
     id: 'pastelao-de-mandioca-proteico',
@@ -1645,7 +2098,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-23',
     ingredientes: ['2 xícaras de mandioca cozida e amassada', '1/2 xícara de farinha de arroz', 'Recheio: 1 xícara de frango ou jaca desfiada e temperada', 'Farinha de baru para empanar', 'Folhas de ora-pro-nóbis picadas (opcional)'],
-    modo_preparo: 'Misture a mandioca com a farinha e ora-pro-nóbis. Abra uma porção, recheie e feche. Passe na farinha de baru e asse na airfryer a 200°C por 20 minutos, virando na metade.',
+    modo_preparo: 'Misture a mandioca com a farinha e ora-pro-nóbis. Abra uma porção, recheie e feche. Passe na farinha de baru e asse na airfryer a 200°C por 20 minutos, virando na metade.'
   },
   {
     id: 'sopa-paraguaia-do-cerrado',
@@ -1653,7 +2106,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'bolos-para-comer-sem-culpa',
     imagem: 'airfryer-24',
     ingredientes: ['1 xícara de farinha de milho', '1 lata de milho verde', '200g de queijo minas padrão em cubos', '3 ovos', '500ml de leite', '1 cebola picada', '1/2 xícara de castanha de baru picada'],
-    modo_preparo: 'Misture todos os ingredientes. Despeje em uma forma que caiba na airfryer e asse a 180°C por 30-40 minutos, até firmar e dourar.',
+    modo_preparo: 'Misture todos os ingredientes. Despeje em uma forma que caiba na airfryer e asse a 180°C por 30-40 minutos, até firmar e dourar.'
   },
   {
     id: 'molho-de-tomate-caseiro',
@@ -1661,7 +2114,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-25',
     ingredientes: ['5 tomates maduros', '2 dentes de alho', '1 cebola pequena', 'Ervas frescas a gosto (manjericão, orégano)', 'Sal e azeite a gosto'],
-    modo_preparo: 'Refogue alho e cebola no azeite. Adicione os tomates e ervas, e cozinhe até desmanchar. Bata no liquidificador, tempere com sal e reserve.',
+    modo_preparo: 'Refogue alho e cebola no azeite. Adicione os tomates e ervas, e cozinhe até desmanchar. Bata no liquidificador, tempere com sal e reserve.'
   },
   {
     id: 'caldo-verde-com-vegetais',
@@ -1669,7 +2122,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-26',
     ingredientes: ['1 abobrinha', '1 xícara de brócolis', '3 folhas de couve', '1 inhame ou batata-doce', '1/4 de repolho', '2 dentes de alho', 'Sal a gosto'],
-    modo_preparo: 'Cozinhe todos os vegetais até ficarem macios. Bata tudo no liquidificador com um pouco da água do cozimento. Volte para a panela, aqueça e ajuste o sal.',
+    modo_preparo: 'Cozinhe todos os vegetais até ficarem macios. Bata tudo no liquidificador com um pouco da água do cozimento. Volte para a panela, aqueça e ajuste o sal.'
   },
   {
     id: 'coxinha-de-batata-doce-com-frango',
@@ -1677,7 +2130,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-27',
     ingredientes: ['2 xícaras de batata-doce cozida e amassada', '1/2 xícara de farelo de aveia', '1 xícara de frango cozido e desfiado para o recheio'],
-    modo_preparo: 'Misture a batata-doce com a aveia. Abra porções, recheie com frango e modele as coxinhas. Asse na airfryer a 200°C por 20 minutos, até dourarem.',
+    modo_preparo: 'Misture a batata-doce com a aveia. Abra porções, recheie com frango e modele as coxinhas. Asse na airfryer a 200°C por 20 minutos, até dourarem.'
   },
   {
     id: 'bolinho-de-frango-com-legumes',
@@ -1685,7 +2138,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-28',
     ingredientes: ['300g de frango moído ou triturado', '1/2 abobrinha ralada', '1/2 cenoura ralada', '50g de queijo minas padrão em cubos pequenos'],
-    modo_preparo: 'Misture o frango com os legumes e tempere. Modele bolinhos com um cubo de queijo no centro. Asse na airfryer a 180°C por 25 minutos.',
+    modo_preparo: 'Misture o frango com os legumes e tempere. Modele bolinhos com um cubo de queijo no centro. Asse na airfryer a 180°C por 25 minutos.'
   },
   {
     id: 'molho-de-melancia',
@@ -1693,7 +2146,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-29',
     ingredientes: ['2 xícaras de melancia sem sementes', '1/2 pimentão vermelho', '1 dente de alho', '1/2 cebola', 'Ervas frescas (hortelã) e sal a gosto'],
-    modo_preparo: 'Bata a melancia com o pimentão. Refogue alho e cebola, adicione o suco e cozinhe até reduzir. Tempere e finalize com ervas. Ótimo para saladas.',
+    modo_preparo: 'Bata a melancia com o pimentão. Refogue alho e cebola, adicione o suco e cozinhe até reduzir. Tempere e finalize com ervas. Ótimo para saladas.'
   },
   {
     id: 'refogado-de-casca-de-melancia',
@@ -1701,7 +2154,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-30',
     ingredientes: ['Parte branca da casca de 1/4 de melancia', '2 dentes de alho picados', '1/2 cebola picada', 'Azeite e sal a gosto'],
-    modo_preparo: 'Retire a parte verde externa e rale a parte branca da casca. Refogue alho e cebola no azeite, adicione a casca e cozinhe até ficar macia. Tempere com sal.',
+    modo_preparo: 'Retire a parte verde externa e rale a parte branca da casca. Refogue alho e cebola no azeite, adicione a casca e cozinhe até ficar macia. Tempere com sal.'
   },
   {
     id: 'antepasto-de-casca-de-banana',
@@ -1709,7 +2162,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-31',
     ingredientes: ['Casca de 3 bananas', '1/2 cebola roxa fatiada', 'Ervas finas, sal e azeite a gosto'],
-    modo_preparo: 'Ferva as cascas de banana por 10 minutos. Escorra e fatie. Tempere com cebola, ervas, sal e azeite. Asse na airfryer a 160°C por 15 minutos.',
+    modo_preparo: 'Ferva as cascas de banana por 10 minutos. Escorra e fatie. Tempere com cebola, ervas, sal e azeite. Asse na airfryer a 160°C por 15 minutos.'
   },
   {
     id: 'frango-perfumado',
@@ -1717,7 +2170,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-32',
     ingredientes: ['4 sobrecoxas de frango sem pele', 'Suco de 1 limão', 'Pimentões coloridos fatiados', '1 cebola em rodelas', '1 tomate em rodelas', 'Ervas frescas (alecrim, tomilho)'],
-    modo_preparo: 'Tempere o frango com limão, sal e pimenta. Em um refratário, faça uma cama com os legumes e ervas, coloque o frango por cima e asse na airfryer a 180°C por 30-35 minutos.',
+    modo_preparo: 'Tempere o frango com limão, sal e pimenta. Em um refratário, faça uma cama com os legumes e ervas, coloque o frango por cima e asse na airfryer a 180°C por 30-35 minutos.'
   },
   {
     id: 'tomates-assados-rusticos',
@@ -1725,7 +2178,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-33',
     ingredientes: ['4 tomates maduros cortados ao meio', '4 dentes de alho inteiros', '1 cebola em pétalas', 'Azeite abundante', 'Ervas frescas a gosto'],
-    modo_preparo: 'Coloque os tomates, alho e cebola em uma forma. Regue com azeite e ervas. Asse na airfryer a 160°C por 25 minutos. Amasse levemente com um garfo para criar uma pasta rústica.',
+    modo_preparo: 'Coloque os tomates, alho e cebola em uma forma. Regue com azeite e ervas. Asse na airfryer a 160°C por 25 minutos. Amasse levemente com um garfo para criar uma pasta rústica.'
   },
   {
     id: 'panqueca-low-carb-salgada-2',
@@ -1733,7 +2186,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-34',
     ingredientes: ['2 ovos', '2 colheres de sopa de farinha de amêndoas', '1 colher de sopa de farelo de aveia', '1/2 colher de chá de fermento em pó', 'Sal e temperos a gosto'],
-    modo_preparo: 'Misture todos os ingredientes. Despeje pequenas porções em um tapete de silicone na airfryer e asse a 180°C por 10-12 minutos, virando na metade. Recheie como preferir.',
+    modo_preparo: 'Misture todos os ingredientes. Despeje pequenas porções em um tapete de silicone na airfryer e asse a 180°C por 10-12 minutos, virando na metade. Recheie como preferir.'
   },
   {
     id: 'arroz-integral-a-grega',
@@ -1741,7 +2194,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-35',
     ingredientes: ['1 xícara de arroz integral', '1/2 cebola picada', '1 cenoura pequena em cubos', 'Cebolinha picada a gosto', 'Azeite e sal'],
-    modo_preparo: 'Refogue a cebola e a cenoura no azeite. Adicione o arroz, cubra com água fervente, tempere e cozinhe em fogo baixo. Finalize com cebolinha.',
+    modo_preparo: 'Refogue a cebola e a cenoura no azeite. Adicione o arroz, cubra com água fervente, tempere e cozinhe em fogo baixo. Finalize com cebolinha.'
   },
   {
     id: 'grao-de-bico-com-legumes',
@@ -1749,7 +2202,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-36',
     ingredientes: ['2 xícaras de grão-de-bico cozido', '1 cebola picada', '2 dentes de alho picados', '1/2 talo de alho-poró fatiado', '1 tomate em cubos', 'Legumes variados (brócolis, couve-flor)', 'Azeite e sal a gosto'],
-    modo_preparo: 'Refogue cebola, alho e alho-poró. Adicione o tomate e os legumes, cozinhando até ficarem macios. Misture o grão-de-bico, ajuste o sal e sirva.',
+    modo_preparo: 'Refogue cebola, alho e alho-poró. Adicione o tomate e os legumes, cozinhando até ficarem macios. Misture o grão-de-bico, ajuste o sal e sirva.'
   },
   {
     id: 'hamburguer-de-grao-de-bico',
@@ -1989,7 +2442,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'airfryer-proteica',
     imagem: 'airfryer-66',
     ingredientes: ['Massa: 1 xícara de água, 1 ovo, 1 clara, 1/2 xícara de leite desnatado, 1 xícara de farinha integral, 1/2 xícara de farinha branca, sal, orégano', 'Recheio: 300g de frango desfiado, 1/2 lata de milho, 1/2 cebola, 1/2 cenoura, 1 tomate, cheiro-verde'],
-    modo_preparo: 'Bata os ingredientes da massa. Refogue o recheio. Em uma forma, intercale massa e recheio. Asse a 180°C por 30-40 minutos.',
+    modo_preparo: 'Bata a massa. Refogue o recheio. Em uma forma, intercale massa e recheio. Asse a 180°C por 30-40 minutos.',
   },
   {
     id: 'yakisoba-vegetariano-com-pancs',
@@ -2448,6 +2901,7 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Prepare o purê de mandioca e o recheio de carne. Monte em camadas e gratine no forno.'
   }
 ];
+
 
 
 

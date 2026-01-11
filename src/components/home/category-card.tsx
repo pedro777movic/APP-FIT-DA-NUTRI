@@ -24,12 +24,12 @@ export default function CategoryCard({
   isLocked,
   onClick,
 }: CategoryCardProps) {
-  const { Icon, title, description } = category;
+  const { Icon, title, description, checkoutUrl } = category;
   const router = useRouter();
 
   const handleBuyClick = (e: React.MouseEvent) => {
     e.stopPropagation();
-    router.push('/checkout');
+    window.location.href = checkoutUrl;
   };
 
   return (
