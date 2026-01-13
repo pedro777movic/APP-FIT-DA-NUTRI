@@ -29,7 +29,11 @@ export default function CategoryCard({
 
   const handleBuyClick = (e: React.MouseEvent) => {
     e.stopPropagation();
-    window.location.href = checkoutUrl;
+    if (checkoutUrl && checkoutUrl !== '#') {
+       window.location.href = checkoutUrl;
+    } else {
+      router.push('/checkout');
+    }
   };
 
   return (
@@ -50,15 +54,17 @@ export default function CategoryCard({
         <div className="flex items-center gap-2">
           {isLocked ? (
             <>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="h-8 w-8"
-                onClick={handleBuyClick}
-                aria-label={`Comprar acesso para ${title}`}
-              >
-                <ShoppingCart className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
-              </Button>
+             {checkoutUrl && checkoutUrl !== '#' && (
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8"
+                  onClick={handleBuyClick}
+                  aria-label={`Comprar acesso para ${title}`}
+                >
+                  <ShoppingCart className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                </Button>
+             )}
               <Lock className="h-5 w-5 text-muted-foreground/80 shrink-0" />
             </>
           ) : (

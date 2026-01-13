@@ -8,12 +8,12 @@ export default function Home() {
         <div className="flex items-center gap-3 mb-2">
           <Leaf className="h-8 w-8 text-primary" />
           <h1 className="text-4xl font-bold font-headline text-primary tracking-tight">
-            Café Fit da Nutri
+            Cantinho Fit da Nutri
           </h1>
         </div>
         <p className="max-w-xl text-muted-foreground">
-          Receitas saudáveis, deliciosas e fáceis de preparar. Acesse as
-          categorias para começar sua jornada fitness.
+          Seu organizador alimentar leve e diário. Escolha um momento do dia e
+          siga o fluxo de receitas saudáveis.
         </p>
       </div>
 
