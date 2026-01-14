@@ -547,6 +547,14 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Em um processador, bata as bananas congeladas até obter uma base cremosa. Adicione o whey protein e bata novamente para incorporar. Sirva imediatamente.',
   },
   {
+    id: 'cookies-de-coco-e-castanhas',
+    titulo: 'Cookies de Coco e Castanhas',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-29',
+    ingredientes: ['1 xícara de castanhas', '1/2 xícara de farinha de coco', 'Adoçante a gosto', '1/2 colher de chá de bicarbonato de sódio', '1/4 xícara de leite de coco', '50g de chocolate amargo picado'],
+    modo_preparo: 'Misture todos os ingredientes até formar uma massa. Modele pequenos discos e asse em forno pré-aquecido a 180°C até que os cookies fiquem dourados e firmes.',
+  },
+  {
     id: 'beijinho-fit',
     titulo: 'Beijinho Fit',
     categoria: 'sobremesas-zero',
@@ -569,6 +577,14 @@ export const RECIPES: Recipe[] = [
     imagem: 'dessert-1',
     ingredientes: ['1/2 xícara de farelo de aveia', '2 colheres de sopa de açúcar mascavo', '2 colheres de sopa de cacau em pó', '3 colheres de sopa de pasta de amendoim'],
     modo_preparo: 'Misture bem todos os ingredientes até formar uma massa densa. Modele pequenas bolinhas, passe no cacau em pó e leve à geladeira para firmar.',
+  },
+  {
+    id: 'pe-de-moleque-fitness',
+    titulo: 'Pé de Moleque Fitness',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-1',
+    ingredientes: ['100g de chocolate amargo 70%', '1/2 xícara de amendoim torrado sem sal', '2 biscoitos de arroz integrais picados'],
+    modo_preparo: 'Derreta o chocolate em banho-maria ou no micro-ondas. Misture com o amendoim e o biscoito de arroz picado. Espalhe a mistura em uma superfície com papel manteiga, nivele e leve à geladeira para endurecer.',
   },
   {
     id: 'banoffee-no-pote',
@@ -603,12 +619,92 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Bata todos os ingredientes no liquidificador. Asse em banho-maria (15 min em forno alto, 45 min em forno baixo). Deixe esfriar no forno e leve à geladeira.',
   },
   {
+    id: 'cookie-de-grao-de-bico',
+    titulo: 'Cookie de Grão-de-Bico',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-1',
+    ingredientes: ['1 xícara de grão-de-bico cozido', '2 colheres de sopa de azeite', '1 colher de sopa de chia', '1/2 xícara de farinha de arroz', 'Temperos a gosto (páprica, orégano)'],
+    modo_preparo: 'Processe o grão-de-bico até virar uma pasta. Misture os demais ingredientes, modele os cookies e asse em forno pré-aquecido a 180°C até ficarem firmes e levemente dourados.',
+  },
+  {
+    id: 'palitinhos-crocantes',
+    titulo: 'Palitinhos Crocantes',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-28',
+    ingredientes: ['1 xícara de batata baroa cozida', '1/2 xícara de cenoura cozida', '1/4 xícara de azeite', '1 xícara de polvilho azedo', '1/4 xícara de chia', 'Sal a gosto'],
+    modo_preparo: 'Amasse os legumes cozidos e misture com os demais ingredientes até formar uma massa. Modele palitos finos, coloque em uma assadeira e asse em forno pré-aquecido até ficarem crocantes.',
+  },
+  {
     id: 'danete-cremoso-de-chocolate',
     titulo: 'Danete Cremoso de Chocolate',
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['200ml de leite de coco', '2 colheres de sopa de cacau em pó', '2 colheres de sopa de chocolate em pó', '1/2 abacate congelado', '1 colher de sopa de chia', 'Adoçante a gosto'],
     modo_preparo: 'Bata todos os ingredientes no liquidificador até obter um creme aveludado. Sirva gelado, decorado com raspas de chocolate 70%.',
+  },
+  {
+    id: 'biscoitinhos-de-banana-e-aveia',
+    titulo: 'Biscoitinhos de Banana e Aveia',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-33',
+    ingredientes: ['2 bananas maduras', '1 xícara de aveia em flocos', 'Canela em pó a gosto'],
+    modo_preparo: 'Amasse bem as bananas e misture com a aveia e a canela. Modele pequenos biscoitos e asse em forno pré-aquecido a 180°C até dourarem.',
+  },
+  {
+    id: 'sementinhas-de-abobora-torradas',
+    titulo: 'Sementinhas de Abóbora Torradas',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-41',
+    ingredientes: ['Sementes de 1 abóbora', 'Azeite', 'Sal', 'Pimenta-preta a gosto'],
+    modo_preparo: 'Lave e seque bem as sementes. Misture com azeite e temperos e espalhe em uma assadeira. Asse em forno baixo, mexendo ocasionalmente, até ficarem crocantes e douradas.',
+  },
+  {
+    id: 'barrinhas-de-cereal-vapt-vupt',
+    titulo: 'Barrinhas de Cereal Vapt-vupt',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-22',
+    ingredientes: ['2 bananas maduras', '1 xícara de farinha de aveia', '2 colheres de sopa de açúcar mascavo', '1/2 xícara de castanhas trituradas', '1 colher de sopa de farinha de linhaça', '1/4 xícara de coco ralado'],
+    modo_preparo: 'Amasse bem as bananas e misture com todos os outros ingredientes. Pressione a massa em uma forma untada, asse em forno médio e corte as barrinhas ainda morno.',
+  },
+  {
+    id: 'biscoitinhos-de-mel',
+    titulo: 'Biscoitinhos de Mel',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-32',
+    ingredientes: ['1 ovo', '3 colheres de sopa de óleo de coco', '3 colheres de sopa de mel', '2 colheres de sopa de açúcar mascavo', '1/2 colher de chá de fermento', '1 colher de sopa de linhaça', '1/2 xícara de polvilho doce', '1/2 xícara de amido de milho'],
+    modo_preparo: 'Misture os líquidos com o açúcar. Incorpore os ingredientes secos aos poucos até formar uma massa. Modele pequenas bolinhas e asse em forno pré-aquecido até dourarem.',
+  },
+  {
+    id: 'pao-de-queijo-de-mandioquinha',
+    titulo: 'Pão de Queijo de Mandioquinha',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-19',
+    ingredientes: ['1 xícara de polvilho azedo', '1/2 xícara de polvilho doce', '1/4 xícara de azeite', '2 xícaras de mandioquinha cozida e amassada', '1/4 xícara de água', 'Sal e ervas a gosto'],
+    modo_preparo: 'Escalde os polvilhos com água e azeite quentes. Misture o purê de mandioquinha e os temperos. Modele bolinhas e asse até dourarem.',
+  },
+  {
+    id: 'biscoitinhos-de-aveia-com-creme-de-cacau',
+    titulo: 'Biscoitinhos de Aveia com Creme de Cacau',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-36',
+    ingredientes: ['1 xícara de farinha integral', '1/2 xícara de farelo de aveia', '1/4 xícara de óleo de coco', '2 colheres de sopa de açúcar demerara', '1 ovo', '1/2 colher de chá de fermento', 'Recheio: 1 xícara de avelã torrada, 1/4 xícara de chocolate 70%, 1 colher de sopa de leite vegetal'],
+    modo_preparo: 'Prepare a massa dos biscoitos, asse e deixe esfriar. Para o recheio, bata a avelã com o chocolate derretido e o leite até obter um creme. Recheie os biscoitos.',
+  },
+  {
+    id: 'muffin-de-ricota-com-tomatinho',
+    titulo: 'Muffin de Ricota com Tomatinho',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-17',
+    ingredientes: ['2 ovos', '3 colheres de sopa de farinha de aveia', '1 colher de chá de fermento', 'Tomate cereja', 'Queijo cottage', 'Sal a gosto'],
+    modo_preparo: 'Misture os ingredientes da massa. Distribua em forminhas, adicione um tomate cereja e uma colher de cottage em cada uma. Asse até dourar.',
+  },
+  {
+    id: 'chips-de-legumes',
+    titulo: 'Chips de Legumes',
+    categoria: 'sobremesas-zero',
+    imagem: 'airfryer-6',
+    ingredientes: ['1 beterraba', '1 batata-doce', 'Azeite', 'Sal', 'Pimenta a gosto'],
+    modo_preparo: 'Fatie os legumes bem finos. Tempere com azeite, sal e pimenta. Distribua em uma assadeira sem sobrepor e asse em forno baixo até ficarem crocantes.',
   },
   {
     id: 'panqueca-doce-de-forno',
@@ -643,6 +739,14 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Corte a banana ao meio no sentido do comprimento, polvilhe canela e aqueça no micro-ondas por 30 segundos ou em uma frigideira.',
   },
   {
+    id: 'nuts-caramelizadas',
+    titulo: 'Nuts Caramelizadas',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-41',
+    ingredientes: ['1 xícara de amêndoas', '1 xícara de castanha-de-caju', '3 colheres de sopa de açúcar mascavo', '1 colher de sopa de manteiga', '1 colher de chá de canela', '2 colheres de sopa de amaranto em flocos'],
+    modo_preparo: 'Derreta o açúcar e a manteiga em uma panela. Junte as nuts e a canela, mexendo até caramelizar. Retire do fogo, misture o amaranto e espalhe para esfriar.',
+  },
+  {
     id: 'pudim-de-manga',
     titulo: 'Pudim de Manga',
     categoria: 'sobremesas-zero',
@@ -657,6 +761,22 @@ export const RECIPES: Recipe[] = [
     imagem: 'cake-50',
     ingredientes: ['1 maçã', 'Canela em pó', '1 canela em pau'],
     modo_preparo: 'Retire o miolo da maçã, recheie com canela em pó e espete um pau de canela. Embrulhe em papel alumínio e asse em forno médio até ficar macia.',
+  },
+  {
+    id: 'tortinha-de-chocolate-e-nuts',
+    titulo: 'Tortinha de Chocolate e Nuts',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-11',
+    ingredientes: ['1 xícara de amêndoas', '1/2 xícara de tâmaras sem caroço', '1 colher de sopa de chia', '1 colher de sopa de óleo de coco', '100g de chocolate 70%', '100ml de leite de coco'],
+    modo_preparo: 'Processe amêndoas, tâmaras e chia para a base e pressione em forminhas. Derreta o chocolate com leite de coco para o recheio. Recheie as bases e refrigere.',
+  },
+  {
+    id: 'docinho-de-frutas-secas',
+    titulo: 'Docinho de Frutas Secas',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-3',
+    ingredientes: ['1/2 xícara de tâmaras', '1/4 xícara de banana passa', '1/4 xícara de damasco', '1/4 xícara de ameixa', '1/2 xícara de castanhas', '1 colher de sopa de alfarroba', '1 colher de sopa de óleo de coco'],
+    modo_preparo: 'Processe todos os ingredientes até formar uma massa homogênea. Modele pequenas bolinhas e leve à geladeira por alguns minutos para firmar.',
   },
   {
     id: 'sorvete-de-banana-com-cacau',
@@ -2365,124 +2485,12 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Cozinhe e amasse a batata-doce. Bata com os demais ingredientes e leve ao fogo baixo até engrossar. Deixe esfriar, modele as bolinhas e finalize como desejar.'
   },
   {
-    id: 'cookies-de-coco-e-castanhas',
-    titulo: 'Cookies de Coco e Castanhas',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-29',
-    ingredientes: ['1 xícara de castanhas', '1/2 xícara de farinha de coco', 'Adoçante a gosto', '1/2 colher de chá de bicarbonato de sódio', '1/4 xícara de leite de coco', '50g de chocolate amargo picado'],
-    modo_preparo: 'Misture todos os ingredientes até formar uma massa. Modele pequenos discos e asse em forno pré-aquecido a 180°C até que os cookies fiquem dourados e firmes.'
-  },
-  {
     id: 'pe-de-moleque-fitness',
     titulo: 'Pé de Moleque Fitness',
     categoria: 'airfryer-proteica',
     imagem: 'dessert-1',
     ingredientes: ['100g de chocolate amargo 70%', '1/2 xícara de amendoim torrado sem sal', '2 biscoitos de arroz integrais picados'],
     modo_preparo: 'Derreta o chocolate em banho-maria ou no micro-ondas. Misture com o amendoim e o biscoito de arroz picado. Espalhe a mistura em uma superfície com papel manteiga, nivele e leve à geladeira para endurecer.'
-  },
-  {
-    id: 'cookie-de-grao-de-bico',
-    titulo: 'Cookie de Grão-de-Bico',
-    categoria: 'airfryer-proteica',
-    imagem: 'dessert-1',
-    ingredientes: ['1 xícara de grão-de-bico cozido', '2 colheres de sopa de azeite', '1 colher de sopa de chia', '1/2 xícara de farinha de arroz', 'Temperos a gosto (páprica, orégano)'],
-    modo_preparo: 'Processe o grão-de-bico até virar uma pasta. Misture os demais ingredientes, modele os cookies e asse em forno pré-aquecido a 180°C até ficarem firmes e levemente dourados.'
-  },
-  {
-    id: 'palitinhos-crocantes',
-    titulo: 'Palitinhos Crocantes',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-28',
-    ingredientes: ['1 xícara de batata baroa cozida', '1/2 xícara de cenoura cozida', '1/4 xícara de azeite', '1 xícara de polvilho azedo', '1/4 xícara de chia', 'Sal a gosto'],
-    modo_preparo: 'Amasse os legumes cozidos e misture com os demais ingredientes até formar uma massa. Modele palitos finos, coloque em uma assadeira e asse em forno pré-aquecido até ficarem crocantes.'
-  },
-  {
-    id: 'biscoitinhos-de-banana-e-aveia',
-    titulo: 'Biscoitinhos de Banana e Aveia',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-33',
-    ingredientes: ['2 bananas maduras', '1 xícara de aveia em flocos', 'Canela em pó a gosto'],
-    modo_preparo: 'Amasse bem as bananas e misture com a aveia e a canela. Modele pequenos biscoitos e asse em forno pré-aquecido a 180°C até dourarem.'
-  },
-  {
-    id: 'sementinhas-de-abobora-torradas',
-    titulo: 'Sementinhas de Abóbora Torradas',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-41',
-    ingredientes: ['Sementes de 1 abóbora', 'Azeite', 'Sal', 'Pimenta-preta a gosto'],
-    modo_preparo: 'Lave e seque bem as sementes. Misture com azeite e temperos e espalhe em uma assadeira. Asse em forno baixo, mexendo ocasionalmente, até ficarem crocantes e douradas.'
-  },
-  {
-    id: 'barrinhas-de-cereal-vapt-vupt',
-    titulo: 'Barrinhas de Cereal Vapt-vupt',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-22',
-    ingredientes: ['2 bananas maduras', '1 xícara de farinha de aveia', '2 colheres de sopa de açúcar mascavo', '1/2 xícara de castanhas trituradas', '1 colher de sopa de farinha de linhaça', '1/4 xícara de coco ralado'],
-    modo_preparo: 'Amasse bem as bananas e misture com todos os outros ingredientes. Pressione a massa em uma forma untada, asse em forno médio e corte as barrinhas ainda morno.'
-  },
-  {
-    id: 'biscoitinhos-de-mel',
-    titulo: 'Biscoitinhos de Mel',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-32',
-    ingredientes: ['1 ovo', '3 colheres de sopa de óleo de coco', '3 colheres de sopa de mel', '2 colheres de sopa de açúcar mascavo', '1/2 colher de chá de fermento', '1 colher de sopa de linhaça', '1/2 xícara de polvilho doce', '1/2 xícara de amido de milho'],
-    modo_preparo: 'Misture os líquidos com o açúcar. Incorpore os ingredientes secos aos poucos até formar uma massa. Modele pequenas bolinhas e asse em forno pré-aquecido até dourarem.'
-  },
-  {
-    id: 'pao-de-queijo-de-mandioquinha',
-    titulo: 'Pão de Queijo de Mandioquinha',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-19',
-    ingredientes: ['1 xícara de polvilho azedo', '1/2 xícara de polvilho doce', '1/4 xícara de azeite', '2 xícaras de mandioquinha cozida e amassada', '1/4 xícara de água', 'Sal e ervas a gosto'],
-    modo_preparo: 'Escalde os polvilhos com água e azeite quentes. Misture o purê de mandioquinha e os temperos. Modele bolinhas e asse até dourarem.'
-  },
-  {
-    id: 'biscoitinhos-de-aveia-com-creme-de-cacau',
-    titulo: 'Biscoitinhos de Aveia com Creme de Cacau',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-36',
-    ingredientes: ['1 xícara de farinha integral', '1/2 xícara de farelo de aveia', '1/4 xícara de óleo de coco', '2 colheres de sopa de açúcar demerara', '1 ovo', '1/2 colher de chá de fermento', 'Recheio: 1 xícara de avelã torrada, 1/4 xícara de chocolate 70%, 1 colher de sopa de leite vegetal'],
-    modo_preparo: 'Prepare a massa dos biscoitos, asse e deixe esfriar. Para o recheio, bata a avelã com o chocolate derretido e o leite até obter um creme. Recheie os biscoitos.'
-  },
-  {
-    id: 'muffin-de-ricota-com-tomatinho',
-    titulo: 'Muffin de Ricota com Tomatinho',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-17',
-    ingredientes: ['2 ovos', '3 colheres de sopa de farinha de aveia', '1 colher de chá de fermento', 'Tomate cereja', 'Queijo cottage', 'Sal a gosto'],
-    modo_preparo: 'Misture os ingredientes da massa. Distribua em forminhas, adicione um tomate cereja e uma colher de cottage em cada uma. Asse até dourar.'
-  },
-  {
-    id: 'chips-de-legumes',
-    titulo: 'Chips de Legumes',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-6',
-    ingredientes: ['1 beterraba', '1 batata-doce', 'Azeite', 'Sal', 'Pimenta a gosto'],
-    modo_preparo: 'Fatie os legumes bem finos. Tempere com azeite, sal e pimenta. Distribua em uma assadeira sem sobrepor e asse em forno baixo até ficarem crocantes.'
-  },
-  {
-    id: 'nuts-caramelizadas',
-    titulo: 'Nuts Caramelizadas',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-41',
-    ingredientes: ['1 xícara de amêndoas', '1 xícara de castanha-de-caju', '3 colheres de sopa de açúcar mascavo', '1 colher de sopa de manteiga', '1 colher de chá de canela', '2 colheres de sopa de amaranto em flocos'],
-    modo_preparo: 'Derreta o açúcar e a manteiga em uma panela. Junte as nuts e a canela, mexendo até caramelizar. Retire do fogo, misture o amaranto e espalhe para esfriar.'
-  },
-  {
-    id: 'tortinha-de-chocolate-e-nuts',
-    titulo: 'Tortinha de Chocolate e Nuts',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-11',
-    ingredientes: ['1 xícara de amêndoas', '1/2 xícara de tâmaras sem caroço', '1 colher de sopa de chia', '1 colher de sopa de óleo de coco', '100g de chocolate 70%', '100ml de leite de coco'],
-    modo_preparo: 'Processe amêndoas, tâmaras e chia para a base e pressione em forminhas. Derreta o chocolate com leite de coco para o recheio. Recheie as bases e refrigere.'
-  },
-  {
-    id: 'docinho-de-frutas-secas',
-    titulo: 'Docinho de Frutas Secas',
-    categoria: 'airfryer-proteica',
-    imagem: 'dessert-3',
-    ingredientes: ['1/2 xícara de tâmaras', '1/4 xícara de banana passa', '1/4 xícara de damasco', '1/4 xícara de ameixa', '1/2 xícara de castanhas', '1 colher de sopa de alfarroba', '1 colher de sopa de óleo de coco'],
-    modo_preparo: 'Processe todos os ingredientes até formar uma massa homogênea. Modele pequenas bolinhas e leve à geladeira por alguns minutos para firmar.'
   },
   {
     id: 'muffin-de-banana-classico',
@@ -2755,14 +2763,6 @@ export const RECIPES: Recipe[] = [
     imagem: 'airfryer-31',
     ingredientes: ['Casca de 3 bananas', '1/2 cebola roxa fatiada', 'Ervas finas, sal e azeite a gosto'],
     modo_preparo: 'Ferva as cascas de banana por 10 minutos. Escorra e fatie. Tempere com cebola, ervas, sal e azeite. Asse na airfryer a 160°C por 15 minutos.'
-  },
-  {
-    id: 'escondidinho-de-carne-moida',
-    titulo: 'Escondidinho de Carne Moída',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-44',
-    ingredientes: ['500g de carne moída', '1 cebola picada', '2 dentes de alho picados', '1 tomate picado', 'Purê: 500g de mandioca cozida, 1/2 xícara de leite, 1 colher de sopa de manteiga', 'Queijo ralado para gratinar'],
-    modo_preparo: 'Prepare um purê com a mandioca. Refogue a carne moída. Em um refratário, monte uma camada de carne e cubra com o purê. Polvilhe queijo e asse até gratinar.',
   },
   {
     id: 'sopa-de-lentilha-com-carne',
