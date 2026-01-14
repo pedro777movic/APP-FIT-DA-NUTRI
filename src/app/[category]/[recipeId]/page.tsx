@@ -1,7 +1,6 @@
 import { CATEGORIES, RECIPES } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import AuthGuard from '@/components/shared/auth-guard';
-import { enhanceRecipeInstructions } from '@/ai/flows/enhance-recipe-instructions';
 import RecipeDetailView from '@/components/recipes/recipe-detail-view';
 
 export async function generateStaticParams() {
@@ -25,16 +24,9 @@ export default async function RecipePage({
     notFound();
   }
 
-  let enhancedInstructions = recipe.modo_preparo;
-  try {
-    const result = await enhanceRecipeInstructions({
-      instructions: recipe.modo_preparo,
-    });
-    enhancedInstructions = result.enhancedInstructions;
-  } catch (error) {
-    console.error('Falha no aprimoramento da IA, usando instruções originais:', error);
-    // Fallback to original instructions is handled by the initial assignment
-  }
+  // A chamada à IA foi removida para evitar erros de limite de requisição.
+  // As instruções originais são usadas diretamente.
+  const enhancedInstructions = recipe.modo_preparo;
 
   return (
     <AuthGuard categorySlug={category.slug}>
