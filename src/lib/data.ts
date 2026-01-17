@@ -403,44 +403,12 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Bata as bananas congeladas com o whey protein e adoçante até obter uma mistura cremosa. Leve ao freezer por pelo menos 4 horas para firmar.',
   },
   {
-    id: 'bolo-de-beterraba',
-    titulo: 'Bolo de Beterraba',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-66',
-    ingredientes: ['Beterraba', 'Suco de laranja', 'Ovos', 'Açúcar', 'Óleo', 'Farinha de trigo', 'Fermento', 'Manteiga', 'Achocolatado', 'Leite'],
-    modo_preparo: 'Bata a beterraba com o suco no liquidificador. Misture aos demais ingredientes da massa, incorporando as claras em neve por último. Asse até firmar e cubra com a calda fervida até encorpar.'
-  },
-  {
-    id: 'bolo-de-feijao-2',
-    titulo: 'Bolo de Feijão',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-67',
-    ingredientes: ['Ovos', 'Açúcar', 'Farinha de trigo', 'Feijão cozido', 'Óleo', 'Fermento'],
-    modo_preparo: 'Bata gemas, açúcar, óleo e feijão. Incorpore a farinha, as claras em neve e o fermento. Asse até dourar.'
-  },
-  {
-    id: 'torta-de-aveia-2',
-    titulo: 'Torta de Aveia',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-81',
-    ingredientes: ['Ovos', 'Leite em pó', 'Açúcar', 'Manteiga', 'Aveia em flocos', 'Canela', 'Fermento'],
-    modo_preparo: 'Misture tudo, espalhe e pressione na forma. Asse até dourar. Pode adicionar cobertura de chocolate.'
-  },
-  {
     id: 'creme-de-laranja-e-cenoura-2',
     titulo: 'Creme de Laranja e Cenoura',
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['Cenoura', 'Água', 'Suco de laranja', 'Amido de milho', 'Açúcar'],
     modo_preparo: 'Bata a cenoura com os líquidos. Leve ao fogo com os secos até engrossar. Sirva gelado.'
-  },
-  {
-    id: 'bolo-de-laranja-com-casca-2',
-    titulo: 'Bolo de Laranja com Casca',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-68',
-    ingredientes: ['Laranja', 'Ovos', 'Açúcar', 'Óleo', 'Leite', 'Farinha de trigo', 'Fermento'],
-    modo_preparo: 'Bata laranjas, gemas, açúcar, óleo e leite. Misture com a farinha e fermento e finalize com claras em neve. Asse.'
   },
   {
     id: 'doce-de-pao-dormido-2',
@@ -457,30 +425,6 @@ export const RECIPES: Recipe[] = [
     imagem: 'dessert-1',
     ingredientes: ['Arroz', 'Leite', 'Açúcar', 'Canela', 'Cravo', 'Gengibre', 'Noz-moscada', 'Açafrão', 'Raspas de limão'],
     modo_preparo: 'Cozinhe o arroz e finalize com leite, açúcar e especiarias até ficar cremoso.'
-  },
-  {
-    id: 'bolo-vitaminado-de-cascas',
-    titulo: 'Bolo Vitaminado de Cascas',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-69',
-    ingredientes: ['Laranja', 'Beterraba com casca', 'Cenoura com casca', 'Ovos', 'Açúcar mascavo', 'Azeite', 'Farinha de trigo', 'Chia', 'Linhaça'],
-    modo_preparo: 'Bata vegetais, laranja, ovos e óleo. Misture a farinha e sementes e asse.'
-  },
-  {
-    id: 'bolo-de-abacate-2',
-    titulo: 'Bolo de Abacate',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-70',
-    ingredientes: ['Abacate', 'Ovos', 'Leite de coco', 'Açúcar', 'Manteiga', 'Farinha de trigo', 'Chia', 'Fermento'],
-    modo_preparo: 'Bata os líquidos com o abacate. Misture aos secos e asse até firmar.'
-  },
-  {
-    id: 'bolo-de-abobrinha-e-beterraba-2',
-    titulo: 'Bolo de Abobrinha e Beterraba',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-71',
-    ingredientes: ['Abobrinha', 'Beterraba', 'Ovos', 'Óleo', 'Açúcar', 'Farinha de aveia', 'Cacau', 'Canela'],
-    modo_preparo: 'Bata os vegetais com os líquidos e misture aos secos. Asse até assar por completo.'
   },
   {
     id: 'compota-da-entrecasca-de-laranja-2',
@@ -555,14 +499,6 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Bata a banana congelada até cremosa e misture o whey.'
   },
   {
-    id: 'cookies-de-coco-e-castanhas-2',
-    titulo: 'Cookies de Coco e Castanhas',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-29',
-    ingredientes: ['Castanhas', 'Farinha de coco', 'Adoçante', 'Bicarbonato', 'Leite de coco', 'Chocolate amargo'],
-    modo_preparo: 'Misture tudo, modele cookies e asse até dourar.'
-  },
-  {
     id: 'beijinho-fit-2',
     titulo: 'Beijinho Fit',
     categoria: 'sobremesas-zero',
@@ -619,108 +555,12 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Misture tudo, leve ao fogo até ferver e gele.'
   },
   {
-    id: 'cheesecake-anabolico-2',
-    titulo: 'Cheesecake Anabólico',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'dessert-1',
-    ingredientes: ['Cream cheese light', 'Iogurte desnatado', 'Ovos', 'Adoçante', 'Whey protein', 'Baunilha'],
-    modo_preparo: 'Bata tudo, asse em duas temperaturas e leve à geladeira antes de servir.'
-  },
-  {
-    id: 'cookie-de-grao-de-bico-2',
-    titulo: 'Cookie de Grão-de-Bico',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'dessert-1',
-    ingredientes: ['Grão-de-bico', 'Azeite', 'Chia', 'Farinha de arroz', 'Temperos'],
-    modo_preparo: 'Processe o grão, misture os demais ingredientes, molde e asse.'
-  },
-  {
-    id: 'palitinhos-crocantes-2',
-    titulo: 'Palitinhos Crocantes',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-28',
-    ingredientes: ['Batata baroa', 'Cenoura', 'Azeite', 'Polvilho azedo', 'Chia', 'Sal'],
-    modo_preparo: 'Misture tudo, modele palitos e asse até dourar.'
-  },
-  {
     id: 'danete-cremoso-de-chocolate-2',
     titulo: 'Danete Cremoso de Chocolate',
     categoria: 'sobremesas-zero',
     imagem: 'dessert-1',
     ingredientes: ['Leite de coco', 'Cacau', 'Chocolate em pó', 'Abacate congelado', 'Chia', 'Adoçante'],
     modo_preparo: 'Bata tudo no liquidificador até ficar cremoso. Sirva com raspas de chocolate 70%.'
-  },
-  {
-    id: 'biscoitinhos-de-banana-e-aveia-2',
-    titulo: 'Biscoitinhos de Banana e Aveia',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-33',
-    ingredientes: ['Banana madura', 'Aveia em flocos', 'Canela'],
-    modo_preparo: 'Misture tudo, modele os biscoitos e asse até dourar.'
-  },
-  {
-    id: 'sementinhas-de-abobora-torradas-2',
-    titulo: 'Sementinhas de Abóbora Torradas',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-41',
-    ingredientes: ['Sementes de abóbora', 'Azeite', 'Sal', 'Pimenta-preta'],
-    modo_preparo: 'Lave, seque, misture com azeite e temperos e asse até ficarem crocantes.'
-  },
-  {
-    id: 'barrinhas-de-cereal-vapt-vupt-2',
-    titulo: 'Barrinhas de Cereal Vapt-vupt',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-22',
-    ingredientes: ['Banana madura', 'Farinha de aveia', 'Açúcar mascavo', 'Castanhas trituradas', 'Farinha de linhaça', 'Coco ralado'],
-    modo_preparo: 'Amasse as bananas, misture tudo, asse e corte ainda morno.'
-  },
-  {
-    id: 'biscoitinhos-de-mel-2',
-    titulo: 'Biscoitinhos de Mel',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-32',
-    ingredientes: ['Ovo', 'Óleo de coco', 'Mel', 'Açúcar mascavo', 'Fermento', 'Linhaça', 'Polvilho doce', 'Amido de milho'],
-    modo_preparo: 'Misture os líquidos, incorpore os secos, modele bolinhas e asse até dourar.'
-  },
-  {
-    id: 'pao-de-queijo-de-mandioquinha-2',
-    titulo: 'Pão de Queijo de Mandioquinha',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-19',
-    ingredientes: ['Polvilho azedo', 'Polvilho doce', 'Azeite', 'Mandioquinha cozida', 'Água', 'Sal', 'Ervas'],
-    modo_preparo: 'Escalde os polvilhos com água e azeite quentes, misture o purê, modele e asse.'
-  },
-  {
-    id: 'biscoitinhos-de-aveia-com-creme-de-cacau-2',
-    titulo: 'Biscoitinhos de Aveia com Creme de Cacau',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-36',
-    ingredientes: ['Farinha integral', 'Farelo de aveia', 'Óleo de coco', 'Açúcar demerara', 'Ovo', 'Fermento', 'Avelã', 'Chocolate 70%', 'Leite vegetal'],
-    modo_preparo: 'Prepare a massa, asse os biscoitos. Bata o recheio e recheie após esfriar.'
-  },
-  {
-    id: 'muffin-de-ricota-com-tomatinho-2',
-    titulo: 'Muffin de Ricota com Tomatinho',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-17',
-    ingredientes: ['Ovos', 'Farinha de aveia', 'Fermento', 'Tomate', 'Cottage', 'Sal'],
-    modo_preparo: 'Misture a massa, distribua em forminhas, adicione o recheio e asse.'
-  },
-  {
-    id: 'chips-de-legumes-2',
-    titulo: 'Chips de Legumes',
-    categoria: 'airfryer-proteica',
-    imagem: 'airfryer-6',
-    ingredientes: ['Beterraba', 'Batata-doce', 'Azeite', 'Sal', 'Pimenta'],
-    modo_preparo: 'Fatie fino, tempere, distribua sem sobrepor e asse até crocantes.'
-  },
-  {
-    id: 'panqueca-doce-de-forno-2',
-    titulo: 'Panqueca Doce de Forno',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-61',
-    ingredientes: ['Farinha de arroz', 'Azeite', 'Gergelim', 'Água morna', 'Banana', 'Mel'],
-    modo_preparo: 'Prepare a massa, asse a base e finalize com banana e mel.'
   },
   {
     id: 'abacate-com-limao-e-mel-2',
@@ -747,14 +587,6 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Corte a banana, polvilhe canela e aqueça rapidamente.'
   },
   {
-    id: 'nuts-caramelizadas-2',
-    titulo: 'Nuts Caramelizadas',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-41',
-    ingredientes: ['Amêndoas', 'Castanha-de-caju', 'Açúcar mascavo', 'Manteiga', 'Canela', 'Amaranto'],
-    modo_preparo: 'Derreta açúcar e manteiga, junte as nuts, mexa e finalize com amaranto.'
-  },
-  {
     id: 'pudim-de-manga-2',
     titulo: 'Pudim de Manga',
     categoria: 'sobremesas-zero',
@@ -777,14 +609,6 @@ export const RECIPES: Recipe[] = [
     imagem: 'dessert-1',
     ingredientes: ['3 colheres de sopa de aveia ou quinoa', '1 colher de sopa de amaranto', '200ml de leite de coco', 'Canela a gosto', '1/2 banana ou ameixa seca picada'],
     modo_preparo: 'Cozinhe a aveia (ou quinoa) com amaranto, leite de coco e canela em fogo baixo, mexendo sempre, até engrossar. Sirva com a fruta de sua escolha.',
-  },
-  {
-    id: 'tortinha-de-chocolate-e-nuts-2',
-    titulo: 'Tortinha de Chocolate e Nuts',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-11',
-    ingredientes: ['Amêndoas', 'Tâmara', 'Chia', 'Óleo de coco', 'Chocolate 70%', 'Leite de coco'],
-    modo_preparo: 'Processe amêndoas, tâmaras e chia para a base e pressione em forminhas. Derreta o chocolate com leite de coco para o recheio. Recheie as bases e refrigere.'
   },
   {
     id: 'docinho-de-frutas-secas-2',
@@ -833,38 +657,6 @@ export const RECIPES: Recipe[] = [
     imagem: 'dessert-1',
     ingredientes: ['1 lata de leite condensado', '1 lata de creme de leite', 'A mesma medida de suco de maracujá concentrado'],
     modo_preparo: 'Bata todos os ingredientes no liquidificador até a mistura ficar bem homogênea e aerada. Despeje em uma travessa ou em taças individuais e leve para gelar até firmar.'
-  },
-  {
-    id: 'muffin-de-pitanga-2',
-    titulo: 'Muffin de Pitanga',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-64',
-    ingredientes: ['1 xícara de farinha sem glúten', '1/2 xícara de açúcar demerara', '1 xícara de pitanga sem caroço', '1/4 xícara de óleo de coco', '1/4 xícara de água', '1 colher de chá de baunilha', '1 colher de sopa de linhaça', '1 colher de sopa de fermento'],
-    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Distribua em forminhas de muffin e asse em forno pré-aquecido a 180°C até dourar.'
-  },
-  {
-    id: 'banana-pao-assada-2',
-    titulo: 'Banana-pão Assada',
-    categoria: 'sobremesas-zero',
-    imagem: 'breakfast-66',
-    ingredientes: ['1 banana-pão madura', '2 claras de ovo', 'Gotas de essência de baunilha', 'Um pouco de água', 'Canela em pó', 'Frutas vermelhas para servir'],
-    modo_preparo: 'Asse a banana-pão com casca em forno a 180°C até ficar macia. Retire a polpa, amasse bem e misture com as claras, a baunilha e a canela. Leve a uma panela com um pouco de água e cozinhe em fogo baixo, mexendo, até engrossar e virar um creme. Sirva com frutas vermelhas.'
-  },
-  {
-    id: 'tapioca-fitness-2',
-    titulo: 'Tapioca Fitness',
-    categoria: 'airfryer-proteica',
-    imagem: 'breakfast-67',
-    ingredientes: ['Goma de tapioca', 'Queijo minas ou ricota', 'Frango desfiado', 'Frutas picadas', 'Chocolate amargo 70%'],
-    modo_preparo: 'Peneire a goma de tapioca sobre uma frigideira antiaderente aquecida, formando um disco. Quando a massa se unir, adicione o recheio de sua preferência: para uma versão salgada, use queijo e frango; para uma doce, use frutas e pedaços de chocolate. Dobre e sirva.',
-  },
-  {
-    id: 'bolinho-de-cenoura-funcional-2',
-    titulo: 'Bolinho de Cenoura Funcional',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-91',
-    ingredientes: ['Ovos', 'Açúcar demerara', 'Óleo de coco', 'Cenoura', 'Fécula de batata', 'Farinha de arroz', 'Farinha de linhaça', 'Fermento', 'Chocolate 70%'],
-    modo_preparo: 'Bata os líquidos. Misture aos secos. Distribua em forminhas e asse.'
   },
   {
     id: 'brigadeiro-fit-proteico-2',
@@ -924,36 +716,12 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Cozinhe as bananas em fogo bem baixo até soltarem a própria calda.'
   },
   {
-    id: 'cocadinha-low-carb-2',
-    titulo: 'Cocadinha Low Carb',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-52',
-    ingredientes: ['Coco fresco ralado', 'Ovos', 'Xilitol', 'Fermento'],
-    modo_preparo: 'Misture tudo, coloque em forminhas e asse até dourar.'
-  },
-  {
     id: 'mousse-de-cacau-com-nuts-2',
     titulo: 'Mousse de Cacau com Nuts',
     categoria: 'sobremesas-zero',
     imagem: 'cake-53',
     ingredientes: ['Abacate', 'Cacau em pó', 'Xilitol', 'Chia', 'Leite de coco', 'Castanha-do-pará', 'Amêndoas', 'Hortelã'],
     modo_preparo: 'Bata tudo até virar um creme. Gele e finalize com nuts e hortelã.'
-  },
-  {
-    id: 'bolo-minuto-2',
-    titulo: 'Bolo Minuto',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-14',
-    ingredientes: ['Óleo de coco', 'Farinha de coco', 'Xilitol', 'Fermento', 'Ovo', 'Baunilha'],
-    modo_preparo: 'Misture tudo em uma caneca e leve ao micro-ondas até assar.'
-  },
-  {
-    id: 'bolinho-de-cenoura-com-chocolate-2',
-    titulo: 'Bolinho de Cenoura com Chocolate',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-91',
-    ingredientes: ['Cenoura', 'Ovos', 'Manteiga', 'Farinha de amêndoas', 'Fermento', 'Xilitol', 'Chocolate 70%', 'Creme de leite'],
-    modo_preparo: 'Prepare a massa, asse os bolinhos e finalize com a calda de chocolate.'
   },
   {
     id: 'banana-no-palito-com-chocolate-2',
@@ -980,14 +748,6 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Misture tudo, gele a massa e modele bolinhas.'
   },
   {
-    id: 'brigadeirao-fit-2',
-    titulo: 'Brigadeirão Fit',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-56',
-    ingredientes: ['Ovos', 'Leite desnatado', 'Leite em pó', 'Cacau', 'Xilitol', 'Óleo de coco'],
-    modo_preparo: 'Bata tudo e asse em banho-maria até firmar.'
-  },
-  {
     id: 'brigadeiro-light-2',
     titulo: 'Brigadeiro Light',
     categoria: 'sobremesas-zero',
@@ -996,44 +756,12 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Cozinhe tudo em fogo baixo até ponto de brigadeiro.'
   },
   {
-    id: 'brownie-de-batata-doce-2',
-    titulo: 'Brownie de Batata-doce',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-62',
-    ingredientes: ['Batata-doce', 'Ovos', 'Cacau', 'Mel', 'Água', 'Farinha de amêndoas', 'Nozes', 'Fermento'],
-    modo_preparo: 'Bata a massa, misture as nozes e asse até ficar úmido no centro.'
-  },
-  {
-    id: 'brownie-fit-de-aveia-2',
-    titulo: 'Brownie Fit de Aveia',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-63',
-    ingredientes: ['Chocolate meio amargo', 'Óleo de coco', 'Ovos', 'Açúcar mascavo', 'Aveia', 'Nozes'],
-    modo_preparo: 'Misture tudo e asse até o ponto desejado.'
-  },
-  {
     id: 'chandelle-fit-2',
     titulo: 'Chandelle Fit',
     categoria: 'sobremesas-zero',
     imagem: 'cake-53',
     ingredientes: ['Leite desnatado', 'Cacau em pó', 'Amido de milho', 'Xilitol'],
     modo_preparo: 'Cozinhe mexendo até engrossar e leve para gelar.'
-  },
-  {
-    id: 'churros-fit-2',
-    titulo: 'Churros Fit',
-    categoria: 'airfryer-proteica',
-    imagem: 'cake-57',
-    ingredientes: ['Água', 'Açúcar de coco', 'Óleo de coco', 'Sal', 'Farinha integral'],
-    modo_preparo: 'Prepare a massa, modele os churros e asse até dourar.'
-  },
-  {
-    id: 'cookie-de-microondas',
-    titulo: 'Cookie de Micro-ondas',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-35',
-    ingredientes: ['Gema', 'Farinha de amêndoas', 'Chocolate 70%', 'Açúcar mascavo', 'Baunilha', 'Óleo de coco'],
-    modo_preparo: 'Misture tudo e leve ao micro-ondas até firmar.'
   },
   {
     id: 'cremoso-de-frutas-2',
@@ -1058,14 +786,6 @@ export const RECIPES: Recipe[] = [
     imagem: 'cake-47',
     ingredientes: ['Amora', 'Açúcar mascavo'],
     modo_preparo: 'Cozinhe até reduzir e bata se quiser mais cremoso.'
-  },
-  {
-    id: 'goiabinhas-fit-2',
-    titulo: 'Goiabinhas Fit',
-    categoria: 'bolos-sem-culpa',
-    imagem: 'cake-54',
-    ingredientes: ['Farinha de arroz ou aveia', 'Manteiga', 'Água', 'Xilitol', 'Goiabada sem açúcar'],
-    modo_preparo: 'Prepare a massa, asse e recheie após esfriar.'
   },
   {
     id: 'leite-condensado-fake-2',
@@ -1108,6 +828,303 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Processe tudo, compacte e gele antes de cortar.'
   },
   {
+    id: 'pe-de-moleque-fit-2',
+    titulo: 'Pé de Moleque Fit',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-1',
+    ingredientes: ['Açúcar de coco', 'Água', 'Mel', 'Amendoim torrado'],
+    modo_preparo: 'Prepare a calda, misture o amendoim, espalhe e corte após esfriar.'
+  },
+  {
+    id: 'petit-gateau-fit',
+    titulo: 'Petit Gateau Fit',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-64',
+    ingredientes: ['Chocolate amargo', 'Xylitol', 'Ovo', 'Pasta de amendoim', 'Farinha de aveia'],
+    modo_preparo: 'Derreta o chocolate com a pasta de amendoim. Misture com o ovo, xylitol e aveia. Asse por poucos minutos até o centro ficar cremoso.',
+  },
+  {
+    id: 'petit-gateau-com-pasta-de-amendoim-recheado',
+    titulo: 'Petit Gateau com Pasta de Amendoim Recheado',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-65',
+    ingredientes: ['Chocolate amargo', 'Óleo de coco', 'Xylitol', 'Ovo', 'Farinha de aveia', 'Pasta de amendoim'],
+    modo_preparo: 'Congele a pasta de amendoim com óleo. Prepare a massa e coloque o recheio no centro. Asse até firmar por fora e manter o interior cremoso.',
+  },
+  {
+    id: 'picole-de-amendoim',
+    titulo: 'Picolé de Amendoim',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-7',
+    ingredientes: ['Banana', 'Pasta de amendoim', 'Água gelada'],
+    modo_preparo: 'Bata tudo no liquidificador até ficar cremoso. Coloque em forminhas de picolé. Leve ao freezer até firmar.',
+  },
+  {
+    id: 'pudim-de-chia-com-creme-de-manga',
+    titulo: 'Pudim de Chia com Creme de Manga',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-24',
+    ingredientes: ['Leite de coco', 'Chia', 'Mel', 'Baunilha', 'Canela', 'Manga'],
+    modo_preparo: 'Misture o leite com chia e mel. Leve à geladeira até engrossar. Processe a manga e monte em camadas.',
+  },
+  {
+    id: 'pudim-de-chia-de-chocolate',
+    titulo: 'Pudim de Chia de Chocolate',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-25',
+    ingredientes: ['Leite de amêndoas', 'Chia', 'Mel', 'Baunilha', 'Cacau em pó'],
+    modo_preparo: 'Misture o leite com chia e mel. Separe parte e adicione cacau. Gele até firmar e monte em camadas.',
+  },
+  {
+    id: 'pudim-de-leite-nutritivo',
+    titulo: 'Pudim de Leite Nutritivo',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-5',
+    ingredientes: ['Ovos', 'Leite desnatado', 'Leite em pó', 'Creme de ricota', 'Adoçante', 'Baunilha', 'Açúcar mascavo'],
+    modo_preparo: 'Bata tudo no liquidificador. Despeje sobre a calda na forma. Asse em banho-maria até firmar.',
+  },
+  {
+    id: 'sorvete-de-abacaxi-e-laranja',
+    titulo: 'Sorvete de Abacaxi e Laranja',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-6',
+    ingredientes: ['Abacaxi congelado', 'Laranja', 'Adoçante'],
+    modo_preparo: 'Processe as frutas congeladas até virar creme. Leve ao freezer antes de servir.',
+  },
+  {
+    id: 'sorvete-de-banana-e-amendoim',
+    titulo: 'Sorvete de Banana e Amendoim',
+    categoria: 'sobremesas-zero',
+    imagem: 'dessert-7',
+    ingredientes: ['Banana congelada', 'Pasta de amendoim'],
+    modo_preparo: 'Bata a banana congelada até ficar cremosa. Adicione a pasta de amendoim. Sirva imediatamente.',
+  },
+  {
+    id: 'tiramisu-fit',
+    titulo: 'Tiramisú Fit',
+    categoria: 'sobremesas-zero',
+    imagem: 'cake-27',
+    ingredientes: ['Ovo', 'Xylitol', 'Farinha de aveia', 'Leite', 'Fermento', 'Ricota', 'Cream cheese', 'Baunilha', 'Café', 'Cacau'],
+    modo_preparo: 'Prepare um bolinho rápido. Umedeça no café. Monte camadas com o creme. Finalize com cacau.',
+  },
+  // Bolos
+  {
+    id: 'bolo-de-beterraba',
+    titulo: 'Bolo de Beterraba',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-66',
+    ingredientes: ['Beterraba', 'Suco de laranja', 'Ovos', 'Açúcar', 'Óleo', 'Farinha de trigo', 'Fermento', 'Manteiga', 'Achocolatado', 'Leite'],
+    modo_preparo: 'Bata a beterraba com o suco no liquidificador. Misture aos demais ingredientes da massa, incorporando as claras em neve por último. Asse até firmar e cubra com a calda fervida até encorpar.'
+  },
+  {
+    id: 'bolo-de-feijao-2',
+    titulo: 'Bolo de Feijão',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-67',
+    ingredientes: ['Ovos', 'Açúcar', 'Farinha de trigo', 'Feijão cozido', 'Óleo', 'Fermento'],
+    modo_preparo: 'Bata gemas, açúcar, óleo e feijão. Incorpore a farinha, as claras em neve e o fermento. Asse até dourar.'
+  },
+  {
+    id: 'torta-de-aveia-2',
+    titulo: 'Torta de Aveia',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-81',
+    ingredientes: ['Ovos', 'Leite em pó', 'Açúcar', 'Manteiga', 'Aveia em flocos', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture tudo, espalhe e pressione na forma. Asse até dourar. Pode adicionar cobertura de chocolate.'
+  },
+  {
+    id: 'bolo-de-laranja-com-casca-2',
+    titulo: 'Bolo de Laranja com Casca',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-68',
+    ingredientes: ['Laranja', 'Ovos', 'Açúcar', 'Óleo', 'Leite', 'Farinha de trigo', 'Fermento'],
+    modo_preparo: 'Bata laranjas, gemas, açúcar, óleo e leite. Misture com a farinha e fermento e finalize com claras em neve. Asse.'
+  },
+  {
+    id: 'bolo-vitaminado-de-cascas',
+    titulo: 'Bolo Vitaminado de Cascas',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-69',
+    ingredientes: ['Laranja', 'Beterraba com casca', 'Cenoura com casca', 'Ovos', 'Açúcar mascavo', 'Azeite', 'Farinha de trigo', 'Chia', 'Linhaça'],
+    modo_preparo: 'Bata vegetais, laranja, ovos e óleo. Misture a farinha e sementes e asse.'
+  },
+  {
+    id: 'bolo-de-abacate-2',
+    titulo: 'Bolo de Abacate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-70',
+    ingredientes: ['Abacate', 'Ovos', 'Leite de coco', 'Açúcar', 'Manteiga', 'Farinha de trigo', 'Chia', 'Fermento'],
+    modo_preparo: 'Bata os líquidos com o abacate. Misture aos secos e asse até firmar.'
+  },
+  {
+    id: 'bolo-de-abobrinha-e-beterraba-2',
+    titulo: 'Bolo de Abobrinha e Beterraba',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-71',
+    ingredientes: ['Abobrinha', 'Beterraba', 'Ovos', 'Óleo', 'Açúcar', 'Farinha de aveia', 'Cacau', 'Canela'],
+    modo_preparo: 'Bata os vegetais com os líquidos e misture aos secos. Asse até assar por completo.'
+  },
+  {
+    id: 'cookies-de-coco-e-castanhas-2',
+    titulo: 'Cookies de Coco e Castanhas',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-29',
+    ingredientes: ['Castanhas', 'Farinha de coco', 'Adoçante', 'Bicarbonato', 'Leite de coco', 'Chocolate amargo'],
+    modo_preparo: 'Misture tudo, modele cookies e asse até dourar.'
+  },
+  {
+    id: 'cheesecake-anabolico-2',
+    titulo: 'Cheesecake Anabólico',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'dessert-1',
+    ingredientes: ['Cream cheese light', 'Iogurte desnatado', 'Ovos', 'Adoçante', 'Whey protein', 'Baunilha'],
+    modo_preparo: 'Bata tudo, asse em duas temperaturas e leve à geladeira antes de servir.'
+  },
+  {
+    id: 'cookie-de-grao-de-bico-2',
+    titulo: 'Cookie de Grão-de-Bico',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'dessert-1',
+    ingredientes: ['Grão-de-bico', 'Azeite', 'Chia', 'Farinha de arroz', 'Temperos'],
+    modo_preparo: 'Processe o grão, misture os demais ingredientes, molde e asse.'
+  },
+  {
+    id: 'palitinhos-crocantes-2',
+    titulo: 'Palitinhos Crocantes',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-28',
+    ingredientes: ['Batata baroa', 'Cenoura', 'Azeite', 'Polvilho azedo', 'Chia', 'Sal'],
+    modo_preparo: 'Misture tudo, modele palitos e asse até dourar.'
+  },
+  {
+    id: 'biscoitinhos-de-banana-e-aveia-2',
+    titulo: 'Biscoitinhos de Banana e Aveia',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-33',
+    ingredientes: ['Banana madura', 'Aveia em flocos', 'Canela'],
+    modo_preparo: 'Misture tudo, modele os biscoitos e asse até dourar.'
+  },
+  {
+    id: 'biscoitinhos-de-mel-2',
+    titulo: 'Biscoitinhos de Mel',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-32',
+    ingredientes: ['Ovo', 'Óleo de coco', 'Mel', 'Açúcar mascavo', 'Fermento', 'Linhaça', 'Polvilho doce', 'Amido de milho'],
+    modo_preparo: 'Misture os líquidos, incorpore os secos, modele bolinhas e asse até dourar.'
+  },
+  {
+    id: 'biscoitinhos-de-aveia-com-creme-de-cacau-2',
+    titulo: 'Biscoitinhos de Aveia com Creme de Cacau',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-36',
+    ingredientes: ['Farinha integral', 'Farelo de aveia', 'Óleo de coco', 'Açúcar demerara', 'Ovo', 'Fermento', 'Avelã', 'Chocolate 70%', 'Leite vegetal'],
+    modo_preparo: 'Prepare a massa, asse os biscoitos. Bata o recheio e recheie após esfriar.'
+  },
+  {
+    id: 'muffin-de-ricota-com-tomatinho-2',
+    titulo: 'Muffin de Ricota com Tomatinho',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-17',
+    ingredientes: ['Ovos', 'Farinha de aveia', 'Fermento', 'Tomate', 'Cottage', 'Sal'],
+    modo_preparo: 'Misture a massa, distribua em forminhas, adicione o recheio e asse.'
+  },
+  {
+    id: 'panqueca-doce-de-forno-2',
+    titulo: 'Panqueca Doce de Forno',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-61',
+    ingredientes: ['Farinha de arroz', 'Azeite', 'Gergelim', 'Água morna', 'Banana', 'Mel'],
+    modo_preparo: 'Prepare a massa, asse a base e finalize com banana e mel.'
+  },
+  {
+    id: 'tortinha-de-chocolate-e-nuts-2',
+    titulo: 'Tortinha de Chocolate e Nuts',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-11',
+    ingredientes: ['Amêndoas', 'Tâmara', 'Chia', 'Óleo de coco', 'Chocolate 70%', 'Leite de coco'],
+    modo_preparo: 'Processe amêndoas, tâmaras e chia para a base e pressione em forminhas. Derreta o chocolate com leite de coco para o recheio. Recheie as bases e refrigere.'
+  },
+  {
+    id: 'muffin-de-pitanga-2',
+    titulo: 'Muffin de Pitanga',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-64',
+    ingredientes: ['1 xícara de farinha sem glúten', '1/2 xícara de açúcar demerara', '1 xícara de pitanga sem caroço', '1/4 xícara de óleo de coco', '1/4 xícara de água', '1 colher de chá de baunilha', '1 colher de sopa de linhaça', '1 colher de sopa de fermento'],
+    modo_preparo: 'Misture todos os ingredientes até obter uma massa homogênea. Distribua em forminhas de muffin e asse em forno pré-aquecido a 180°C até dourar.'
+  },
+  {
+    id: 'bolinho-de-cenoura-funcional-2',
+    titulo: 'Bolinho de Cenoura Funcional',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-91',
+    ingredientes: ['Ovos', 'Açúcar demerara', 'Óleo de coco', 'Cenoura', 'Fécula de batata', 'Farinha de arroz', 'Farinha de linhaça', 'Fermento', 'Chocolate 70%'],
+    modo_preparo: 'Bata os líquidos. Misture aos secos. Distribua em forminhas e asse.'
+  },
+  {
+    id: 'cocadinha-low-carb-2',
+    titulo: 'Cocadinha Low Carb',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-52',
+    ingredientes: ['Coco fresco ralado', 'Ovos', 'Xilitol', 'Fermento'],
+    modo_preparo: 'Misture tudo, coloque em forminhas e asse até dourar.'
+  },
+  {
+    id: 'bolo-minuto-2',
+    titulo: 'Bolo Minuto',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-14',
+    ingredientes: ['Óleo de coco', 'Farinha de coco', 'Xilitol', 'Fermento', 'Ovo', 'Baunilha'],
+    modo_preparo: 'Misture tudo em uma caneca e leve ao micro-ondas até assar.'
+  },
+  {
+    id: 'bolinho-de-cenoura-com-chocolate-2',
+    titulo: 'Bolinho de Cenoura com Chocolate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-91',
+    ingredientes: ['Cenoura', 'Ovos', 'Manteiga', 'Farinha de amêndoas', 'Fermento', 'Xilitol', 'Chocolate 70%', 'Creme de leite'],
+    modo_preparo: 'Prepare a massa, asse os bolinhos e finalize com a calda de chocolate.'
+  },
+  {
+    id: 'brigadeirao-fit-2',
+    titulo: 'Brigadeirão Fit',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-56',
+    ingredientes: ['Ovos', 'Leite desnatado', 'Leite em pó', 'Cacau', 'Xilitol', 'Óleo de coco'],
+    modo_preparo: 'Bata tudo e asse em banho-maria até firmar.'
+  },
+  {
+    id: 'brownie-de-batata-doce-2',
+    titulo: 'Brownie de Batata-doce',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-62',
+    ingredientes: ['Batata-doce', 'Ovos', 'Cacau', 'Mel', 'Água', 'Farinha de amêndoas', 'Nozes', 'Fermento'],
+    modo_preparo: 'Bata a massa, misture as nozes e asse até ficar úmido no centro.'
+  },
+  {
+    id: 'brownie-fit-de-aveia-2',
+    titulo: 'Brownie Fit de Aveia',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-63',
+    ingredientes: ['Chocolate meio amargo', 'Óleo de coco', 'Ovos', 'Açúcar mascavo', 'Aveia', 'Nozes'],
+    modo_preparo: 'Misture tudo e asse até o ponto desejado.'
+  },
+  {
+    id: 'cookie-de-microondas',
+    titulo: 'Cookie de Micro-ondas',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-35',
+    ingredientes: ['Gema', 'Farinha de amêndoas', 'Chocolate 70%', 'Açúcar mascavo', 'Baunilha', 'Óleo de coco'],
+    modo_preparo: 'Misture tudo e leve ao micro-ondas até firmar.'
+  },
+  {
+    id: 'goiabinhas-fit-2',
+    titulo: 'Goiabinhas Fit',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-54',
+    ingredientes: ['Farinha de arroz ou aveia', 'Manteiga', 'Água', 'Xilitol', 'Goiabada sem açúcar'],
+    modo_preparo: 'Prepare a massa, asse e recheie após esfriar.'
+  },
+  {
     id: 'palha-italiana-fit-2',
     titulo: 'Palha Italiana Fit',
     categoria: 'bolos-sem-culpa',
@@ -1116,12 +1133,300 @@ export const RECIPES: Recipe[] = [
     modo_preparo: 'Misture tudo, coloque em forma e leve à geladeira até firmar.'
   },
   {
-    id: 'pe-de-moleque-fit-2',
-    titulo: 'Pé de Moleque Fit',
+    id: 'bolo-de-banana-caramelizada',
+    titulo: 'Bolo de Banana Caramelizada',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-86',
+    ingredientes: ['Banana', 'Ovos', 'Farinha de aveia', 'Óleo de coco', 'Fermento', 'Mel'],
+    modo_preparo: 'Bata parte das bananas com os ovos, aveia e óleo. Misture o fermento. Forre a forma com mel e banana fatiada. Despeje a massa e asse até dourar.'
+  },
+  {
+    id: 'bolo-de-banana-e-cacau',
+    titulo: 'Bolo de Banana e Cacau',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-2',
+    ingredientes: ['Banana', 'Ovo', 'Farelo de aveia', 'Farinha de arroz', 'Açúcar mascavo', 'Cacau', 'Gotas de chocolate', 'Fermento'],
+    modo_preparo: 'Misture os secos. Bata ovos e banana. Una tudo, adicione fermento e gotas. Asse até passar no teste do palito.'
+  },
+  {
+    id: 'bolo-de-banana-e-chocolate',
+    titulo: 'Bolo de Banana e Chocolate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-3',
+    ingredientes: ['Banana', 'Aveia', 'Pasta de amendoim', 'Chocolate 70%'],
+    modo_preparo: 'Bata banana, aveia e pasta. Misture o chocolate. Asse até firmar.'
+  },
+  {
+    id: 'bolo-de-banana-e-coco-integral',
+    titulo: 'Bolo de Banana e Coco Integral',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-4',
+    ingredientes: ['Banana', 'Ovo', 'Açúcar demerara', 'Óleo de coco', 'Farinha de arroz integral', 'Farinha de trigo integral', 'Leite de coco', 'Coco ralado', 'Baunilha', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture os ingredientes, fermento por último. Intercale massa e banana com canela. Asse até dourar.'
+  },
+  {
+    id: 'bolo-de-banana-e-nozes',
+    titulo: 'Bolo de Banana e Nozes',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-5',
+    ingredientes: ['Ovo', 'Aveia', 'Farinha de trigo integral', 'Banana', 'Iogurte natural', 'Óleo de coco', 'Adoçante', 'Nozes', 'Canela', 'Fermento', 'Bicarbonato'],
+    modo_preparo: 'Misture tudo, fermento por último. Asse até o palito sair limpo.'
+  },
+  {
+    id: 'bolo-de-cenoura',
+    titulo: 'Bolo de Cenoura',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-87',
+    ingredientes: ['Ovo', 'Cenoura', 'Açúcar mascavo', 'Óleo de coco', 'Farinha de aveia', 'Farinha integral', 'Fermento', 'Cacau', 'Açúcar', 'Água'],
+    modo_preparo: 'Bata os ingredientes da massa. Misture o fermento. Asse até dourar. Prepare a calda e cubra.'
+  },
+  {
+    id: 'bolo-de-cenoura-mesclado',
+    titulo: 'Bolo de Cenoura Mesclado',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-6',
+    ingredientes: ['Ovo', 'Óleo de coco', 'Açúcar demerara', 'Farinha de aveia', 'Cenoura', 'Fermento', 'Chocolate', 'Bicarbonato', 'Chocolate meio amargo', 'Creme de leite'],
+    modo_preparo: 'Bata a base de cenoura. Misture com aveia e fermento. Separe parte e misture chocolate. Intercale as massas e asse. Cubra com ganache.'
+  },
+  {
+    id: 'bolo-de-chocolate-de-frigideira',
+    titulo: 'Bolo de Chocolate de Frigideira',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-7',
+    ingredientes: ['Cacau', 'Farinha de aveia', 'Óleo de coco', 'Ovo', 'Xilitol', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse em frigideira tampada até dourar dos dois lados.'
+  },
+  {
+    id: 'bolo-de-limao',
+    titulo: 'Bolo de Limão',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-8',
+    ingredientes: ['Ovo', 'Óleo de coco', 'Limão', 'Leite', 'Xilitol', 'Farinha de aveia', 'Fermento'],
+    modo_preparo: 'Bata tudo. Asse até dourar.'
+  },
+  {
+    id: 'bolo-de-milho',
+    titulo: 'Bolo de Milho',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-9',
+    ingredientes: ['Ovo', 'Milho', 'Leite de coco', 'Fubá', 'Açúcar mascavo', 'Farinha de arroz', 'Coco ralado', 'Fermento'],
+    modo_preparo: 'Bata tudo, fermento por último. Asse até firmar.'
+  },
+  {
+    id: 'bolo-frape-de-coco-e-cacau',
+    titulo: 'Bolo Frapê de Coco e Cacau',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-10',
+    ingredientes: ['Ovo', 'Leite de coco', 'Manteiga', 'Farinha de coco', 'Cacau', 'Fermento', 'Adoçante'],
+    modo_preparo: 'Prepare a massa branca. Separe parte e misture o cacau. Intercale e asse.'
+  },
+  {
+    id: 'bolo-integral-de-banana',
+    titulo: 'Bolo Integral de Banana',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-4',
+    ingredientes: ['Ovo', 'Banana', 'Óleo de coco', 'Mel', 'Baunilha', 'Farinha integral', 'Aveia', 'Fermento', 'Canela', 'Sal'],
+    modo_preparo: 'Bata os líquidos. Misture com os secos. Asse até dourar.'
+  },
+  {
+    id: 'bolo-integral-de-chocolate',
+    titulo: 'Bolo Integral de Chocolate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-11',
+    ingredientes: ['Ovo', 'Açúcar mascavo', 'Cacau', 'Óleo de coco', 'Água', 'Farinha de aveia', 'Farinha integral', 'Chia', 'Fermento'],
+    modo_preparo: 'Bata ovos e açúcar. Misture os demais ingredientes. Asse até firmar.'
+  },
+  {
+    id: 'bolo-integral-de-laranja',
+    titulo: 'Bolo Integral de Laranja',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-12',
+    ingredientes: ['Laranja', 'Ovo', 'Óleo de coco', 'Açúcar mascavo', 'Farinha de aveia', 'Farinha integral', 'Fermento'],
+    modo_preparo: 'Bata os líquidos. Misture com as farinhas e fermento. Asse até dourar.'
+  },
+  {
+    id: 'bolo-integral-de-maca',
+    titulo: 'Bolo Integral de Maçã',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-13',
+    ingredientes: ['Maçã', 'Óleo de coco', 'Ovo', 'Açúcar de coco', 'Mel', 'Farinha integral', 'Aveia', 'Uva passa', 'Canela', 'Gengibre', 'Noz-moscada', 'Fermento'],
+    modo_preparo: 'Misture os ingredientes. Asse até o palito sair limpo.'
+  },
+  {
+    id: 'cheesecake-de-framboesa',
+    titulo: 'Cheesecake de Framboesa',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-15',
+    ingredientes: ['Farinha de amêndoas', 'Aveia', 'Mel', 'Creme de ricota', 'Iogurte grego', 'Gelatina incolor', 'Adoçante', 'Framboesa', 'Água'],
+    modo_preparo: 'Asse a base. Prepare o creme e leve para gelar. Cubra com a geleia fria.'
+  },
+  {
+    id: 'cuca-de-farofa-integral',
+    titulo: 'Cuca de Farofa Integral',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-16',
+    ingredientes: ['Farelo de aveia', 'Leite', 'Ovo', 'Adoçante', 'Óleo de coco', 'Fermento', 'Pasta de amendoim', 'Canela'],
+    modo_preparo: 'Misture a massa. Cubra com a farofa. Asse até dourar.'
+  },
+  {
+    id: 'muffin-de-banana',
+    titulo: 'Muffin de Banana',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-76',
+    ingredientes: ['Banana', 'Ovo', 'Farinha de aveia', 'Canela', 'Fermento'],
+    modo_preparo: 'Misture tudo. Asse em forminhas.'
+  },
+  {
+    id: 'muffin-de-banana-e-coco',
+    titulo: 'Muffin de Banana e Coco',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-4',
+    ingredientes: ['Banana', 'Ovo', 'Farinha de amêndoas', 'Farinha de coco', 'Coco ralado', 'Leite de coco', 'Canela', 'Sal', 'Fermento', 'Adoçante'],
+    modo_preparo: 'Misture tudo. Asse até dourar.'
+  },
+  {
+    id: 'muffin-de-baunilha-com-chocolate',
+    titulo: 'Muffin de Baunilha com Chocolate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-2',
+    ingredientes: ['Farinha de aveia', 'Bicarbonato', 'Baunilha', 'Ovo', 'Leite de coco', 'Mel', 'Óleo de coco', 'Chocolate 70%'],
+    modo_preparo: 'Misture líquidos e secos. Asse em forminhas.'
+  },
+  {
+    id: 'muffin-de-cacau-e-banana',
+    titulo: 'Muffin de Cacau e Banana',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-2',
+    ingredientes: ['Banana', 'Ovo', 'Leite', 'Farelo de aveia', 'Cacau', 'Fermento'],
+    modo_preparo: 'Bata tudo, fermento por último. Asse até firmar.'
+  },
+  {
+    id: 'muffin-de-cenoura-com-chocolate',
+    titulo: 'Muffin de Cenoura com Chocolate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-91',
+    ingredientes: ['Ovo', 'Cenoura', 'Óleo de coco', 'Açúcar mascavo', 'Xilitol', 'Farinha de aveia', 'Fermento', 'Canela', 'Sal', 'Chocolate'],
+    modo_preparo: 'Bata a base. Misture os secos e chocolate. Asse até dourar.'
+  },
+  {
+    id: 'muffin-de-maca',
+    titulo: 'Muffin de Maçã',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-13',
+    ingredientes: ['Farinha de aveia', 'Purê de maçã', 'Açúcar mascavo', 'Óleo de coco', 'Fermento', 'Canela'],
+    modo_preparo: 'Misture tudo. Asse em forminhas.'
+  },
+  {
+    id: 'muffin-proteico-de-chocolate',
+    titulo: 'Muffin Proteico de Chocolate',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-11',
+    ingredientes: ['Banana', 'Leite de coco', 'Aveia', 'Mel', 'Cacau', 'Ovo', 'Óleo de coco', 'Whey protein', 'Bicarbonato', 'Chocolate'],
+    modo_preparo: 'Bata tudo. Asse até crescer.'
+  },
+  {
+    id: 'torta-de-liquidificador-de-legumes',
+    titulo: 'Torta de Liquidificador de Legumes',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-72',
+    ingredientes: ['Ovo', 'Farinha de aveia', 'Leite vegetal', 'Óleo', 'Fermento', 'Sal', 'Tomate', 'Cebola', 'Azeitona', 'Cenoura', 'Milho', 'Orégano'],
+    modo_preparo: 'Bata a massa. Intercale massa e recheio. Asse até dourar.'
+  },
+  {
+    id: 'torta-de-chocolate-de-aveia-e-linhaca',
+    titulo: 'Torta de Chocolate de Aveia e Linhaça',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-11',
+    ingredientes: ['Farelo de aveia', 'Linhaça', 'Melado', 'Óleo de coco', 'Baunilha', 'Abacate', 'Cacau', 'Chocolate 70%'],
+    modo_preparo: 'Asse a base. Bata o recheio. Refrigere até firmar.'
+  },
+  {
+    id: 'tortinha-de-frutas',
+    titulo: 'Tortinha de Frutas',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-16',
+    ingredientes: ['Aveia', 'Clara de ovo', 'Adoçante', 'Iogurte grego', 'Frutas'],
+    modo_preparo: 'Asse a massa. Recheie e decore.'
+  },
+  {
+    id: 'torta-de-frango-de-liquidificador',
+    titulo: 'Torta de Frango de Liquidificador',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'airfryer-28',
+    ingredientes: ['Ovo', 'Azeite', 'Farinha integral', 'Leite', 'Sal', 'Orégano', 'Fermento', 'Frango desfiado'],
+    modo_preparo: 'Bata a massa. Intercale com o recheio. Asse até firmar.'
+  },
+  {
+    id: 'torta-de-espinare-integral',
+    titulo: 'Torta de Espinafre Integral',
+    categoria: 'bolos-sem-culpa',
+    imagem: 'cake-44',
+    ingredientes: ['Farinha de trigo integral', 'Farinha de aveia', 'Manteiga', 'Ovo', 'Ricota', 'Espinafre', 'Alho', 'Azeite', 'Sal', 'Pimenta', 'Noz-moscada', 'Muçarela'],
+    modo_preparo: 'Prepare a massa. Misture o recheio. Asse até dourar.'
+  },
+  // Airfryer
+  {
+    id: 'sementinhas-de-abobora-torradas-2',
+    titulo: 'Sementinhas de Abóbora Torradas',
+    categoria: 'airfryer-proteica',
+    imagem: 'cake-41',
+    ingredientes: ['Sementes de abóbora', 'Azeite', 'Sal', 'Pimenta-preta'],
+    modo_preparo: 'Lave, seque, misture com azeite e temperos e asse até ficarem crocantes.'
+  },
+  {
+    id: 'barrinhas-de-cereal-vapt-vupt-2',
+    titulo: 'Barrinhas de Cereal Vapt-vupt',
+    categoria: 'airfryer-proteica',
+    imagem: 'cake-22',
+    ingredientes: ['Banana madura', 'Farinha de aveia', 'Açúcar mascavo', 'Castanhas trituradas', 'Farinha de linhaça', 'Coco ralado'],
+    modo_preparo: 'Amasse as bananas, misture tudo, asse e corte ainda morno.'
+  },
+  {
+    id: 'pao-de-queijo-de-mandioquinha-2',
+    titulo: 'Pão de Queijo de Mandioquinha',
+    categoria: 'airfryer-proteica',
+    imagem: 'cake-19',
+    ingredientes: ['Polvilho azedo', 'Polvilho doce', 'Azeite', 'Mandioquinha cozida', 'Água', 'Sal', 'Ervas'],
+    modo_preparo: 'Escalde os polvilhos com água e azeite quentes, misture o purê, modele e asse.'
+  },
+  {
+    id: 'chips-de-legumes-2',
+    titulo: 'Chips de Legumes',
+    categoria: 'airfryer-proteica',
+    imagem: 'airfryer-6',
+    ingredientes: ['Beterraba', 'Batata-doce', 'Azeite', 'Sal', 'Pimenta'],
+    modo_preparo: 'Fatie fino, tempere, distribua sem sobrepor e asse até crocantes.'
+  },
+  {
+    id: 'nuts-caramelizadas-2',
+    titulo: 'Nuts Caramelizadas',
+    categoria: 'airfryer-proteica',
+    imagem: 'cake-41',
+    ingredientes: ['Amêndoas', 'Castanha-de-caju', 'Açúcar mascavo', 'Manteiga', 'Canela', 'Amaranto'],
+    modo_preparo: 'Derreta açúcar e manteiga, junte as nuts, mexa e finalize com amaranto.'
+  },
+  {
+    id: 'banana-pao-assada-2',
+    titulo: 'Banana-pão Assada',
     categoria: 'sobremesas-zero',
-    imagem: 'dessert-1',
-    ingredientes: ['Açúcar de coco', 'Água', 'Mel', 'Amendoim torrado'],
-    modo_preparo: 'Prepare a calda, misture o amendoim, espalhe e corte após esfriar.'
+    imagem: 'breakfast-66',
+    ingredientes: ['1 banana-pão madura', '2 claras de ovo', 'Gotas de essência de baunilha', 'Um pouco de água', 'Canela em pó', 'Frutas vermelhas para servir'],
+    modo_preparo: 'Asse a banana-pão com casca em forno a 180°C até ficar macia. Retire a polpa, amasse bem e misture com as claras, a baunilha e a canela. Leve a uma panela com um pouco de água e cozinhe em fogo baixo, mexendo, até engrossar e virar um creme. Sirva com frutas vermelhas.'
+  },
+  {
+    id: 'tapioca-fitness-2',
+    titulo: 'Tapioca Fitness',
+    categoria: 'airfryer-proteica',
+    imagem: 'breakfast-67',
+    ingredientes: ['Goma de tapioca', 'Queijo minas ou ricota', 'Frango desfiado', 'Frutas picadas', 'Chocolate amargo 70%'],
+    modo_preparo: 'Peneire a goma de tapioca sobre uma frigideira antiaderente aquecida, formando um disco. Quando a massa se unir, adicione o recheio de sua preferência: para uma versão salgada, use queijo e frango; para uma doce, use frutas e pedaços de chocolate. Dobre e sirva.',
+  },
+  {
+    id: 'churros-fit-2',
+    titulo: 'Churros Fit',
+    categoria: 'airfryer-proteica',
+    imagem: 'cake-57',
+    ingredientes: ['Água', 'Açúcar de coco', 'Óleo de coco', 'Sal', 'Farinha integral'],
+    modo_preparo: 'Prepare a massa, modele os churros e asse até dourar.'
   }
 ];
-
