@@ -1,11 +1,17 @@
+
 import type { Metadata } from 'next';
 import './globals.css';
 import { AuthProvider } from '@/hooks/use-auth';
 import { Toaster } from '@/components/ui/toaster';
 
+/**
+ * CONFIGURAÇÃO GLOBAL DE METADATA E FONTES
+ * Preservando a identidade visual premium com Poppins e PT Sans.
+ */
+
 export const metadata: Metadata = {
-  title: "Cantinho Fit da Nutri",
-  description: 'Seu app de receitas saudáveis, rápido e offline.',
+  title: "Cantinho Fit da Nutri | Oficial",
+  description: 'Seu organizador alimentar leve, rápido e com receitas validadas.',
 };
 
 export default function RootLayout({
@@ -27,14 +33,12 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <meta name="theme-color" content="#1F3D2B" />
-        {/* Basic PWA meta tags */}
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
       </head>
-      <body className="font-body antialiased">
+      <body className="font-body antialiased selection:bg-accent/30">
         <AuthProvider>
-          <div className="relative flex min-h-screen w-full flex-col">
+          <div className="relative flex min-h-screen w-full flex-col bg-background selection:text-primary">
             <main className="flex-1">{children}</main>
           </div>
           <Toaster />
