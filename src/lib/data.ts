@@ -55,7 +55,7 @@ export const CATEGORIES: Category[] = [
     Icon: IceCream,
     email: 'sobremesas@zero.com',
     senha: 'ZEROCAFE2',
-    checkoutUrl: 'https://pay.cakto.com.br/b5xw5as_558897',
+    checkoutUrl: 'https://pay.kiwify.com.br/vtLBOzG',
   },
   {
     slug: 'bolos-sem-culpa',
@@ -64,7 +64,7 @@ export const CATEGORIES: Category[] = [
     Icon: CakeSlice,
     email: 'bolos@semculpa.com',
     senha: 'BOLOFIT3',
-    checkoutUrl: 'https://pay.cakto.com.br/7w2nrt3_558930',
+    checkoutUrl: 'https://pay.kiwify.com.br/5kjTC6y',
   },
   {
     slug: 'airfryer-proteica',
@@ -73,7 +73,7 @@ export const CATEGORIES: Category[] = [
     Icon: Flame,
     email: 'Airfryer@proteica.com',
     senha: 'PROTEINAFIT4',
-    checkoutUrl: 'https://pay.cakto.com.br/pu44qb2_558933',
+    checkoutUrl: 'https://pay.kiwify.com.br/vtLBOzG',
   },
 ];
 
@@ -201,7 +201,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'cafe-da-manha',
     imagem: 'breakfast-38',
     ingredientes: ['200ml de leite', '1 banana madura', '1 xícara de morangos', '1/2 pote de iogurte natural', 'Gotas de essência de baunilha', 'Mel a gosto'],
-    modo_preparo: 'Bata todos os ingredientes no liquidificador até obter uma mistura cremosa e homogênea. Sirva imediatamente, bem gelado.',
+    modo_preparo: 'Bata todos os ingredientes no liquidificador até obter um mistura cremosa e homogênea. Sirva imediatamente, bem gelado.',
   },
   {
     id: 'muesli-proteico',
@@ -473,7 +473,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'cafe-da-manha',
     imagem: 'breakfast-1',
     ingredientes: ['1 ovo', '2 colheres de sopa de tapioca', 'Frango desfiado temperado para o recheio'],
-    modo_preparo: 'Bata o ovo com a tapioca. Faça a massa na frigideira e recheie com o frango desfiado.',
+    modo_preparo: 'Bata o ovo com la tapioca. Faça a massa na frigideira e recheie com o frango desfiado.',
   },
   {
     id: 'pao-de-caneca-integral',
@@ -553,7 +553,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'cafe-da-manha',
     imagem: 'breakfast-9',
     ingredientes: ['2 colheres de sopa de chia', '150ml de leite vegetal', 'Essência de baunilha'],
-    modo_preparo: 'Misture a chia com o leite e a baunilha. Deixe na geladeira por pelo menos 4 horas.',
+    modo_preparo: 'Misture a chia com o leite e la baunilha. Deixe na geladeira por pelo menos 4 horas.',
   },
   {
     id: 'batida-proteica-de-morango',
@@ -1133,7 +1133,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'sobremesas-zero',
     imagem: 'dessert-7',
     ingredientes: ['3 bananas maduras congeladas em rodelas', '2 colheres de sopa de pasta de amendoim integral', '1 colher de chá de essência de baunilha'],
-    modo_preparo: 'Em um processador, bata as bananas congeladas com a pasta de amendoim e a baunilha até a mistura ficar cremosa, com consistência de sorvete macio.',
+    modo_preparo: 'Em um processador, bata as bananas congeladas com la pasta de amendoim e a baunilha até a mistura ficar cremosa, com consistência de sorvete macio.',
   },
   {
     id: 'sorvete-frutas-tropicais',
@@ -2305,7 +2305,7 @@ export const RECIPES: Recipe[] = [
     categoria: 'bolos-sem-culpa',
     imagem: 'cake-12',
     ingredientes: ['1 cenoura', 'Suco de 1/2 laranja', '1 ovo', 'Aveia'],
-    modo_preparo: 'Bata os líquidos com a cenoura e misture a aveia antes de assar.',
+    modo_preparo: 'Bata os líquidos com la cenoura e misture a aveia antes de assar.',
   },
 
   // ==========================================
